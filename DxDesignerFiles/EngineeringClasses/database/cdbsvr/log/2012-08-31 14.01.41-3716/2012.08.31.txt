@@ -1,0 +1,158 @@
+[2012.08.31 14:01:41] [0000m.00s.025ms] [0] WELCOME
+[2012.08.31 14:01:41] [0000m.00s.030ms] [1] iCDB Server ver.1.093, 4eaDVz8EvVKuZCsHMzatSQ, build:488395 created 2012-01-27 13:24:08, sources stamp:4eaDVz8EvVKuZCsHMzatSQ
+[2012.08.31 14:01:41] [0000m.00s.030ms] [1] Copyright 2012 Mentor Graphics Corporation. All Rights Reserved.
+[2012.08.31 14:01:41] [0000m.00s.030ms] [1] Base flow version [7.9.3]
+[2012.08.31 14:01:41] [0000m.00s.030ms] [1] GBS Install Id [24044], Flow Id [PADS 9.4.1], Full Flow Name [PADS 9.4.1], Exact Access Date [Nov 1 2011]
+[2012.08.31 14:01:41] [0000m.00s.030ms] [1] Machine [EN-EL01]  User [roaming-student]  PID [3716]
+[2012.08.31 14:01:41] [0000m.00s.031ms] [1] Operating system [Microsoft Windows 7 Enterprise Edition, 64-bit Service Pack 1 (build 7601)]
+[2012.08.31 14:01:41] [0000m.00s.031ms] [1] Current working dir [U:\wv\EngineeringClasses]
+[2012.08.31 14:01:41] [0000m.00s.031ms] [1] PATH [C:\MentorGraphics\9.4PADS\SDD_HOME\wv\win32\bin;C:\MentorGraphics\9.4PADS\SDD_HOME\common\win32\bin;C:\MentorGraphics\9.4PADS\SDD_HOME\common\win32\lib;C:\MentorGraphics\9.4PADS\MGC_HOME.ixn\bin;C:\MentorGraphics\9.4PADS\MGC_HOME.ixn\lib;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MentorGraphics\9.4PADS\SDD_HOME\CAMCAD;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\]
+[2012.08.31 14:01:41] [0000m.00s.031ms] [1] SDD_HOME [C:\MentorGraphics\9.4PADS\SDD_HOME] on file system [NTFS]
+[2012.08.31 14:01:41] [0000m.00s.031ms] [1] SDD_PLATFORM [win32]
+[2012.08.31 14:01:41] [0000m.00s.031ms] [1] WDIR [U:\WV;C:\MentorGraphics\9.4PADS\SDD_HOME\standard]
+[2012.08.31 14:01:41] [0000m.00s.031ms] [1] Local iCDB working dir [U:\WV\iCDB] on file system [NTFS]
+[2012.08.31 14:01:41] [0000m.00s.031ms] [2] S: Loading config files
+[2012.08.31 14:01:41] [0000m.00s.038ms] [1] Config file [U:\wv\EngineeringClasses\database\cdbsvr\Server.cfg] not found
+[2012.08.31 14:01:41] [0000m.00s.043ms] [3] S: Config loaded
+[2012.08.31 14:01:41] [0000m.00s.050ms] [0] S: Project path [U:\wv\EngineeringClasses\database] on file system [NTFS]
+[2012.08.31 14:01:41] [0000m.00s.051ms] [0] S: Project global path [\\en-adm55\Users2\roaming-student\wv\EngineeringClasses\database] on file system [NTFS]
+[2012.08.31 14:01:41] [0000m.00s.051ms] [0] S: Project file (.prj) path [\\en-adm55\Users2\roaming-student\wv\EngineeringClasses\EngineeringClasses.prj] on file system [UNKNOWN]
+[2012.08.31 14:01:41] [0000m.00s.051ms] [0] S: Project file (.prj) local path [U:\wv\EngineeringClasses\EngineeringClasses.prj] on file system [NTFS]
+[2012.08.31 14:01:41] [0000m.00s.053ms] [0] S: Single-user mode (auto)
+[2012.08.31 14:01:41] [0000m.00s.053ms] [0] S: Event polling mode autodetection
+[2012.08.31 14:01:41] [0000m.00s.056ms] [0] S: Started up automatically by iCDB Client: EN-EL01:roaming-student:3908
+[2012.08.31 14:01:41] [0000m.00s.056ms] [0] S: Auto close mode
+[2012.08.31 14:01:41] [0000m.00s.056ms] [0] S: Database ID [54fa-fad0-beaa-3cdf-50cf-040a-0cf0-4050-e7a0-0dfe-ef7c-acc5]
+[2012.08.31 14:01:41] [0000m.00s.056ms] [0] PathTranslator: BEGIN dumping
+[2012.08.31 14:01:41] [0000m.00s.056ms] [0] PathTranslator: Local -> global path prefix list
+[2012.08.31 14:01:41] [0000m.00s.056ms] [0] PathTranslator: [C:\Windows\system32\spool\drivers] -> [\\EN-EL01\print$]
+[2012.08.31 14:01:41] [0000m.00s.056ms] [0] PathTranslator: [P:\] -> [\\en-adm55\apps\]
+[2012.08.31 14:01:41] [0000m.00s.056ms] [0] PathTranslator: [U:\] -> [\\en-adm55\Users2\roaming-student\]
+[2012.08.31 14:01:41] [0000m.00s.056ms] [0] PathTranslator: Global -> local path prefix list
+[2012.08.31 14:01:41] [0000m.00s.056ms] [0] PathTranslator: [\\en-adm55\Users2\roaming-student\] -> [U:\]
+[2012.08.31 14:01:41] [0000m.00s.056ms] [0] PathTranslator: [\\en-adm55\apps\] -> [P:\]
+[2012.08.31 14:01:41] [0000m.00s.056ms] [0] PathTranslator: [\\EN-EL01\print$] -> [C:\Windows\system32\spool\drivers]
+[2012.08.31 14:01:41] [0000m.00s.056ms] [0] PathTranslator: END dumping
+[2012.08.31 14:01:41] [0000m.00s.057ms] [0] S: START
+[2012.08.31 14:01:41] [0000m.00s.057ms] [0] S: Server startup lock file created
+[2012.08.31 14:01:41] [0000m.00s.059ms] [0] S: Listening for client connections on port [10000]
+[2012.08.31 14:01:41] [0000m.00s.060ms] [0] S: Server network ID [en-el01:128.148.203.151,en-el01,en-el01.engin.brown.edu:10000]
+[2012.08.31 14:01:41] [0000m.00s.060ms] [0] S: Server GUID [01df-b6cb-b47f-5397-50cf-040a-0cf0-4050-6ee0-0dfe-ef7c-acc5]
+[2012.08.31 14:01:41] [0000m.00s.060ms] [0] S: Project GUID [54fa-fad0-beaa-3cdf-50cf-040a-0cf0-4050-e7a0-0dfe-ef7c-acc5]
+[2012.08.31 14:01:41] [0000m.00s.071ms] [0] S: Wrote data to server address file
+[2012.08.31 14:01:41] [0000m.00s.073ms] [0] S: Server startup lock file removed
+[2012.08.31 14:01:41] [0000m.00s.073ms] [1] ProjectBackupManager: Setting project file (.prj) path: [U:\wv\EngineeringClasses\EngineeringClasses.prj]
+[2012.08.31 14:01:41] [0000m.00s.125ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2012.08.31 14:01:41] [0000m.00s.125ms] [0] S: Local disc access time: 25 us
+[2012.08.31 14:01:41] [0000m.00s.125ms] [0] S: File server access time: 77 us
+[2012.08.31 14:01:41] [0000m.00s.130ms] [0] Single file [U:\wv\EngineeringClasses\database\icdb.dat] size [57720 (56.4 kB)]
+[2012.08.31 14:01:41] [0000m.00s.131ms] [1] Single file [U:\wv\EngineeringClasses\database\icdb.dat] opened in read-write mode
+[2012.08.31 14:01:41] [0000m.00s.137ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2012.08.31 14:01:41] [0000m.00s.137ms] [0] Database GUARD OK: [57720]
+[2012.08.31 14:01:41] [0000m.00s.141ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2012.08.31 14:01:41] [0000m.00s.141ms] [0] Database GUARD OK: [57720]
+[2012.08.31 14:01:41] [0000m.00s.141ms] [0] SingleFile: [8c5b-0cd9-aa28-29f5] SFI version check [1009] [1009]
+[2012.08.31 14:01:41] [0000m.00s.142ms] [0] SingleFile: [8c5b-0cd9-aa28-29f5] Database SFI header has been read in [786us]
+[2012.08.31 14:01:41] [0000m.00s.145ms] [0] iCDB Server PI: Server & plugin session [5]
+[2012.08.31 14:01:41] [0000m.00s.145ms] [0] iCDB Server PI: Opening database [U:\wv\EngineeringClasses\database]
+[2012.08.31 14:01:41] [0000m.00s.145ms] [0] iCDB Server PI: Database [U:\wv\EngineeringClasses\database] opened
+[2012.08.31 14:01:41] [0000m.00s.159ms] [0] iCDB Database: Checking existence of constraint definitions
+[2012.08.31 14:01:41] [0000m.00s.159ms] [0] iCDB Database: Checking constraint definitions version
+[2012.08.31 14:01:42] [0000m.00s.210ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.10.23;user.cns=9621-a052-221b-1983-dbaf-0402-caf0-4050-e321-0dfe-ef7c-acc5] up to date
+[2012.08.31 14:01:42] [0000m.01s.043ms] [0] iCDB Server PI: Initializing plugins
+[2012.08.31 14:01:42] [0000m.01s.050ms] [0] iCDB Server PI: Plugins initialized
+[2012.08.31 14:01:42] [0000m.01s.050ms] [0] S: iCDB database loaded
+[2012.08.31 14:01:42] [0000m.01s.053ms] [0] S: Starting threads
+[2012.08.31 14:01:42] [0000m.01s.053ms] [0] BT: Listening for broadcast messages on port [10000]
+[2012.08.31 14:01:42] [0000m.01s.053ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2012.08.31 14:01:42] [0000m.01s.054ms] [0] IT: Session [6] for host [en-el01] user [roaming-student] with process ID [3908] created
+[2012.08.31 14:01:42] [0000m.01s.055ms] [1] SC[6]: Registered sub-client [DxD] with ID [1] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:42] [0000m.01s.064ms] [1] SC[6]: Registered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:42] [0000m.01s.065ms] [1] SC[6]: Registered sub-client [xprob] with ID [3] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:42] [0000m.01s.153ms] [1] CMT: There are [1] clients now: 6
+[2012.08.31 14:01:44] [0000m.02s.589ms] [1] SC[6]: Registered sub-client [SelectionHolder] with ID [4] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:44] [0000m.02s.728ms] [1] SC[6]: Registered sub-client [HdlProject] with ID [5] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:44] [0000m.02s.732ms] [1] SC[6]: Registered sub-client [Navigator] with ID [6] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:44] [0000m.02s.739ms] [1] SC[6]: Registered sub-client [OutputWindow] with ID [7] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:44] [0000m.02s.740ms] [1] SC[6]: Registered sub-client [PlaceDevice] with ID [8] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:44] [0000m.02s.748ms] [1] SC[6]: Registered sub-client [SAE] with ID [9] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:44] [0000m.02s.762ms] [1] SC[6]: Registered sub-client [DxConstraints] with ID [10] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:44] [0000m.02s.763ms] [1] SC[6]: Registered sub-client [CCZAddin] with ID [11] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:44] [0000m.02s.764ms] [1] SC[6]: Registered sub-client [DxThumbnails] with ID [12] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:44] [0000m.02s.810ms] [1] SC[6]: Registered sub-client [SheetConnectorsCacheDxD:1346436104] with ID [13] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:44] [0000m.02s.811ms] [1] SC[6]: Registered sub-client [NetsNamesCollectorDxD:1346436104] with ID [14] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:44] [0000m.02s.814ms] [1] SC[6]: Registered sub-client [DxDbSearch] with ID [15] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:44] [0000m.02s.816ms] [1] SC[6]: Registered sub-client [LDD_ECO_IMPORT] with ID [16] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:44] [0000m.02s.817ms] [1] SC[6]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [16] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:45] [0000m.03s.255ms] [1] SC[6]: Registered sub-client [LDD_ECO_IMPORT] with ID [17] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:45] [0000m.03s.256ms] [1] SC[6]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [17] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:46] [0000m.04s.272ms] [1] SC[6]: Registered sub-client [LDD_ECO_IMPORT] with ID [18] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:46] [0000m.04s.275ms] [1] SC[6]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [18] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:47] [0000m.05s.283ms] [1] SC[6]: Registered sub-client [LDD_ECO_IMPORT] with ID [19] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:47] [0000m.05s.286ms] [1] SC[6]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [19] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:48] [0000m.06s.298ms] [1] SC[6]: Registered sub-client [LDD_ECO_IMPORT] with ID [20] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:48] [0000m.06s.301ms] [1] SC[6]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [20] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:49] [0000m.07s.313ms] [1] SC[6]: Registered sub-client [LDD_ECO_IMPORT] with ID [21] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:49] [0000m.07s.315ms] [1] SC[6]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [21] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:49] [0000m.08s.120ms] [1] SC[6]: Registered sub-client [BlockCacheDxD:275705544] with ID [22] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:49] [0000m.08s.121ms] [1] SC[6]: Registered sub-client [ObjectHolder_276230184] with ID [23] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:49] [0000m.08s.122ms] [1] SC[6]: Registered sub-client [GlobalNetAliasUpdater_276230360] with ID [24] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:49] [0000m.08s.123ms] [1] SC[6]: Registered sub-client [IcdbNetProcessorSubClientDxD:275858992] with ID [25] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:50] [0000m.08s.326ms] [1] SC[6]: Registered sub-client [LDD_ECO_IMPORT] with ID [26] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:50] [0000m.08s.328ms] [1] SC[6]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [26] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:51] [0000m.09s.340ms] [1] SC[6]: Registered sub-client [LDD_ECO_IMPORT] with ID [27] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:51] [0000m.09s.342ms] [1] SC[6]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [27] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:52] [0000m.10s.356ms] [1] SC[6]: Registered sub-client [LDD_ECO_IMPORT] with ID [28] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:52] [0000m.10s.358ms] [1] SC[6]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [28] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:53] [0000m.11s.587ms] [1] SC[6]: Registered sub-client [LDD_ECO_IMPORT] with ID [29] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:53] [0000m.11s.589ms] [1] SC[6]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [29] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:54] [0000m.12s.383ms] [1] SC[6]: Registered sub-client [LDD_ECO_IMPORT] with ID [30] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:54] [0000m.12s.386ms] [1] SC[6]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [30] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:55] [0000m.13s.397ms] [1] SC[6]: Registered sub-client [LDD_ECO_IMPORT] with ID [31] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:55] [0000m.13s.399ms] [1] SC[6]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [31] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:56] [0000m.14s.411ms] [1] SC[6]: Registered sub-client [LDD_ECO_IMPORT] with ID [32] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:56] [0000m.14s.414ms] [1] SC[6]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [32] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:57] [0000m.15s.426ms] [1] SC[6]: Registered sub-client [LDD_ECO_IMPORT] with ID [33] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:57] [0000m.15s.428ms] [1] SC[6]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [33] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:58] [0000m.16s.439ms] [1] SC[6]: Registered sub-client [LDD_ECO_IMPORT] with ID [34] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:58] [0000m.16s.442ms] [1] SC[6]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [34] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:59] [0000m.17s.453ms] [1] SC[6]: Registered sub-client [LDD_ECO_IMPORT] with ID [35] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:59] [0000m.17s.455ms] [1] SC[6]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [35] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:59] [0000m.17s.999ms] [1] SC[6]: UnRegistered sub-client [GlobalNetAliasUpdater_276230360] with ID [24] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:59] [0000m.18s.000ms] [1] SC[6]: UnRegistered sub-client [BlockCacheDxD:275705544] with ID [22] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:59] [0000m.18s.000ms] [1] SC[6]: UnRegistered sub-client [ObjectHolder_276230184] with ID [23] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:59] [0000m.18s.000ms] [1] SC[6]: UnRegistered sub-client [IcdbNetProcessorSubClientDxD:275858992] with ID [25] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:59] [0000m.18s.002ms] [1] SC[6]: UnRegistered sub-client [SelectionHolder] with ID [4] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:59] [0000m.18s.003ms] [1] SC[6]: UnRegistered sub-client [SheetConnectorsCacheDxD:1346436104] with ID [13] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:59] [0000m.18s.003ms] [1] SC[6]: UnRegistered sub-client [NetsNamesCollectorDxD:1346436104] with ID [14] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:59] [0000m.18s.004ms] [1] SC[6]: UnRegistered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:59] [0000m.18s.004ms] [1] SC[6]: UnRegistered sub-client [DxD] with ID [1] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:01:59] [0000m.18s.036ms] [1] SC[6]: UnRegistered sub-client [xprob] with ID [3] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:02:01] [0000m.20s.061ms] [0] DFAMT: File server access time: 118 us
+[2012.08.31 14:02:06] [0000m.24s.311ms] [1] SC[6]: UnRegistered sub-client [Navigator] with ID [6] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:02:06] [0000m.24s.312ms] [1] SC[6]: UnRegistered sub-client [OutputWindow] with ID [7] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:02:06] [0000m.24s.319ms] [1] SC[6]: UnRegistered sub-client [DxDbSearch] with ID [15] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:02:06] [0000m.24s.322ms] [1] SC[6]: UnRegistered sub-client [SAE] with ID [9] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:02:06] [0000m.24s.329ms] [1] SC[6]: UnRegistered sub-client [CCZAddin] with ID [11] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:02:06] [0000m.24s.329ms] [1] SC[6]: UnRegistered sub-client [DxThumbnails] with ID [12] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:02:06] [0000m.24s.350ms] [1] SC[6]: UnRegistered sub-client [PlaceDevice] with ID [8] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:02:06] [0000m.24s.358ms] [1] SC[6]: UnRegistered sub-client [DxConstraints] with ID [10] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:02:06] [0000m.24s.392ms] [1] SC[6]: UnRegistered sub-client [HdlProject] with ID [5] for session ID [6] host [en-el01] user [roaming-student] process ID [3908]
+[2012.08.31 14:02:06] [0000m.24s.456ms] [1] CMT: Removed client [6]
+[2012.08.31 14:02:06] [0000m.24s.456ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2012.08.31 14:02:08] [0000m.26s.256ms] [0] CMT: Starting server auto-close
+[2012.08.31 14:02:08] [0000m.26s.356ms] [0] S: Closing server
+[2012.08.31 14:02:08] [0000m.26s.467ms] [0] iCDB Server PI: Closing plugins
+[2012.08.31 14:02:08] [0000m.26s.467ms] [0] iCDB Server PI: Plugins closed
+[2012.08.31 14:02:08] [0000m.26s.467ms] [0] iCDB Server PI: Unloading database
+[2012.08.31 14:02:08] [0000m.26s.467ms] [0] iCDB Server PI: Saving storage
+[2012.08.31 14:02:08] [0000m.26s.467ms] [0] iCDB Server PI: Closing database
+[2012.08.31 14:02:08] [0000m.26s.790ms] [1] iCDB Server PI: Stats: Database defragmentation: max[2] avg[1] holes[3%] data[95%]
+[2012.08.31 14:02:08] [0000m.26s.790ms] [1] iCDB Server PI: Stats: Database file size [58104 (56.7 kB)]
+[2012.08.31 14:02:08] [0000m.26s.870ms] [0] iCDB Server PI: Database closed
+[2012.08.31 14:02:08] [0000m.26s.870ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [835] ticks
+[2012.08.31 14:02:08] [0000m.26s.870ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [278] microseconds
+[2012.08.31 14:02:08] [0000m.26s.870ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [3]
+[2012.08.31 14:02:08] [0000m.26s.870ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [10759] commands per second
+[2012.08.31 14:02:08] [0000m.26s.876ms] [0] Single file [U:\wv\EngineeringClasses\database\icdb.dat] closed with size [58104 (56.7 kB)]
+[2012.08.31 14:02:08] [0000m.27s.056ms] [0] S: STOP

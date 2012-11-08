@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DxDesigner_Configuration_file version="1.2" name="DxDesigner.xml">
+  <DxDesigner>
+    <SETTINGS>
+      <key name="TIPOFTHEDAYTIMESTAMP" value="Tue Aug 21 13:21:14 2012"/>
+      <key name="TIPOFTHEDAYFILEPOS" value="579"/>
+      <key name="MRU_SETTINGS" value="Symbol Libraries"/>
+      <key name="DEFSHEET" value="1"/>
+      <key name="SHEETSIZE" value="2"/>
+      <key name="MRU_PROJECTS">
+        <value>U:\wv\EngineeringClasses\EngineeringClasses.prj</value>
+      </key>
+    </SETTINGS>
+    <OBJECTS>
+      <object name="ATTRIBUTE">
+        <key name="COLOR" value="0x000000"/>
+      </object>
+      <object name="LABEL">
+        <key name="COLOR" value="0x008000"/>
+      </object>
+      <object name="PIN">
+        <key name="COLOR" value="0x00ffff"/>
+      </object>
+      <object name="ARC">
+        <key name="FILL_STYLE" value="-1"/>
+      </object>
+      <object name="TEXT">
+        <key name="COLOR" value="0x000000"/>
+      </object>
+      <object name="WIRE">
+        <key name="COLOR" value="0xff0000"/>
+      </object>
+    </OBJECTS>
+    <LAYERS>
+      <layer name="SELECTION_LAYER">
+        <key name="COLOR" value="0xffff00"/>
+      </layer>
+      <layer name="BORDER_LAYER">
+        <key name="COLOR" value="0x000000"/>
+      </layer>
+      <layer name="ANNOTATION_LAYER">
+        <key name="COLOR" value="0x000000"/>
+      </layer>
+      <layer name="BACKGROUND_LAYER">
+        <key name="COLOR" value="0xffffff"/>
+      </layer>
+      <layer name="GRID_LAYER">
+        <key name="COLOR" value="0x000000"/>
+      </layer>
+      <layer name="UNPLACEDCOMPONENT_LAYER">
+        <key name="COLOR" value="0x808080"/>
+      </layer>
+    </LAYERS>
+  </DxDesigner>
+  <ConstraintsEditor>
+    <SETTINGS>
+      <key name="AttributeTooltips" value="1"/>
+      <key name="ComponentDisplayFormat" value="$NAME"/>
+      <key name="ConstraintsDisplay" value="1"/>
+      <key name="ExpandBuses" value="1"/>
+      <key name="HighlightEnabled" value="1"/>
+      <key name="HighlightLineOffset" value="2"/>
+      <key name="HighlightLineThickness" value="4"/>
+      <key name="NetComsLimit" value="10"/>
+      <key name="NetDisplayFormat" value="$NAME"/>
+      <key name="ScrollableTabs" value="0"/>
+    </SETTINGS>
+  </ConstraintsEditor>
+</DxDesigner_Configuration_file>
