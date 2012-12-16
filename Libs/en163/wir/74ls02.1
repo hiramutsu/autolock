@@ -1,0 +1,17 @@
+| Wirelist created using version 4.09.
+V 4.09
+K 185576183100 74ls02
+DW 74ls02
+AS builtin:nor2 PINORDER=QN A B
+AP builtin:nor2 1 PINTYPE=OUT
+AP builtin:nor2 2 PINTYPE=IN
+AP builtin:nor2 3 PINTYPE=IN
+M builtin:nor2 $1I8
+I $1I8 builtin:nor2 Y A B TPLH=@INTOOUT1`TPHL=@INTOOUT0`
+P ? Y
+I Y ? Y
+P ? B
+I B ? B
+P ? A
+I A ? A
+EW

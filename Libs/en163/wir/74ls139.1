@@ -1,0 +1,48 @@
+| Wirelist created using version 4.09.
+V 4.09
+K 70690213190 74ls139
+DW 74ls139
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+AS builtin:nand3 PINORDER=QN A B C
+AP builtin:nand3 1 PINTYPE=OUT
+AP builtin:nand3 2 PINTYPE=IN
+AP builtin:nand3 3 PINTYPE=IN
+AP builtin:nand3 4 PINTYPE=IN
+M builtin:delay $1I45
+I $1I45 builtin:delay $1N54 B TPHL=@SELTOY31`TPLH=@SELTOY30`
+M builtin:delay $1I59
+I $1I59 builtin:delay $1N50 A TPHL=@SELTOY31`TPLH=@SELTOY30`
+M builtin:not $1I47
+I $1I47 builtin:not $1N66 B TPHL=@SELTOY21`TPLH=@SELTOY20`
+M builtin:not $1I61
+I $1I61 builtin:not $1N65 A TPHL=@SELTOY21`TPLH=@SELTOY20`
+M builtin:not $1I57
+I $1I57 builtin:not $1N56 ~G TPHL=@ENTOY21`TPLH=@ENTOY20`
+M builtin:nand3 $1I42
+I $1I42 builtin:nand3 ~Y3 $1N56 $1N50 $1N54 
+M builtin:nand3 $1I41
+I $1I41 builtin:nand3 ~Y2 $1N56 $1N65 $1N54 
+M builtin:nand3 $1I40
+I $1I40 builtin:nand3 ~Y1 $1N56 $1N66 $1N50 
+M builtin:nand3 $1I39
+I $1I39 builtin:nand3 ~Y0 $1N65 $1N66 $1N56 
+P ? ~Y3
+I ~Y3 ? ~Y3
+P ? ~Y2
+I ~Y2 ? ~Y2
+P ? ~Y1
+I ~Y1 ? ~Y1
+P ? ~Y0
+I ~Y0 ? ~Y0
+P ? B
+I B ? B
+P ? A
+I A ? A
+P ? ~G
+I ~G ? ~G
+EW

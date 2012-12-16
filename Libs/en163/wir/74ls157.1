@@ -1,0 +1,75 @@
+| Wirelist created using version 4.09.
+V 4.09
+K 70703269190 74ls157
+DW 74ls157
+AS builtin:andnor22 PINORDER=Q A B C D
+AP builtin:andnor22 1 PINTYPE=OUT
+AP builtin:andnor22 2 PINTYPE=IN
+AP builtin:andnor22 3 PINTYPE=IN
+AP builtin:andnor22 4 PINTYPE=IN
+AP builtin:andnor22 5 PINTYPE=IN
+AS builtin:nor2 PINORDER=QN A B
+AP builtin:nor2 1 PINTYPE=OUT
+AP builtin:nor2 2 PINTYPE=IN
+AP builtin:nor2 3 PINTYPE=IN
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+M builtin:andnor22 $1I95
+I $1I95 builtin:andnor22 $1N83 2A $1N15 2B $1N4 
+M builtin:andnor22 $1I96
+I $1I96 builtin:andnor22 $1N80 3A $1N15 3B $1N4 
+M builtin:andnor22 $1I97
+I $1I97 builtin:andnor22 $1N77 4A $1N15 4B $1N4 
+M builtin:andnor22 $1I87
+I $1I87 builtin:andnor22 $1N65 1A $1N15 1B $1N4 
+M builtin:nor2 $1I90
+I $1I90 builtin:nor2 $1N4 $1N38 $1N44 
+M builtin:not $1I88
+I $1I88 builtin:not $1N44 S TPHL=@SELTOY1`TPLH=@SELTOY0`
+M builtin:not $1I147
+I $1I147 builtin:not 1Y $1N65 TPLH=@DTOY1`TPHL=@DTOY0`
+M builtin:not $1I149
+I $1I149 builtin:not 2Y $1N83 TPHL=@DTOY0`TPLH=@DTOY1`
+M builtin:not $1I150
+I $1I150 builtin:not 3Y $1N80 TPLH=@DTOY1`TPHL=@DTOY0`
+M builtin:not $1I151
+I $1I151 builtin:not 4Y $1N77 TPHL=@DTOY0`TPLH=@DTOY1`
+M builtin:delay $1I142
+I $1I142 builtin:delay $1N38 ~G TPHL=@GTOY1`TPLH=@GTOY0`
+M builtin:delay $1I98
+I $1I98 builtin:delay $1N100 S TPHL=@SELTOY1`TPLH=@SELTOY0`
+M builtin:nor2 $1I89
+I $1I89 builtin:nor2 $1N15 $1N38 $1N100 
+P ? 4B
+I 4B ? 4B
+P ? 2Y
+I 2Y ? 2Y
+P ? 3Y
+I 3Y ? 3Y
+P ? 4Y
+I 4Y ? 4Y
+P ? 1Y
+I 1Y ? 1Y
+P ? 4A
+I 4A ? 4A
+P ? 3A
+I 3A ? 3A
+P ? 2A
+I 2A ? 2A
+P ? 1B
+I 1B ? 1B
+P ? 1A
+I 1A ? 1A
+P ? 2B
+I 2B ? 2B
+P ? S
+I S ? S
+P ? ~G
+I ~G ? ~G
+P ? 3B
+I 3B ? 3B
+EW

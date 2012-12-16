@@ -1,0 +1,17 @@
+| Wirelist created using version 4.09.
+V 4.09
+K 195520211800 74ls08
+DW 74ls08
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+M builtin:and2 $1I8
+I $1I8 builtin:and2 Y A B TPLH=@INTOOUT1`TPHL=@INTOOUT0`
+P ? Y
+I Y ? Y
+P ? B
+I B ? B
+P ? A
+I A ? A
+EW

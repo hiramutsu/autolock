@@ -1,0 +1,141 @@
+| Wirelist created using version 4.09.
+V 4.09
+K 99491358290 74ls48
+DW 74ls48
+AS builtin:nor2 PINORDER=QN A B
+AP builtin:nor2 1 PINTYPE=OUT
+AP builtin:nor2 2 PINTYPE=IN
+AP builtin:nor2 3 PINTYPE=IN
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+AS builtin:nand2 PINORDER=QN A B
+AP builtin:nand2 1 PINTYPE=OUT
+AP builtin:nand2 2 PINTYPE=IN
+AP builtin:nand2 3 PINTYPE=IN
+AS builtin:and3 PINORDER=Q A B C
+AP builtin:and3 1 PINTYPE=OUT
+AP builtin:and3 2 PINTYPE=IN
+AP builtin:and3 3 PINTYPE=IN
+AP builtin:and3 4 PINTYPE=IN
+AS builtin:and4 PINORDER=Q A B C D
+AP builtin:and4 1 PINTYPE=OUT
+AP builtin:and4 2 PINTYPE=IN
+AP builtin:and4 3 PINTYPE=IN
+AP builtin:and4 4 PINTYPE=IN
+AP builtin:and4 5 PINTYPE=IN
+AS builtin:nand8 PINORDER=QN A B C D E F G H
+AP builtin:nand8 1 PINTYPE=OUT
+AP builtin:nand8 2 PINTYPE=IN
+AP builtin:nand8 3 PINTYPE=IN
+AP builtin:nand8 4 PINTYPE=IN
+AP builtin:nand8 5 PINTYPE=IN
+AP builtin:nand8 6 PINTYPE=IN
+AP builtin:nand8 7 PINTYPE=IN
+AP builtin:nand8 8 PINTYPE=IN
+AP builtin:nand8 9 PINTYPE=IN
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+AS builtin:nor3 PINORDER=QN A B C
+AP builtin:nor3 1 PINTYPE=OUT
+AP builtin:nor3 2 PINTYPE=IN
+AP builtin:nor3 3 PINTYPE=IN
+AP builtin:nor3 4 PINTYPE=IN
+G VDD
+M builtin:nor2 $1I316
+I $1I316 builtin:nor2 OG $1N174 $1N169 STR01=DW`TPHL=@INTOOUT0`TPLH=@INTOOUT1`
+M builtin:and2 $1I305
+I $1I305 builtin:and2 $1N197 $1N334 $1N112 
+M builtin:and2 $1I304
+I $1I304 builtin:and2 $1N207 $1N328 $1N330 
+M builtin:and2 $1I300
+I $1I300 builtin:and2 $1N213 $1N328 $1N327 
+M builtin:and2 $1I297
+I $1I297 builtin:and2 $1N233 $1N322 $1N330 
+M builtin:and2 $1I295
+I $1I295 builtin:and2 $1N236 $1N30 $1N320 
+M builtin:nand2 $1I286
+I $1I286 builtin:nand2 $1N51 C ~LT 
+M builtin:nand2 $1I287
+I $1I287 builtin:nand2 $1N30 B ~LT 
+M builtin:nand2 $1I288
+I $1I288 builtin:nand2 $1N322 $1N328 ~BI 
+M builtin:nand2 $1I289
+I $1I289 builtin:nand2 $1N131 $1N30 ~BI 
+M builtin:nand2 $1I290
+I $1I290 builtin:nand2 $1N112 $1N51 ~BI 
+M builtin:nand2 $1I291
+I $1I291 builtin:nand2 $1N103 $1N72 ~BI 
+M builtin:nand2 $1I292
+I $1I292 builtin:nand2 $1N328 A ~LT 
+M builtin:and2 $1I294
+I $1I294 builtin:and2 $1N325 $1N328 $1N112 
+M builtin:and2 $1I296
+I $1I296 builtin:and2 $1N336 $1N131 $1N103 
+M builtin:and2 $1I299
+I $1I299 builtin:and2 $1N218 $1N112 $1N103 
+M builtin:and2 $1I301
+I $1I301 builtin:and2 $1N334 $1N322 $1N131 
+M builtin:and2 $1I302
+I $1I302 builtin:and2 $1N327 $1N131 $1N51 
+M builtin:and2 $1I306
+I $1I306 builtin:and2 $1N330 $1N30 $1N112 
+M builtin:and3 $1I303
+I $1I303 builtin:and3 $1N202 $1N322 $1N30 $1N51 
+M builtin:and3 $1I307
+I $1I307 builtin:and3 $1N320 $1N322 $1N51 $1N72 
+M builtin:and4 $1I308
+I $1I308 builtin:and4 $1N169 $1N30 $1N51 $1N72 ~LT 
+M builtin:nand8 $1I317
+I $1I317 builtin:nand8 ~BI ~LT $1N87 $1N72 $1N51 $1N30 $1N328 VDD VDD STR01 = WW`
+M builtin:not $1I284
+I $1I284 builtin:not $1N87 ~RBI 
+M builtin:not $1I285
+I $1I285 builtin:not $1N72 D 
+M builtin:nor3 $1I310
+I $1I310 builtin:nor3 OA $1N336 $1N325 $1N236 STR01=DW`TPHL=@INTOOUT0`TPLH=@INTOOUT1`
+M builtin:nor3 $1I311
+I $1I311 builtin:nor3 OB $1N336 $1N233 $1N223 STR01=DW`TPLH=@INTOOUT1`TPHL=@INTOOUT0`
+M builtin:nor2 $1I312
+I $1I312 builtin:nor2 OC $1N218 $1N213 STR01=DW`TPHL=@INTOOUT0`TPLH=@INTOOUT1`
+M builtin:nor3 $1I313
+I $1I313 builtin:nor3 OD $1N202 $1N207 $1N197 STR01=DW`TPHL=@INTOOUT0`TPLH=@INTOOUT1`
+M builtin:nor3 $1I315
+I $1I315 builtin:nor3 OF $1N334 $1N327 $1N320 STR01=DW`TPHL=@INTOOUT0`TPLH=@INTOOUT1`
+M builtin:and2 $1I298
+I $1I298 builtin:and2 $1N223 $1N131 $1N325 
+M builtin:and2 $1I293
+I $1I293 builtin:and2 $1N174 $1N334 $1N112 
+M builtin:nor2 $1I314
+I $1I314 builtin:nor2 OE $1N322 $1N330 STR01=DW`TPHL=@INTOOUT0`TPLH=@INTOOUT1`
+P ? ~RBI
+I ~RBI ? ~RBI
+P ? A
+I A ? A
+P ? B
+I B ? B
+P ? C
+I C ? C
+P ? OE
+I OE ? OE
+P ? OC
+I OC ? OC
+P ? OG
+I OG ? OG
+P ? ~LT
+I ~LT ? ~LT
+P ? ~BI
+I ~BI ? ~BI
+P ? D
+I D ? D
+P ? OF
+I OF ? OF
+P ? OD
+I OD ? OD
+P ? OB
+I OB ? OB
+P ? OA
+I OA ? OA
+EW

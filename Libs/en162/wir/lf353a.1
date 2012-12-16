@@ -1,0 +1,180 @@
+| Wirelist created using version 4.09.
+V 4.09
+K 227676056300 lf353a
+DW lf353a
+AS dlimit PKG_TYPE=59-03
+AS dlimit MODEL=DLIMIT
+AS dlimit PREFIX=D
+AS dlimit PINOFF
+AS dlimit ORDER=MODEL$ AREA$
+AS dlimit PINORDER=P N
+AS dlimit PARTS=1
+AS dlimit CLASS=DIODE
+AS dlimit REFDES=D?
+AP dlimit 1 #=2
+AP dlimit 1 PINTYPE=ANALOG
+AP dlimit 2 DEVICE=DLIMIT
+AP dlimit 2 #=1
+AP dlimit 2 PINTYPE=ANALOG
+AS analog:res PREFIX=R
+AS analog:res PINOFF
+AS analog:res ORDER=MODEL$ VALUE$ TC1= TC2=
+AS analog:res VALUE=
+AS analog:res REFDES=R?
+AS analog:res PARTS=1
+AS analog:res PKG_TYPE=RES
+AS analog:res CLASS=R
+AS analog:res PINORDER = N1 N2
+AP analog:res 1 PINTYPE=BI
+AP analog:res 1 #=1
+AP analog:res 2 PINTYPE=BI
+AP analog:res 2 #=2
+AS analog:cap PARTS=1
+AS analog:cap VALUE=
+AS analog:cap REFDES=C?
+AS analog:cap VPC=250MW
+AS analog:cap P/D_NUM=C12345/0-123
+AS analog:cap PART_SPEC=CAPACITOR
+AS analog:cap PREFIX=C
+AS analog:cap PINOFF
+AS analog:cap PKG_TYPE=CAP
+AS analog:cap ORDER=MODEL$ VALUE$ IC=
+AS analog:cap PINORDER = N1 N2
+AP analog:cap 1 PINTYPE=BI
+AP analog:cap 1 #=1
+AP analog:cap 2 PINTYPE=BI
+AP analog:cap 2 #=2
+AS analog:res VALUE=
+AS analog:res REFDES=R?
+AS analog:res ORDER=MODEL$ VALUE$ TC1= TC2=
+AS analog:res PINOFF
+AS analog:res PREFIX=R
+AS analog:res PARTS=1
+AS analog:res PKG_TYPE=RES
+AS analog:res CLASS=R
+AS analog:res PINORDER = N1 N2
+AP analog:res 1 PINTYPE=BI
+AP analog:res 1 #=1
+AP analog:res 2 PINTYPE=BI
+AP analog:res 2 #=2
+AS analog:vcvs PINORDER=P N CP CN
+AS analog:vcvs ORDER=GAIN$
+AS analog:vcvs PREFIX=E
+AS analog:vcvs GAIN=1
+AS analog:vcvs CLASS=ANALOG
+AP analog:vcvs 1 PINTYPE=IN
+AP analog:vcvs 2 PINTYPE=IN
+AP analog:vcvs 3 PINTYPE=IN
+AP analog:vcvs 4 PINTYPE=IN
+AS analog:vccs PREFIX=G
+AS analog:vccs ORDER=GAIN$
+AS analog:vccs PINORDER=P N CP CN
+AS analog:vccs GAIN=1
+AS analog:vccs CLASS=ANALOG
+AP analog:vccs 1 PINTYPE=IN
+AP analog:vccs 2 PINTYPE=OUT
+AP analog:vccs 3 PINTYPE=IN
+AP analog:vccs 4 PINTYPE=IN
+AS analog:idc CLASS=LAB
+AS analog:idc PREFIX=I
+AS analog:idc ORDER=TYPE$ CURRENT$
+AS analog:idc TYPE=DC
+AS analog:idc CURRENT=1MA
+AS analog:idc PINORDER = N1 N2
+AP analog:idc 1 PINTYPE=IN
+AP analog:idc 2 PINTYPE=IN
+M dlimit $1I94
+I $1I94 dlimit $1N13 V- REFDES=D2`
+API $1I94 dlimit 1 #=2
+API $1I94 dlimit 2 #=1
+M analog:res $1I39
+I $1I39 analog:res $1N41 OUT VALUE=50`REFDES=ROUT`
+API $1I39 analog:res 1 #=1
+API $1I39 analog:res 2 #=2
+M analog:cap $1I7
+I $1I7 analog:cap V- INNON VALUE=3P`REFDES=CI1`
+API $1I7 analog:cap 1 #=1
+API $1I7 analog:cap 2 #=2
+M analog:res $1I5
+I $1I5 analog:res $1N52 $1N49 VALUE=1K`REFDES=R1`
+API $1I5 analog:res 1 #=1
+API $1I5 analog:res 2 #=2
+M analog:res $1I35
+I $1I35 analog:res $1N49 $1N46 VALUE=10K`REFDES=R2`
+API $1I35 analog:res 1 #=1
+API $1I35 analog:res 2 #=2
+M analog:res $1I57
+I $1I57 analog:res V+ $1N72 VALUE=1E6`REFDES=RSIG1`
+API $1I57 analog:res 1 #=1
+API $1I57 analog:res 2 #=2
+M analog:res $1I58
+I $1I58 analog:res $1N72 V- VALUE=1E6`REFDES=RSIG2`
+API $1I58 analog:res 1 #=1
+API $1I58 analog:res 2 #=2
+M analog:cap $1I3
+I $1I3 analog:cap ININV V- VALUE=2.7P`REFDES=CI2`
+API $1I3 analog:cap 1 #=1
+API $1I3 analog:cap 2 #=2
+M analog:vcvs $1I55
+I $1I55 analog:vcvs $1N81 V- $1N72 V- GAIN=1`
+M analog:vcvs $1I38
+I $1I38 analog:vcvs $1N41 $1N81 $1N46 V- GAIN=1`
+M analog:vcvs $1I21
+I $1I21 analog:vcvs $1N52 V- $1N25 V- GAIN=100`
+M analog:res $1I4
+I $1I4 analog:res $1N25 V- REFDES=RDOMPOL`VALUE=1E7`
+API $1I4 analog:res 1 #=1
+API $1I4 analog:res 2 #=2
+M analog:res $1I84
+I $1I84 analog:res $1N13 V- REFDES=RG1`VALUE=1E4`
+API $1I84 analog:res 1 #=1
+API $1I84 analog:res 2 #=2
+M analog:vccs $1I85
+I $1I85 analog:vccs $1N25 V- $1N13 V- GAIN=.0021`
+M analog:vccs $1I20
+I $1I20 analog:vccs $1N13 V- INNON ININV GAIN=1.9E-4`
+M analog:cap $1I30
+I $1I30 analog:cap $1N25 V- VALUE=2.1E-9`REFDES=CDOMPOL`
+API $1I30 analog:cap 1 #=1
+API $1I30 analog:cap 2 #=2
+M analog:cap $1I36
+I $1I36 analog:cap $1N49 V- VALUE=13P`REFDES=C1`
+API $1I36 analog:cap 1 #=1
+API $1I36 analog:cap 2 #=2
+M analog:cap $1I37
+I $1I37 analog:cap $1N46 V- VALUE=1.3P`REFDES=C2`
+API $1I37 analog:cap 1 #=1
+API $1I37 analog:cap 2 #=2
+M dlimit $1I93
+I $1I93 dlimit V- $1N13 REFDES=D1`
+API $1I93 dlimit 1 #=2
+API $1I93 dlimit 2 #=1
+M analog:res $1I59
+I $1I59 analog:res V+ $1N104 VALUE=100K`REFDES=RRPS`
+API $1I59 analog:res 1 #=1
+API $1I59 analog:res 2 #=2
+M analog:vccs $1I60
+I $1I60 analog:vccs V+ V- $1N104 V- GAIN=5E-3`
+M dlimit $1I101
+I $1I101 dlimit $1N104 $1N102 REFDES=D3`
+API $1I101 dlimit 1 #=2
+API $1I101 dlimit 2 #=1
+M dlimit $1I99
+I $1I99 dlimit $1N102 V- REFDES=D4`
+API $1I99 dlimit 1 #=2
+API $1I99 dlimit 2 #=1
+M analog:idc $1I8
+I $1I8 analog:idc V- INNON CURRENT=100P`
+M analog:idc $1I2
+I $1I2 analog:idc V- ININV PREFIX=105P`
+P ? ININV
+I ININV ? ININV
+P ? OUT
+I OUT ? OUT
+P ? INNON
+I INNON ? INNON
+P ? V+
+I V+ ? V+
+P ? V-
+I V- ? V-
+EW

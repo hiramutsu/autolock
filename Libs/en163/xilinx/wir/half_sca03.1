@@ -1,0 +1,74 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 270898875900 half_sca03
+DW half_sca03
+AS spartanxl:m2_1 LIBVER=2.0.0
+AS spartanxl:m2_1 LEVEL=MXILINX
+AS spartanxl:m2_1 PINORDER=D0 D1 O S0
+AP spartanxl:m2_1 1 PINTYPE=IN
+AP spartanxl:m2_1 2 PINTYPE=IN
+AP spartanxl:m2_1 3 PINTYPE=OUT
+AP spartanxl:m2_1 4 PINTYPE=IN
+AS spartanxl:gnd LIBVER=2.0.0
+AS spartanxl:gnd LEVEL=XILINX
+AS spartanxl:gnd PINORDER=G
+AP spartanxl:gnd 1 PINTYPE=OUT
+AS spartanxl:fdce INIT=R
+AS spartanxl:fdce LIBVER=2.0.0
+AS spartanxl:fdce @CLRPULSE1=0
+AS spartanxl:fdce @GSRDLY1=0
+AS spartanxl:fdce @GSRDLY0=0
+AS spartanxl:fdce @GSRPULSE1=0
+AS spartanxl:fdce @CPULSE1=0
+AS spartanxl:fdce @CPULSE0=0
+AS spartanxl:fdce @CLRCHOLD=0
+AS spartanxl:fdce @GSRCHOLD=0
+AS spartanxl:fdce @GSRCTSU=0
+AS spartanxl:fdce @DCHOLD=0
+AS spartanxl:fdce @DCTSU=0
+AS spartanxl:fdce @CECTSU=0
+AS spartanxl:fdce @CECHOLD=0
+AS spartanxl:fdce LEVEL=XILINX
+AS spartanxl:fdce @DDLY0=0
+AS spartanxl:fdce @DDLY1=0
+AS spartanxl:fdce @CDLY0=0
+AS spartanxl:fdce @CDLY1=0
+AS spartanxl:fdce @CEDLY1=0
+AS spartanxl:fdce @CEDLY0=0
+AS spartanxl:fdce @CLRDLY0=0
+AS spartanxl:fdce @CLRDLY1=0
+AS spartanxl:fdce @QDLY0=1
+AS spartanxl:fdce @QDLY1=1
+AS spartanxl:fdce DEVICE=DFF
+AS spartanxl:fdce @CLRPULSE0=0
+AS spartanxl:fdce @GSRPULSE0=0
+AS spartanxl:fdce @CLRCTSU=0
+AS spartanxl:fdce PINORDER=C CE CLR D GSR Q
+AP spartanxl:fdce 1 PINTYPE=IN
+AP spartanxl:fdce 2 PINTYPE=IN
+AP spartanxl:fdce 3 PINTYPE=IN
+AP spartanxl:fdce 4 PINTYPE=IN
+AP spartanxl:fdce 5 PINTYPE=IN
+AP spartanxl:fdce 6 PINTYPE=OUT
+W spartanxl:m2_1 $1I2
+I $1I2 spartanxl:m2_1 IN0 IN1 MXOUT SEL 
+W spartanxl:gnd $1I3
+I $1I3 spartanxl:gnd $1N9 
+W spartanxl:fdce $1I1
+I $1I1 spartanxl:fdce CLK CE $1N9 MXOUT ? DOUT 
+P ? IN0
+I IN0 ? IN0
+P ? IN1
+I IN1 ? IN1
+P ? SEL
+I SEL ? SEL
+P ? CE
+I CE ? CE
+P ? CLK
+I CLK ? CLK
+P ? MXOUT
+I MXOUT ? MXOUT
+P ? DOUT
+I DOUT ? DOUT
+EW

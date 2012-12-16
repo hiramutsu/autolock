@@ -1,0 +1,280 @@
+| Wirelist created using version 4.09.
+V 4.09
+K 71360342990 74181
+DW 74181
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+AS builtin:xor3 PINORDER=Q A B C
+AP builtin:xor3 1 PINTYPE=OUT
+AP builtin:xor3 2 PINTYPE=IN
+AP builtin:xor3 3 PINTYPE=IN
+AP builtin:xor3 4 PINTYPE=IN
+AS builtin:nand2 PINORDER=QN A B
+AP builtin:nand2 1 PINTYPE=OUT
+AP builtin:nand2 2 PINTYPE=IN
+AP builtin:nand2 3 PINTYPE=IN
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+AS builtin:nor2 PINORDER=QN A B
+AP builtin:nor2 1 PINTYPE=OUT
+AP builtin:nor2 2 PINTYPE=IN
+AP builtin:nor2 3 PINTYPE=IN
+AS builtin:nor3 PINORDER=QN A B C
+AP builtin:nor3 1 PINTYPE=OUT
+AP builtin:nor3 2 PINTYPE=IN
+AP builtin:nor3 3 PINTYPE=IN
+AP builtin:nor3 4 PINTYPE=IN
+AS builtin:and3 PINORDER=Q A B C
+AP builtin:and3 1 PINTYPE=OUT
+AP builtin:and3 2 PINTYPE=IN
+AP builtin:and3 3 PINTYPE=IN
+AP builtin:and3 4 PINTYPE=IN
+AS builtin:and4 PINORDER=Q A B C D
+AP builtin:and4 1 PINTYPE=OUT
+AP builtin:and4 2 PINTYPE=IN
+AP builtin:and4 3 PINTYPE=IN
+AP builtin:and4 4 PINTYPE=IN
+AP builtin:and4 5 PINTYPE=IN
+AS builtin:nor4 PINORDER=QN A B C D
+AP builtin:nor4 1 PINTYPE=OUT
+AP builtin:nor4 2 PINTYPE=IN
+AP builtin:nor4 3 PINTYPE=IN
+AP builtin:nor4 4 PINTYPE=IN
+AP builtin:nor4 5 PINTYPE=IN
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+AS builtin:nand4 PINORDER=QN A B C D
+AP builtin:nand4 1 PINTYPE=OUT
+AP builtin:nand4 2 PINTYPE=IN
+AP builtin:nand4 3 PINTYPE=IN
+AP builtin:nand4 4 PINTYPE=IN
+AP builtin:nand4 5 PINTYPE=IN
+M builtin:delay $1I717
+I $1I717 builtin:delay $1N718 CN TPHL=@CNTOF`TPLH=@CNTOF`
+M builtin:delay $1I559
+I $1I559 builtin:delay $1N561 CN TPLH=@CNTOCN41`TPHL=@CNTOCN40`
+M builtin:delay $1I693
+I $1I693 builtin:delay $1N695 $1N694 TPHL=@ABTOF`TPLH=@ABTOF`
+M builtin:xor3 $1I543
+I $1I543 builtin:xor3 ~F0 $1N712 $1N714 $1N435 
+M builtin:nand2 $1I493
+I $1I493 builtin:nand2 $1N435 $1N718 $1N695 
+M builtin:delay $1I660
+I $1I660 builtin:delay $1N663 $1N691 TPLH=@ABTOF`TPHL=@ABTOF`
+M builtin:delay $1I659
+I $1I659 builtin:delay $1N661 $1N690 TPHL=@ABTOF`TPLH=@ABTOF`
+M builtin:and2 $1I670
+I $1I670 builtin:and2 $1N676 $1N718 $1N690 
+M builtin:xor3 $1I542
+I $1I542 builtin:xor3 ~F1 $1N683 $1N685 $1N131 
+M builtin:nor2 $1I494
+I $1I494 builtin:nor2 $1N131 $1N657 $1N663 
+M builtin:and2 $1I653
+I $1I653 builtin:and2 $1N657 $1N718 $1N661 
+M builtin:delay $1I626
+I $1I626 builtin:delay $1N637 $1N627 TPLH=@ABTOF`TPHL=@ABTOF`
+M builtin:and2 $1I495
+I $1I495 builtin:and2 $1N691 $1N710 $1N694 
+M builtin:and2 $1I496
+I $1I496 builtin:and2 $1N690 $1N81 $1N694 
+M builtin:and2 $1I617
+I $1I617 builtin:and2 $1N622 $1N718 $1N633 
+M builtin:delay $1I624
+I $1I624 builtin:delay $1N633 $1N631 TPLH=@ABTOF`TPHL=@ABTOF`
+M builtin:nor3 $1I499
+I $1I499 builtin:nor3 $1N136 $1N622 $1N635 $1N637 
+M builtin:and3 $1I500
+I $1I500 builtin:and3 $1N631 $1N81 $1N29 $1N694 
+M builtin:xor3 $1I541
+I $1I541 builtin:xor3 ~F2 $1N615 $1N616 $1N136 
+M builtin:delay $1I608
+I $1I608 builtin:delay $1N616 $1N72 TPHL=@ABTOF`TPLH=@ABTOF`
+M builtin:delay $1I609
+I $1I609 builtin:delay $1N615 $1N613 TPLH=@ABTOF`TPHL=@ABTOF`
+M builtin:delay $1I564
+I $1I564 builtin:delay $1N570 $1N600 TPLH=@ABTOF`TPHL=@ABTOF`
+M builtin:delay $1I563
+I $1I563 builtin:delay $1N569 $1N567 TPHL=@ABTOF`TPLH=@ABTOF`
+M builtin:and4 $1I544
+I $1I544 builtin:and4 AEQB $1N598 $1N452 $1N688 $1N707 TPLH=@ABTOAEQB1`TPHL=@ABTOAEQB0`
+M builtin:and2 $1I593
+I $1I593 builtin:and2 $1N604 $1N718 $1N606 
+M builtin:xor3 $1I540
+I $1I540 builtin:xor3 ~F3 $1N569 $1N570 $1N407 
+M builtin:and2 $1I572
+I $1I572 builtin:and2 $1N573 $1N718 $1N588 
+M builtin:nor4 $1I532
+I $1I532 builtin:nor4 $1N407 $1N573 $1N586 $1N584 $1N582 
+M builtin:delay $1I581
+I $1I581 builtin:delay $1N582 $1N422 TPLH=@ABTOF`TPHL=@ABTOF`
+M builtin:and4 $1I571
+I $1I571 builtin:and4 $1N606 $1N81 $1N29 $1N613 $1N694 
+M builtin:and4 $1I533
+I $1I533 builtin:and4 $1N603 $1N29 $1N613 $1N710 $1N694 
+M builtin:nor4 $1I536
+I $1I536 builtin:nor4 ~G $1N600 $1N378 $1N375 $1N383 TPLH=@ABTOG1`TPHL=@ABTOG0`
+M builtin:nor4 $1I551
+I $1I551 builtin:nor4 $1N557 $1N600 $1N378 $1N375 $1N383 TPHL=@ABTOCN41`TPLH=@ABTOCN40`
+M builtin:not $1I490
+I $1I490 builtin:not $1N694 M 
+M builtin:not $1I491
+I $1I491 builtin:not $1N277 ~B0 
+M builtin:not $1I503
+I $1I503 builtin:not $1N320 ~B1 
+M builtin:not $1I516
+I $1I516 builtin:not $1N254 ~B2 
+M builtin:not $1I529
+I $1I529 builtin:not $1N211 ~B3 
+M builtin:and3 $1I501
+I $1I501 builtin:and3 $1N629 $1N29 $1N710 $1N694 
+M builtin:and3 $1I534
+I $1I534 builtin:and3 $1N602 $1N613 $1N687 $1N694 
+M builtin:and4 $1I497
+I $1I497 builtin:and4 $1N383 $1N567 $1N613 $1N29 $1N710 
+M builtin:and3 $1I531
+I $1I531 builtin:and3 $1N375 $1N567 $1N613 $1N687 
+M builtin:nor3 $1I527
+I $1I527 builtin:nor3 $1N600 $1N221 $1N218 ~A3 
+M builtin:nor3 $1I518
+I $1I518 builtin:nor3 $1N72 $1N246 $1N251 ~A2 
+M builtin:nor3 $1I505
+I $1I505 builtin:nor3 $1N687 $1N312 $1N317 ~A1 
+M builtin:nor3 $1I514
+I $1I514 builtin:nor3 $1N710 $1N287 $1N284 ~A0 
+M builtin:and3 $1I510
+I $1I510 builtin:and3 $1N292 ~A0 S2 $1N277 
+M builtin:and3 $1I512
+I $1I512 builtin:and3 $1N297 ~B0 S3 ~A0 
+M builtin:and3 $1I509
+I $1I509 builtin:and3 $1N307 ~A1 S2 $1N320 
+M builtin:and3 $1I507
+I $1I507 builtin:and3 $1N302 ~B1 S3 ~A1 
+M builtin:and3 $1I522
+I $1I522 builtin:and3 $1N241 ~A2 S2 $1N254 
+M builtin:and3 $1I520
+I $1I520 builtin:and3 $1N236 ~B2 S3 ~A2 
+M builtin:and3 $1I523
+I $1I523 builtin:and3 $1N226 ~A3 S2 $1N211 
+M builtin:and3 $1I525
+I $1I525 builtin:and3 $1N231 ~B3 S3 ~A3 
+M builtin:nor2 $1I528
+I $1I528 builtin:nor2 $1N567 $1N231 $1N226 
+M builtin:nand2 $1I550
+I $1I550 builtin:nand2 $1N548 $1N545 $1N561 
+M builtin:nand2 $1I538
+I $1I538 builtin:nand2 CN4 $1N557 $1N548 
+M builtin:and2 $1I535
+I $1I535 builtin:and2 $1N422 $1N72 $1N694 
+M builtin:and2 $1I530
+I $1I530 builtin:and2 $1N378 $1N567 $1N72 
+M builtin:and2 $1I526
+I $1I526 builtin:and2 $1N221 $1N211 S1 
+M builtin:and2 $1I524
+I $1I524 builtin:and2 $1N218 S0 ~B3 
+M builtin:and2 $1I521
+I $1I521 builtin:and2 $1N251 S0 ~B2 
+M builtin:and2 $1I519
+I $1I519 builtin:and2 $1N246 $1N254 S1 
+M builtin:nor2 $1I517
+I $1I517 builtin:nor2 $1N613 $1N236 $1N241 
+M builtin:nor2 $1I515
+I $1I515 builtin:nor2 $1N81 $1N297 $1N292 
+M builtin:and2 $1I513
+I $1I513 builtin:and2 $1N287 $1N277 S1 
+M builtin:and2 $1I511
+I $1I511 builtin:and2 $1N284 S0 ~B0 
+M builtin:and2 $1I508
+I $1I508 builtin:and2 $1N317 S0 ~B1 
+M builtin:and2 $1I506
+I $1I506 builtin:and2 $1N312 $1N320 S1 
+M builtin:nor2 $1I504
+I $1I504 builtin:nor2 $1N29 $1N302 $1N307 
+M builtin:and2 $1I502
+I $1I502 builtin:and2 $1N627 $1N687 $1N694 
+M builtin:and4 $1I558
+I $1I558 builtin:and4 $1N545 $1N567 $1N613 $1N29 $1N81 TPLH=@ABTOCN41`TPHL=@ABTOCN40`
+M builtin:nand4 $1I539
+I $1I539 builtin:nand4 ~P $1N567 $1N613 $1N29 $1N81 TPLH=@ABTOP1`TPHL=@ABTOP0`
+M builtin:delay $1I578
+I $1I578 builtin:delay $1N588 $1N606 TPHL=@ABTOF`TPLH=@ABTOF`
+M builtin:delay $1I579
+I $1I579 builtin:delay $1N586 $1N603 TPLH=@ABTOF`TPHL=@ABTOF`
+M builtin:delay $1I580
+I $1I580 builtin:delay $1N584 $1N602 TPHL=@ABTOF`TPLH=@ABTOF`
+M builtin:nor4 $1I594
+I $1I594 builtin:nor4 $1N595 $1N604 $1N603 $1N602 $1N422 
+M builtin:xor3 $1I592
+I $1I592 builtin:xor3 $1N598 $1N567 $1N600 $1N595 
+M builtin:delay $1I625
+I $1I625 builtin:delay $1N635 $1N629 TPHL=@ABTOF`TPLH=@ABTOF`
+M builtin:nor3 $1I640
+I $1I640 builtin:nor3 $1N646 $1N644 $1N629 $1N627 
+M builtin:and2 $1I639
+I $1I639 builtin:and2 $1N644 $1N718 $1N631 
+M builtin:xor3 $1I641
+I $1I641 builtin:xor3 $1N452 $1N613 $1N72 $1N646 
+M builtin:nor2 $1I669
+I $1I669 builtin:nor2 $1N674 $1N676 $1N691 
+M builtin:xor3 $1I671
+I $1I671 builtin:xor3 $1N688 $1N29 $1N687 $1N674 
+M builtin:delay $1I680
+I $1I680 builtin:delay $1N683 $1N29 TPLH=@ABTOF`TPHL=@ABTOF`
+M builtin:delay $1I681
+I $1I681 builtin:delay $1N685 $1N687 TPHL=@ABTOF`TPLH=@ABTOF`
+M builtin:nand2 $1I698
+I $1I698 builtin:nand2 $1N702 $1N718 $1N694 
+M builtin:xor3 $1I699
+I $1I699 builtin:xor3 $1N707 $1N81 $1N710 $1N702 
+M builtin:delay $1I708
+I $1I708 builtin:delay $1N712 $1N81 TPLH=@ABTOF`TPHL=@ABTOF`
+M builtin:delay $1I709
+I $1I709 builtin:delay $1N714 $1N710 TPHL=@ABTOF`TPLH=@ABTOF`
+P ? ~F0
+I ~F0 ? ~F0
+P ? ~F1
+I ~F1 ? ~F1
+P ? ~F2
+I ~F2 ? ~F2
+P ? CN4
+I CN4 ? CN4
+P ? ~G
+I ~G ? ~G
+P ? AEQB
+I AEQB ? AEQB
+P ? ~P
+I ~P ? ~P
+P ? M
+I M ? M
+P ? ~B2
+I ~B2 ? ~B2
+P ? ~A1
+I ~A1 ? ~A1
+P ? ~A3
+I ~A3 ? ~A3
+P ? S2
+I S2 ? S2
+P ? S1
+I S1 ? S1
+P ? S0
+I S0 ? S0
+P ? S3
+I S3 ? S3
+P ? ~B3
+I ~B3 ? ~B3
+P ? ~B0
+I ~B0 ? ~B0
+P ? ~B1
+I ~B1 ? ~B1
+P ? ~A0
+I ~A0 ? ~A0
+P ? ~A2
+I ~A2 ? ~A2
+P ? ~F3
+I ~F3 ? ~F3
+P ? CN
+I CN ? CN
+EW

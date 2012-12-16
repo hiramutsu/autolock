@@ -1,0 +1,108 @@
+| Wirelist created using version 4.09.
+V 4.09
+K 375405384900 s74ls373
+DW s74ls373
+SA DESIGN_NAME=S74LS373 
+SA USER_NAME=VIEWGEN 
+SA SCH_PGM_NAME=VIEWGEN 
+SA SCH_PGM_VER=3.6 
+SA WIR_FILE_NAME=S74LS373 
+SA WIR_FILE_PATH=S74LS373 
+SA WIR_FILE_DATE= 1 JAN 70 
+SA WIR_FILE_TIME= 0:00 
+SA SCH_FILE_NAME=S74LS373 
+SA SCH_FILE_DATE=24 OCT 97 
+SA SCH_FILE_TIME=16:01 
+SA SHEET=1 
+SA SCH_FILE_PATH=S74LS373 
+AS in PINORDER=IN
+AS in IN
+AP in 1 PINTYPE=IN
+AS dio:not PINORDER=QN A
+AS dio:not MODEL=NOT
+AP dio:not 1 PINTYPE=OUT
+AP dio:not 2 PINTYPE=IN
+AS out OUT
+AS out PINORDER=OUT
+AP out 1 PINTYPE=OUT
+AS dio:trst LEVEL=DIO
+AS dio:trst PINORDER=Q E A
+AP dio:trst 1 PINTYPE=OUT
+AP dio:trst 2 PINTYPE=IN
+AP dio:trst 3 PINTYPE=IN
+AS dio:dlatch PINORDER=Q D G
+AS dio:dlatch LEVEL=DIO
+AP dio:dlatch 1 PINTYPE=OUT
+AP dio:dlatch 2 PINTYPE=IN
+AP dio:dlatch 3 PINTYPE=IN
+P in OCN
+I OCN in OCN 
+M dio:not $1I34
+I $1I34 dio:not TSE2 OCN LABEL=XU_0`
+P in D6
+I D6 in D6 
+P out Q6
+I Q6 out Q6 
+W dio:trst $1I31
+I $1I31 dio:trst Q6 TSE2 QINT6 LABEL=TS3`
+W dio:dlatch $1I30
+I $1I30 dio:dlatch QINT6 D6 G LABEL=QINT6_6`
+P out Q8
+I Q8 out Q8 
+W dio:trst $1I28
+I $1I28 dio:trst Q8 TSE2 QINT8 LABEL=TS1`
+W dio:dlatch $1I27
+I $1I27 dio:dlatch QINT8 D8 G LABEL=QINT8_8`
+P in D8
+I D8 in D8 
+P out Q7
+I Q7 out Q7 
+W dio:trst $1I24
+I $1I24 dio:trst Q7 TSE2 QINT7 LABEL=TS2`
+W dio:dlatch $1I23
+I $1I23 dio:dlatch QINT7 D7 G LABEL=QINT7_7`
+P in D7
+I D7 in D7 
+P out Q5
+I Q5 out Q5 
+W dio:trst $1I20
+I $1I20 dio:trst Q5 TSE2 QINT5 LABEL=TS4`
+W dio:dlatch $1I19
+I $1I19 dio:dlatch QINT5 D5 G LABEL=QINT5_5`
+P in D5
+I D5 in D5 
+P out Q4
+I Q4 out Q4 
+W dio:trst $1I16
+I $1I16 dio:trst Q4 TSE2 QINT4 LABEL=TS5`
+W dio:dlatch $1I15
+I $1I15 dio:dlatch QINT4 D4 G LABEL=QINT4_4`
+P in D4
+I D4 in D4 
+P out Q3
+I Q3 out Q3 
+W dio:trst $1I12
+I $1I12 dio:trst Q3 TSE2 QINT3 LABEL=TS6`
+W dio:dlatch $1I11
+I $1I11 dio:dlatch QINT3 D3 G LABEL=QINT3_3`
+P in D3
+I D3 in D3 
+P in D2
+I D2 in D2 
+W dio:dlatch $1I8
+I $1I8 dio:dlatch QINT2 D2 G LABEL=QINT2_2`
+W dio:trst $1I7
+I $1I7 dio:trst Q2 TSE2 QINT2 LABEL=TS7`
+P out Q2
+I Q2 out Q2 
+W dio:trst $1I5
+I $1I5 dio:trst Q1 TSE2 QINT1 LABEL=TS8`
+W dio:dlatch $1I4
+I $1I4 dio:dlatch QINT1 D1 G LABEL=QINT1_1`
+P in G
+I G in G 
+P out Q1
+I Q1 out Q1 
+P in D1
+I D1 in D1 
+EW

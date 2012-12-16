@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DxArchiverProject version="1">
+	<DxProject Path="U:\wv\EngineeringClasses\EngineeringClasses.prj"/>
+	<TargetDirectory Path="\\en-file\users\jayakusr\Profile\Desktop"/>
+	<Compression Type="Zip"/>
+	<PDF Type="0"/>
+	<AdditionalFiles>
+	</AdditionalFiles>
+</DxArchiverProject>
