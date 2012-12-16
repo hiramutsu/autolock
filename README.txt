@@ -21,7 +21,7 @@ Instructions for commit to git:
 
 	git pull
 	git add . 
-	git commit -m "<whatever you want for a message in quotes>"
+	git commit -m "<whatever you want for a message in quotes>" -a
 	git push
 
 
