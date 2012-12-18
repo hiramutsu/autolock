@@ -143,3 +143,18 @@
 [2012-12-17 22.36.16] Removing excessive [Constraints Definition Upgrade] backup file [U:\EN165\autolock\ProjectBackup\backups\2012-12-17 22.25.08 - consDefUpgr.zip].
 [2012-12-17 22.36.16] [Constraints Definition Upgrade] backup file [autolock\ProjectBackup\backups\2012-12-17 22.25.08 - consDefUpgr.zip] removed.
 [2012-12-17 22.36.16] Migrated iCDB content backup file [cdbback\2012-12-17 22.36.16-4364.zip] removed.
+[2012-12-17 22.40.47] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2012-12-17 22.40.47] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2012-12-17 22.40.47] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2012-12-17 22.40.47] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2012-12-17 22.40.47] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2012-12-17 22.40.47] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2012-12-17 22.40.47] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2012-12-17 22.40.47] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2012-12-17 22.40.47] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2012-12-17 22.40.47] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2012-12-17 22.40.47] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2012-12-17 22.40.48] Successfully created [Constraints Definition Upgrade] backup [2012-12-17 22.40.48 - consDefUpgr.zip] requested by [EN-EL14:jayakusr].
+[2012-12-17 22.40.48] Removing excessive [Constraints Definition Upgrade] backup file [U:\My Documents\engn165\LockProjectWithGit\autolock\ProjectBackup\backups\2012-12-17 22.36.16 - consDefUpgr.zip].
+[2012-12-17 22.40.48] [Constraints Definition Upgrade] backup file [autolock\ProjectBackup\backups\2012-12-17 22.36.16 - consDefUpgr.zip] removed.
+[2012-12-17 22.40.48] Migrated iCDB content backup file [cdbback\2012-12-17 22.40.48-4168.zip] removed.

@@ -1,0 +1,15 @@
+Mon Dec 17 22:40:47 2012
+
+Project path: U:\My Documents\engn165\LockProjectWithGit\autolock\database
+
+Loaded cns info: C:\MentorGraphics\9.4PADS\SDD_HOME\standard\ce_ee.cns=7.10.23;U:\Wv\user.cns=9621-a052-221b-1983-dbaf-0402-caf0-4050-e321-0dfe-ef7c-acc5
+Before global upgrade from version: 7.10.23 to version: 7.10.23
+
+BeforeGlobalUpgrade took 16ms, 0s
+
+Upgrade snapshot DxD
+UpgradeSnapshot took 0ms, 0s
+
+After global upgrade
+AfterGlobalUpgrade took 0ms, 0s
+
