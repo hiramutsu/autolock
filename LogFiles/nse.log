@@ -1,0 +1,3 @@
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj U:\EN165\autolock\EngineeringClasses.prj -file U:\EN165\autolock\Libs\lock/sym/dmg9926usd-13.1 
+nse::setmode -file -prj U:\\EN165\\autolock\\EngineeringClasses.prj -flow netlist
+nse::opensymbol -file U:\\EN165\\autolock\\Libs\\lock\\SYM\\dmg9926usd-13.1 dmg9926usd-13.1

@@ -1,0 +1,198 @@
+[2012.12.17 22:02:22] [0000m.00s.093ms] [0] WELCOME
+[2012.12.17 22:02:22] [0000m.00s.109ms] [1] iCDB Server ver.1.093, 4eaDVz8EvVKuZCsHMzatSQ, build:488395 created 2012-01-27 13:24:08, sources stamp:4eaDVz8EvVKuZCsHMzatSQ
+[2012.12.17 22:02:22] [0000m.00s.109ms] [1] Copyright 2012 Mentor Graphics Corporation. All Rights Reserved.
+[2012.12.17 22:02:22] [0000m.00s.109ms] [1] Base flow version [7.9.3]
+[2012.12.17 22:02:22] [0000m.00s.109ms] [1] GBS Install Id [24044], Flow Id [PADS 9.4.1], Full Flow Name [PADS 9.4.1], Exact Access Date [Nov 1 2011]
+[2012.12.17 22:02:22] [0000m.00s.109ms] [1] Machine [EN-EL16]  User [hovandig]  PID [2340]
+[2012.12.17 22:02:22] [0000m.00s.109ms] [1] Operating system [Microsoft Windows 7 Enterprise Edition, 64-bit Service Pack 1 (build 7601)]
+[2012.12.17 22:02:22] [0000m.00s.109ms] [1] Current working dir [U:\EN165\autolock]
+[2012.12.17 22:02:22] [0000m.00s.109ms] [1] PATH [C:\MentorGraphics\9.4PADS\SDD_HOME\wv\win32\bin;C:\MentorGraphics\9.4PADS\SDD_HOME\common\win32\bin;C:\MentorGraphics\9.4PADS\SDD_HOME\common\win32\lib;C:\MentorGraphics\9.4PADS\MGC_HOME.ixn\bin;C:\MentorGraphics\9.4PADS\MGC_HOME.ixn\lib;C:\Program Files\Microsoft HPC Pack 2008\Bin\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Perl\site\bin;C:\Perl\bin;C:\Program Files (x86)\Measurement Computing\DAQ\;C:\Program Files\Tecplot\TecFocus 2012R1\Bin;C:\Program Files\Tecplot\Tec360 2012R1\Bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Hummingbird\Connectivity\12.00\Accessories\;C:\Program Files\MATLAB\R2012a\runtime\win64;C:\Program Files\MATLAB\R2012a\bin;C:\Program Files (x86)\Agilent\IO Libraries Suite\bin;C:\Program Files\Agilent\IO Libraries Suite\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\agvisa;C:\Program Files\IVI Foundation\VISA\Win64\agvisa;C:\Program Files (x86)\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Aldec\Active-HDL 9.1\bin;c:\altera\90\quartus\bin;C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin;C:\LINGO64_13\;C:\SIMULIA\Abaqus\Commands;P:\LOCAL;C:\altera\90\modelsim_ase\win32aloem;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\modeltech64_10.1b\win64;C:\Program Files (x86)\proeWildfire 4.0\bin;C:\Program Files (x86)\proeWildfire 4.0\mech\bin]
+[2012.12.17 22:02:22] [0000m.00s.109ms] [1] SDD_HOME [C:\MentorGraphics\9.4PADS\SDD_HOME] on file system [NTFS]
+[2012.12.17 22:02:22] [0000m.00s.109ms] [1] SDD_PLATFORM [win32]
+[2012.12.17 22:02:22] [0000m.00s.109ms] [1] WDIR [U:\Wv;C:\MentorGraphics\9.4PADS\SDD_HOME\standard]
+[2012.12.17 22:02:22] [0000m.00s.109ms] [1] Local iCDB working dir [U:\Wv\iCDB] on file system [NTFS]
+[2012.12.17 22:02:22] [0000m.00s.109ms] [2] S: Loading config files
+[2012.12.17 22:02:22] [0000m.00s.124ms] [1] Config file [U:\EN165\autolock\database\cdbsvr\Server.cfg] not found
+[2012.12.17 22:02:22] [0000m.00s.140ms] [3] S: Config loaded
+[2012.12.17 22:02:22] [0000m.00s.202ms] [0] S: Project path [U:\EN165\autolock\database] on file system [NTFS]
+[2012.12.17 22:02:22] [0000m.00s.202ms] [0] S: Project global path [\\en-file\Users\hovandig\EN165\autolock\database] on file system [NTFS]
+[2012.12.17 22:02:22] [0000m.00s.202ms] [0] S: Project file (.prj) path [\\en-file\Users\hovandig\EN165\autolock\EngineeringClasses.prj] on file system [UNKNOWN]
+[2012.12.17 22:02:22] [0000m.00s.202ms] [0] S: Project file (.prj) local path [U:\EN165\autolock\EngineeringClasses.prj] on file system [NTFS]
+[2012.12.17 22:02:22] [0000m.00s.218ms] [0] S: Single-user mode (auto)
+[2012.12.17 22:02:22] [0000m.00s.218ms] [0] S: Event polling mode autodetection
+[2012.12.17 22:02:22] [0000m.00s.218ms] [0] S: Started up automatically by iCDB Client: EN-EL16:hovandig:4648
+[2012.12.17 22:02:22] [0000m.00s.218ms] [0] S: Auto close mode
+[2012.12.17 22:02:22] [0000m.00s.218ms] [0] S: Database ID [25bc-ff2c-3722-17db-dbcd-fc02-ccdf-c050-a551-0dfe-ef9c-4dc5]
+[2012.12.17 22:02:22] [0000m.00s.218ms] [0] PathTranslator: BEGIN dumping
+[2012.12.17 22:02:22] [0000m.00s.218ms] [0] PathTranslator: Local -> global path prefix list
+[2012.12.17 22:02:22] [0000m.00s.218ms] [0] PathTranslator: [P:\] -> [\\en-file\apps2\]
+[2012.12.17 22:02:22] [0000m.00s.218ms] [0] PathTranslator: [U:\] -> [\\en-file\Users\hovandig\]
+[2012.12.17 22:02:22] [0000m.00s.218ms] [0] PathTranslator: Global -> local path prefix list
+[2012.12.17 22:02:22] [0000m.00s.218ms] [0] PathTranslator: [\\en-file\Users\hovandig\] -> [U:\]
+[2012.12.17 22:02:22] [0000m.00s.218ms] [0] PathTranslator: [\\en-file\apps2\] -> [P:\]
+[2012.12.17 22:02:22] [0000m.00s.218ms] [0] PathTranslator: END dumping
+[2012.12.17 22:02:22] [0000m.00s.218ms] [0] S: START
+[2012.12.17 22:02:22] [0000m.00s.218ms] [0] S: Server startup lock file created
+[2012.12.17 22:02:22] [0000m.00s.234ms] [0] S: Listening for client connections on port [10000]
+[2012.12.17 22:02:22] [0000m.00s.234ms] [0] S: Server network ID [en-el16:128.148.203.166,en-el16,en-el16.engin.brown.edu:10000]
+[2012.12.17 22:02:22] [0000m.00s.234ms] [0] S: Server GUID [c00a-4371-1ce2-0514-ebcd-fc03-ccdf-c050-6941-0dfe-ef9c-4dc5]
+[2012.12.17 22:02:22] [0000m.00s.234ms] [0] S: Project GUID [25bc-ff2c-3722-17db-dbcd-fc02-ccdf-c050-a551-0dfe-ef9c-4dc5]
+[2012.12.17 22:02:22] [0000m.00s.249ms] [0] S: Wrote data to server address file
+[2012.12.17 22:02:22] [0000m.00s.249ms] [0] S: Server startup lock file removed
+[2012.12.17 22:02:22] [0000m.00s.249ms] [1] ProjectBackupManager: Setting project file (.prj) path: [U:\EN165\autolock\EngineeringClasses.prj]
+[2012.12.17 22:02:22] [0000m.00s.390ms] [0] PrjBackupMgr: Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2012.12.17 22:02:22] [0000m.00s.390ms] [0] PrjBackupMgr: WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2012.12.17 22:02:22] [0000m.00s.405ms] [0] PrjBackupMgr: WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2012.12.17 22:02:22] [0000m.00s.405ms] [0] PrjBackupMgr: WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2012.12.17 22:02:22] [0000m.00s.405ms] [0] PrjBackupMgr: WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2012.12.17 22:02:22] [0000m.00s.405ms] [0] PrjBackupMgr: WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2012.12.17 22:02:22] [0000m.00s.405ms] [0] PrjBackupMgr: WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2012.12.17 22:02:22] [0000m.00s.405ms] [0] PrjBackupMgr: WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2012.12.17 22:02:22] [0000m.00s.421ms] [0] PrjBackupMgr: WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2012.12.17 22:02:22] [0000m.00s.421ms] [0] PrjBackupMgr: WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2012.12.17 22:02:22] [0000m.00s.421ms] [0] PrjBackupMgr: WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2012.12.17 22:02:22] [0000m.00s.499ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2012.12.17 22:02:22] [0000m.00s.499ms] [0] S: Local disc access time: 29 us
+[2012.12.17 22:02:22] [0000m.00s.499ms] [0] S: File server access time: 1116 us
+[2012.12.17 22:02:22] [0000m.00s.499ms] [0] S: Server will not release in-memory storage after read (memory usage overhead) - for better performance
+[2012.12.17 22:02:22] [0000m.00s.530ms] [0] Single file [U:\EN165\autolock\database\icdb.dat] size [151992 (148.4 kB)]
+[2012.12.17 22:02:22] [0000m.00s.530ms] [1] Single file [U:\EN165\autolock\database\icdb.dat] opened in read-write mode
+[2012.12.17 22:02:22] [0000m.00s.530ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2012.12.17 22:02:22] [0000m.00s.530ms] [0] Database GUARD OK: [151992]
+[2012.12.17 22:02:22] [0000m.00s.546ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2012.12.17 22:02:22] [0000m.00s.561ms] [0] Database GUARD OK: [151992]
+[2012.12.17 22:02:22] [0000m.00s.561ms] [0] SingleFile: [96db-f93d-e3ae-25f1] SFI version check [1009] [1009]
+[2012.12.17 22:02:22] [0000m.00s.561ms] [0] SingleFile: [96db-f93d-e3ae-25f1] Database SFI header has been read in [4ms 207us]
+[2012.12.17 22:02:22] [0000m.00s.561ms] [0] iCDB Server PI: Server & plugin session [170]
+[2012.12.17 22:02:22] [0000m.00s.561ms] [0] iCDB Server PI: Opening database [U:\EN165\autolock\database]
+[2012.12.17 22:02:22] [0000m.00s.561ms] [0] iCDB Server PI: Database [U:\EN165\autolock\database] opened
+[2012.12.17 22:02:22] [0000m.00s.577ms] [0] iCDB Database: Checking existence of constraint definitions
+[2012.12.17 22:02:22] [0000m.00s.577ms] [0] iCDB Database: Checking constraint definitions version
+[2012.12.17 22:02:22] [0000m.00s.655ms] [0] iCDB Database: Creating database content backup before upgrade
+[2012.12.17 22:02:22] [0000m.00s.655ms] [1] iCDB Storage Server: Database backup: ProjectPath[U:\EN165\autolock\database]
+[2012.12.17 22:02:22] [0000m.00s.655ms] [0] iCDB Storage Server Backup Thread: Database backup: BackupPath[U:\EN165\autolock\database\cdbback\2012-12-17 22.02.22-2340.zip]
+[2012.12.17 22:02:22] [0000m.00s.702ms] [0] iCDB Storage Server Backup Thread: Backup database DONE: Result[ Succeeded[TRUE]] BackupPath[U:\EN165\autolock\database\cdbback\2012-12-17 22.02.22-2340.zip]
+[2012.12.17 22:02:22] [0000m.00s.702ms] [0] iCDB Database: Database content backed up to [U:\EN165\autolock\database\cdbback\2012-12-17 22.02.22-2340.zip] of size [105 571 bytes (103.1 kB)]  in [49ms 19us]
+[2012.12.17 22:02:22] [0000m.00s.733ms] [0] iCDB Database: Upgrading constraint definitions from version [ce_ee.cns=7.10.23;user.cns=9621-a052-221b-1983-dbaf-0402-caf0-4050-e321-0dfe-ef7c-acc5]
+[2012.12.17 22:02:22] [0000m.00s.733ms] [0] iCDB Database: Loading snapshot [1:DxD] version [2704]
+[2012.12.17 22:02:22] [0000m.00s.764ms] [0] iCDB Database: Snapshot [1:DxD] loaded in [17ms 634us]
+[2012.12.17 22:02:22] [0000m.00s.764ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [1:DxD]
+[2012.12.17 22:02:22] [0000m.00s.764ms] [0] iCDB Database: Constraint definitions for snapshot [1:DxD] upgraded in [4ms 142us]
+[2012.12.17 22:02:22] [0000m.00s.764ms] [0] iCDB Database: Saving snapshot [1:DxD]
+[2012.12.17 22:02:22] [0000m.00s.764ms] [0] iCDB Database: Snapshot [1:DxD] saved in [263us]
+[2012.12.17 22:02:22] [0000m.00s.780ms] [0] iCDB Database: Constraint definitions upgraded to version [ce_ee.cns=7.10.23;user.cns=ad1f-03ce-dea3-cdef-eac1-dc03-bc1d-c050-2231-0dfe-ef9c-4dc5]
+[2012.12.17 22:02:22] [0000m.00s.858ms] [0] iCDB Server PI: Initializing plugins
+[2012.12.17 22:02:22] [0000m.00s.873ms] [0] iCDB Server PI: Plugins initialized
+[2012.12.17 22:02:22] [0000m.00s.873ms] [0] S: iCDB database loaded
+[2012.12.17 22:02:23] [0000m.00s.951ms] [1] PrjBackupMgr: Successfully created Project Backup [U:\EN165\autolock\ProjectBackup\backups\2012-12-17 22.02.22 - consDefUpgr.zip] with GUID [683f-97f7-9982-1112-ebcd-fc03-ccdf-c050-6941-0dfe-ef9c-4dc5]
+[2012.12.17 22:02:23] [0000m.00s.951ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[c41b-b7c1-4cfe-9847-a490-cc0f-490c-c050-edf0-0dfe-ef9c-0dc5] CreationTime[Saturday, December 15, 2012 05:23:22] Type[Autosave] Creator[iCDB Server (2012-12-14 20.23.21-1876)] ApplicationName[iCDB Server (2012-12-14 20.23.21-1876)] UserName[hovandig] MachineName[EN-EL14] Description[Autosave] FullFlowName[PADS 9.4.1] FlowId[PADS 9.4.1] GBSInstallId[24044] GBSBuildId[488395] IcdbVersion[2704] ReferenceLogFilePath[] BackupFilePath[U:\EN165\autolock\ProjectBackup\backups\2012-12-15 00.23.22 - auto.zip] BackupFileSize[6383345] Persistent[FALSE]
+[2012.12.17 22:02:23] [0000m.00s.967ms] [0] PrjBackupMgr: Project Backup file [U:\EN165\autolock\ProjectBackup\backups\2012-12-15 00.23.22 - auto.zip] with GUID [c41b-b7c1-4cfe-9847-a490-cc0f-490c-c050-edf0-0dfe-ef9c-0dc5] removed
+[2012.12.17 22:02:23] [0000m.00s.967ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[f6b0-5123-18d7-85bc-fac1-dc04-bc1d-c050-28e0-0dfe-ef9c-4dc5] CreationTime[Sunday, December 16, 2012 00:58:23] Type[Autosave] Creator[iCDB Server (2012-12-15 19.58.22-3040)] ApplicationName[iCDB Server (2012-12-15 19.58.22-3040)] UserName[hovandig] MachineName[EN-EL16] Description[Autosave] FullFlowName[PADS 9.4.1] FlowId[PADS 9.4.1] GBSInstallId[24044] GBSBuildId[488395] IcdbVersion[2704] ReferenceLogFilePath[] BackupFilePath[U:\EN165\autolock\ProjectBackup\backups\2012-12-15 19.58.23 - auto.zip] BackupFileSize[6465212] Persistent[FALSE]
+[2012.12.17 22:02:23] [0000m.00s.982ms] [0] PrjBackupMgr: Project Backup file [U:\EN165\autolock\ProjectBackup\backups\2012-12-15 19.58.23 - auto.zip] with GUID [f6b0-5123-18d7-85bc-fac1-dc04-bc1d-c050-28e0-0dfe-ef9c-4dc5] removed
+[2012.12.17 22:02:23] [0000m.00s.998ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[ebc8-3e58-556d-30a1-6c03-dc0b-c03d-c050-a351-0dfe-ef9c-4dc5] CreationTime[Sunday, December 16, 2012 02:24:06] Type[ConsDefUpgrade] Creator[iCDB Server (2012-12-15 21.24.05-3864)] ApplicationName[iCDB Server (2012-12-15 21.24.05-3864)] UserName[hovandig] MachineName[EN-EL16] Description[Before constraint definitions upgrade from version:\n    ce_ee.cns=7.10.23;user.cns=9621-a052-221b-1983-dbaf-0402-caf0-4050-e321-0dfe-ef7c-acc5\nto version:\n    ce_ee.cns=7.10.23;user.cns=ad1f-03ce-dea3-cdef-eac1-dc03-bc1d-c050-2231-0dfe-ef9c-4dc5\nof the same flow install:\n    PADS 9.4.1\n    Flow Id: PADS 9.4.1\n    GBS Install Id: 24044\n    iCDB GBS Build Id: 488395\n    iCDB Version: 2704] FullFlowName[PADS 9.4.1] FlowId[PADS 9.4.1] GBSInstallId[24044] GBSBuildId[488395] IcdbVersion[2704] ReferenceLogFilePath[database\cdbsvr\dbupgrade\2012-12-15 21.24.06-3864\2012.12.15.upgrade.txt] BackupFilePath[U:\EN165\autolock\ProjectBackup\backups\2012-12-15 21.24.06 - consDefUpgr.zip] BackupFileSize[107213] Persistent[FALSE]
+[2012.12.17 22:02:23] [0000m.01s.014ms] [0] PrjBackupMgr: Project Backup file [U:\EN165\autolock\ProjectBackup\backups\2012-12-15 21.24.06 - consDefUpgr.zip] with GUID [ebc8-3e58-556d-30a1-6c03-dc0b-c03d-c050-a351-0dfe-ef9c-4dc5] removed
+[2012.12.17 22:02:23] [0000m.01s.014ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[3b7d-5f5f-8c87-66de-629d-fc0b-29df-c050-e4e0-0dfe-ef9c-0dc5] CreationTime[Tuesday, December 18, 2012 02:47:02] Type[ConsDefUpgrade] Creator[iCDB Server (2012-12-17 21.47.01-1120)] ApplicationName[iCDB Server (2012-12-17 21.47.01-1120)] UserName[jayakusr] MachineName[EN-EL14] Description[Before constraint definitions upgrade from version:\n    ce_ee.cns=7.10.23;user.cns=ad1f-03ce-dea3-cdef-eac1-dc03-bc1d-c050-2231-0dfe-ef9c-4dc5\nto version:\n    ce_ee.cns=7.10.23;user.cns=9621-a052-221b-1983-dbaf-0402-caf0-4050-e321-0dfe-ef7c-acc5\nof the same flow install:\n    PADS 9.4.1\n    Flow Id: PADS 9.4.1\n    GBS Install Id: 24044\n    iCDB GBS Build Id: 488395\n    iCDB Version: 2704] FullFlowName[PADS 9.4.1] FlowId[PADS 9.4.1] GBSInstallId[24044] GBSBuildId[488395] IcdbVersion[2704] ReferenceLogFilePath[database\cdbsvr\dbupgrade\2012-12-17 21.47.02-1120\2012.12.17.upgrade.txt] BackupFilePath[U:\EN165\autolock\ProjectBackup\backups\2012-12-17 21.47.02 - consDefUpgr.zip] BackupFileSize[107245] Persistent[FALSE]
+[2012.12.17 22:02:23] [0000m.01s.029ms] [0] PrjBackupMgr: Project Backup file [U:\EN165\autolock\ProjectBackup\backups\2012-12-17 21.47.02 - consDefUpgr.zip] with GUID [3b7d-5f5f-8c87-66de-629d-fc0b-29df-c050-e4e0-0dfe-ef9c-0dc5] removed
+[2012.12.17 22:02:23] [0000m.01s.045ms] [1] PrjBackupMgr: Migrated iCDB content backup file [U:\EN165\autolock\database\cdbback\2012-12-17 22.02.22-2340.zip] removed
+[2012.12.17 22:02:23] [0000m.01s.045ms] [0] S: Starting threads
+[2012.12.17 22:02:23] [0000m.01s.045ms] [0] BT: Listening for broadcast messages on port [10000]
+[2012.12.17 22:02:23] [0000m.01s.045ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2012.12.17 22:02:23] [0000m.01s.060ms] [0] IT: Session [171] for host [en-el16] user [hovandig] with process ID [4648] created
+[2012.12.17 22:02:23] [0000m.01s.060ms] [1] SCL: WARNING: Could not find client [171] stat data
+[2012.12.17 22:02:23] [0000m.01s.060ms] [1] SC[171]: Registered sub-client [DxD] with ID [1] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:23] [0000m.01s.092ms] [1] SC[171]: Registered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:23] [0000m.01s.107ms] [1] SC[171]: Registered sub-client [xprob] with ID [3] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:23] [0000m.01s.154ms] [1] CMT: There are [1] clients now: 171
+[2012.12.17 22:02:24] [0000m.02s.667ms] [1] SC[171]: Registered sub-client [SelectionHolder] with ID [4] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:25] [0000m.03s.026ms] [1] SC[171]: Registered sub-client [HdlProject] with ID [5] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:25] [0000m.03s.057ms] [1] SC[171]: Registered sub-client [Navigator] with ID [6] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:25] [0000m.03s.089ms] [1] SC[171]: Registered sub-client [OutputWindow] with ID [7] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:25] [0000m.03s.104ms] [1] SC[171]: Registered sub-client [PlaceDevice] with ID [8] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:25] [0000m.03s.151ms] [1] SC[171]: Registered sub-client [SAE] with ID [9] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:25] [0000m.03s.182ms] [1] SC[171]: Registered sub-client [DxConstraints] with ID [10] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:25] [0000m.03s.198ms] [1] SC[171]: Registered sub-client [CCZAddin] with ID [11] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:25] [0000m.03s.198ms] [1] SC[171]: Registered sub-client [DxThumbnails] with ID [12] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:25] [0000m.03s.525ms] [1] SC[171]: Registered sub-client [SheetConnectorsCacheDxD:1355799745] with ID [13] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:25] [0000m.03s.525ms] [1] SC[171]: Registered sub-client [NetsNamesCollectorDxD:1355799745] with ID [14] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:25] [0000m.03s.541ms] [1] SC[171]: Registered sub-client [DxDbSearch] with ID [15] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:25] [0000m.03s.557ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [16] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:25] [0000m.03s.557ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [16] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:26] [0000m.03s.978ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [17] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:26] [0000m.03s.978ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [17] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:27] [0000m.04s.992ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [18] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:27] [0000m.04s.992ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [18] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:27] [0000m.05s.772ms] [1] SC[171]: Registered sub-client [BlockCacheDxD:281086504] with ID [19] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:27] [0000m.05s.772ms] [1] SC[171]: Registered sub-client [ObjectHolder_276286024] with ID [20] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:27] [0000m.05s.772ms] [1] SC[171]: Registered sub-client [GlobalNetAliasUpdater_276286200] with ID [21] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:27] [0000m.05s.788ms] [1] SC[171]: Registered sub-client [IcdbNetProcessorSubClientDxD:278989672] with ID [22] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:28] [0000m.06s.068ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [23] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:28] [0000m.06s.068ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [23] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:29] [0000m.07s.020ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [24] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:29] [0000m.07s.020ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [24] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:30] [0000m.08s.065ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [25] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:30] [0000m.08s.065ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [25] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:31] [0000m.09s.048ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [26] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:31] [0000m.09s.048ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [26] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:32] [0000m.10s.062ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [27] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:32] [0000m.10s.062ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [27] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:33] [0000m.11s.076ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [28] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:33] [0000m.11s.076ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [28] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:34] [0000m.12s.090ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [29] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:34] [0000m.12s.090ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [29] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:35] [0000m.13s.104ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [30] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:35] [0000m.13s.104ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [30] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:36] [0000m.14s.118ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [31] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:36] [0000m.14s.118ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [31] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:37] [0000m.15s.133ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [32] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:37] [0000m.15s.133ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [32] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:38] [0000m.16s.147ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [33] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:38] [0000m.16s.162ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [33] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:39] [0000m.17s.161ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [34] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:39] [0000m.17s.161ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [34] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:40] [0000m.18s.175ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [35] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:40] [0000m.18s.175ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [35] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:41] [0000m.19s.189ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [36] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:41] [0000m.19s.204ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [36] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:42] [0000m.20s.203ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [37] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:42] [0000m.20s.203ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [37] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:43] [0000m.21s.217ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [38] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:43] [0000m.21s.217ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [38] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.231ms] [1] SC[171]: Registered sub-client [LDD_ECO_IMPORT] with ID [39] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.231ms] [1] SC[171]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [39] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.871ms] [1] SC[171]: UnRegistered sub-client [Navigator] with ID [6] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.871ms] [1] SC[171]: UnRegistered sub-client [OutputWindow] with ID [7] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.871ms] [1] SC[171]: UnRegistered sub-client [PlaceDevice] with ID [8] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.871ms] [1] SC[171]: UnRegistered sub-client [DxDbSearch] with ID [15] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.871ms] [1] SC[171]: UnRegistered sub-client [SAE] with ID [9] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.871ms] [1] SC[171]: UnRegistered sub-client [DxConstraints] with ID [10] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.871ms] [1] SC[171]: UnRegistered sub-client [CCZAddin] with ID [11] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.871ms] [1] SC[171]: UnRegistered sub-client [DxThumbnails] with ID [12] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.871ms] [1] SC[171]: UnRegistered sub-client [HdlProject] with ID [5] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.886ms] [1] SC[171]: UnRegistered sub-client [GlobalNetAliasUpdater_276286200] with ID [21] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.886ms] [1] SC[171]: UnRegistered sub-client [BlockCacheDxD:281086504] with ID [19] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.886ms] [1] SC[171]: UnRegistered sub-client [ObjectHolder_276286024] with ID [20] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.886ms] [1] SC[171]: UnRegistered sub-client [IcdbNetProcessorSubClientDxD:278989672] with ID [22] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.886ms] [1] SC[171]: UnRegistered sub-client [SelectionHolder] with ID [4] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.886ms] [1] SC[171]: UnRegistered sub-client [SheetConnectorsCacheDxD:1355799745] with ID [13] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.886ms] [1] SC[171]: UnRegistered sub-client [NetsNamesCollectorDxD:1355799745] with ID [14] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.918ms] [1] SC[171]: UnRegistered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:44] [0000m.22s.918ms] [1] SC[171]: UnRegistered sub-client [DxD] with ID [1] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:45] [0000m.22s.980ms] [1] SC[171]: UnRegistered sub-client [xprob] with ID [3] for session ID [171] host [en-el16] user [hovandig] process ID [4648]
+[2012.12.17 22:02:45] [0000m.22s.996ms] [1] CMT: Removed client [171]
+[2012.12.17 22:02:45] [0000m.22s.996ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2012.12.17 22:02:47] [0000m.24s.961ms] [0] CMT: Starting server auto-close
+[2012.12.17 22:02:47] [0000m.24s.977ms] [0] S: Closing server
+[2012.12.17 22:02:47] [0000m.25s.117ms] [0] iCDB Server PI: Closing plugins
+[2012.12.17 22:02:47] [0000m.25s.117ms] [0] iCDB Server PI: Plugins closed
+[2012.12.17 22:02:47] [0000m.25s.117ms] [0] iCDB Server PI: Unloading database
+[2012.12.17 22:02:47] [0000m.25s.117ms] [0] iCDB Server PI: Saving storage
+[2012.12.17 22:02:47] [0000m.25s.117ms] [0] iCDB Server PI: Closing database
+[2012.12.17 22:02:47] [0000m.25s.117ms] [1] iCDB Server PI: Stats: Database defragmentation: max[2] avg[1] holes[0%] data[94%]
+[2012.12.17 22:02:47] [0000m.25s.117ms] [1] iCDB Server PI: Stats: Database file size [157440 (153.8 kB)]
+[2012.12.17 22:02:47] [0000m.25s.133ms] [0] iCDB Server PI: Database closed
+[2012.12.17 22:02:47] [0000m.25s.133ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [672] ticks
+[2012.12.17 22:02:47] [0000m.25s.133ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [224] microseconds
+[2012.12.17 22:02:47] [0000m.25s.133ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [3]
+[2012.12.17 22:02:47] [0000m.25s.133ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [13369] commands per second
+[2012.12.17 22:02:47] [0000m.25s.164ms] [0] Single file [U:\EN165\autolock\database\icdb.dat] closed with size [157440 (153.8 kB)]
+[2012.12.17 22:02:47] [0000m.25s.398ms] [0] S: STOP

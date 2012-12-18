@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DxDesigner_Configuration_file version="1.2" name="DxDesigner.xml">
+  <DxDesigner>
+    <SETTINGS>
+      <key name="TIPOFTHEDAYTIMESTAMP" value="Tue Aug 21 13:21:14 2012"/>
+      <key name="TIPOFTHEDAYFILEPOS" value="2163"/>
+      <key name="MRU_PROJECTS">
+        <value>D:\Users\hovandig\Downloads\EngineeringClasses20121207175058\EngineeringClasses\EngineeringClasses.prj</value>
+        <value>U:\EN165\autolock\EngineeringClasses.prj</value>
+        <value>U:\EN165\autolock\EngineeringClasses\EngineeringClasses.prj</value>
+      </key>
+    </SETTINGS>
+  </DxDesigner>
+  <ConstraintsEditor>
+    <SETTINGS>
+      <key name="AttributeTooltips" value="1"/>
+      <key name="ComponentDisplayFormat" value="$NAME"/>
+      <key name="ConstraintsDisplay" value="1"/>
+      <key name="ExpandBuses" value="1"/>
+      <key name="HighlightEnabled" value="1"/>
+      <key name="HighlightLineOffset" value="2"/>
+      <key name="HighlightLineThickness" value="4"/>
+      <key name="NetComsLimit" value="10"/>
+      <key name="NetDisplayFormat" value="$NAME"/>
+      <key name="ScrollableTabs" value="0"/>
+    </SETTINGS>
+  </ConstraintsEditor>
+</DxDesigner_Configuration_file>
