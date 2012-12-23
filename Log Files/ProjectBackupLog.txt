@@ -158,3 +158,21 @@
 [2012-12-17 22.40.48] Removing excessive [Constraints Definition Upgrade] backup file [U:\My Documents\engn165\LockProjectWithGit\autolock\ProjectBackup\backups\2012-12-17 22.36.16 - consDefUpgr.zip].
 [2012-12-17 22.40.48] [Constraints Definition Upgrade] backup file [autolock\ProjectBackup\backups\2012-12-17 22.36.16 - consDefUpgr.zip] removed.
 [2012-12-17 22.40.48] Migrated iCDB content backup file [cdbback\2012-12-17 22.40.48-4168.zip] removed.
+[2012-12-23 01.42.22] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2012-12-23 01.42.22] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2012-12-23 01.42.22] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2012-12-23 01.42.22] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2012-12-23 01.42.22] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2012-12-23 01.42.22] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2012-12-23 01.42.22] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2012-12-23 01.42.22] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2012-12-23 01.42.22] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2012-12-23 01.42.22] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2012-12-23 01.42.22] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2012-12-23 01.42.23] Successfully created [Constraints Definition Upgrade] backup [2012-12-23 01.42.23 - consDefUpgr.zip] requested by [VOLTA:Ian].
+[2012-12-23 01.42.23] Removing excessive [Constraints Definition Upgrade] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2012-12-17 22.40.48 - consDefUpgr.zip].
+[2012-12-23 01.42.23] [Constraints Definition Upgrade] backup file [autolock\ProjectBackup\backups\2012-12-17 22.40.48 - consDefUpgr.zip] removed.
+[2012-12-23 01.42.23] Migrated iCDB content backup file [cdbback\2012-12-23 01.42.23-6652.zip] removed.
+[2012-12-23 01.42.24] Successfully created [AutoSave] backup [2012-12-23 01.42.23 - auto.zip] requested by [VOLTA:Ian].
+[2012-12-23 01.42.24] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2012-12-15 21.24.06 - auto.zip].
+[2012-12-23 01.42.24] [AutoSave] backup file [autolock\ProjectBackup\backups\2012-12-15 21.24.06 - auto.zip] removed.
