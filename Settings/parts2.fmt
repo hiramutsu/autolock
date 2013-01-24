@@ -1,0 +1,23 @@
+MENUTXT Parts List 2
+
+PARTS LIST 2 REPORT -- JOBNM -- TIME
+# NOTE : MAXCOLS and an all ascii record are mutually exclusive
+#        inside a FOR Loop
+
+
+
+Part Type             Description
+-------------------------------------------------------------------------------
+
+FOR ALL PACKAGES {
+ MAXCOLS 2
+ COLUMNS 1 22
+ PKGNAME
+ PKGDSCR
+    FOR ALL COMPONENTS {
+      MAXCOLS 5
+      COLUMNS 6 23 40 57 74
+                 COMPNAME
+ }
+
+}

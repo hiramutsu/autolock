@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<PartListerConfiguration version="2">
+  <Entry name="outputVersion" value="1"/>
+  <Entry name="outputFormat" value="PLAIN"/>
+  <Entry name="pagination" value="NO"/>
+  <Entry name="pagelength" value="65535"/>
+  <Entry name="delimiter" value=" &#9;"/>
+  <Entry name="delimiterbefore" value="NO"/>
+  <Entry name="delimiterafter" value="NO"/>
+  <Entry name="addTitleRow" value="YES"/>
+  <Entry name="ignoreColumnWidths" value="NO"/>
+  <Header>
+    <Line text="Board: $(NAME)         $(DATE) at $(TIME)  "/>
+    <Line text=" "/>
+    <Line text="Part Lister output from project: $(NAME)"/>
+    <Line text="Generated on $(DATE) at $(TIME)"/>
+    <Line text=" "/>
+    <Line text=" "/>
+  </Header>
+  <Columns>
+    <Column type="NUMBER" label="#" width="4" justification="RIGHT"/>
+    <Column type="QUANTITY" label="QTY" width="4" justification="RIGHT" sum="YES"/>
+    <Column type="PROPERTY" property="VENDOR" label="Vendor P.N." width="30" justification="LEFT" key="PRIMARY" display="Compress"/>
+    <Column type="PROPERTY" property="UCOST" label=" UCOST" width="7" justification="RIGHT" dec="2" key="PRIMARY" display="Compress"/>
+    <Column type="PROPERTY" property="SUPPLIER" label="UCOST1K+" width="8" justification="RIGHT" key="PRIMARY" display="Compress"/>
+    <Column type="PROPERTY" property="REFDES" label="REFDES" width="108" justification="LEFT" sort="ASCENDING" key="SECONDARY" display="Full" delimiter=" "/>
+    <Column type="PROPERTY" property="DEVICE" label="Device" width="36" justification="LEFT" key="PRIMARY" display="Compress"/>
+    <Column type="PROPERTY" property="PKG_TYPE" label="PKG_TYPE" width="32" justification="LEFT" key="PRIMARY" display="Compress"/>
+    <Column type="PROPERTY" property="VALUE" label="Value" width="6" justification="LEFT" key="PRIMARY" display="Compress"/>
+    <Column type="TEXT" label="Ext Cost" width="8" justification="RIGHT" text=""/>
+    <Column type="PROPERTY" property="SUPPLIER" label="Supplier" width="8" justification="RIGHT" key="PRIMARY" display="Compress"/>
+  </Columns>
+  <Preprocessor>
+    <Rule attribute="CLASS" name="Part List Exclude" regexp="TESTPOINT" value="True"/>
+    <Rule attribute="Part Number" regexp="(.*)\|(.*)" value="\1"/>
+  </Preprocessor>
+</PartListerConfiguration>

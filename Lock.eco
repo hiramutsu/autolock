@@ -1,0 +1,372 @@
+*PADS-ECO-V9.5-MILS*
+*REMARK*  old file: C:\Users\Ian\Documents\GitHub\autolock\Lock3_routedTry3_wPlane_andHeaderUseful_BoardPo04.asc
+*REMARK*  new file: C:\Users\Ian\Documents\GitHub\autolock\Lock.asc
+*REMARK*  created by ECOGEN (Version 6.4v) on 1/21/2013 7:01:20 AM
+*CHGPART*
+P4  HDR6X2_01IN_RTSHR_THRU  67996-206HLF
+*DEL_ATTRIBUTE*	PCB	DEFAULT
+"AutoDimensioning.Text_DisplacementValue"
+"Blaze.TestPoint.Color"
+"Blaze.Thermal.Color"
+"CAM.Apply Oversize To All Pads"
+"Guard.BandColor"
+*DEL_ATTRIBUTE*	PART	C6
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	C10
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	C8
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	F1
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	D1
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	U2
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	TP2
+"Rules.Clearance.Board.Pad"
+"Rules.Clearance.Board.SMD"
+"Rules.Clearance.Drill.Pad"
+"Rules.Clearance.Drill.SMD"
+"Rules.Clearance.Drill.Trace"
+"Rules.Clearance.Drill.Via"
+"Rules.Clearance.Pad.Pad"
+"Rules.Clearance.Pad.Trace"
+"Rules.Clearance.Pad.Via"
+"Rules.Clearance.SMD.Pad"
+"Rules.Clearance.SMD.SMD"
+"Rules.Clearance.SMD.Trace"
+"Rules.Clearance.SMD.Via"
+"Rules.Clearance.Text.Pad"
+"Rules.Clearance.Text.SMD"
+"Rules.Clearance.Text.Trace"
+"Rules.Clearance.Text.Via"
+"Rules.Clearance.Trace.Trace"
+"Rules.Clearance.Via.Trace"
+"Rules.Clearance.Via.Via"
+"Rules.SameNet.Pad.Crn"
+"Rules.SameNet.SMD.Crn"
+"Rules.SameNet.SMD.Via"
+"Rules.Width.Maximum"
+"Rules.Width.Minimum"
+"Rules.Width.Recommended"
+*DEL_ATTRIBUTE*	PART	TP1
+"Rules.Clearance.Board.Pad"
+"Rules.Clearance.Board.SMD"
+"Rules.Clearance.Drill.Pad"
+"Rules.Clearance.Drill.SMD"
+"Rules.Clearance.Drill.Trace"
+"Rules.Clearance.Drill.Via"
+"Rules.Clearance.Pad.Pad"
+"Rules.Clearance.Pad.Trace"
+"Rules.Clearance.Pad.Via"
+"Rules.Clearance.SMD.Pad"
+"Rules.Clearance.SMD.SMD"
+"Rules.Clearance.SMD.Trace"
+"Rules.Clearance.SMD.Via"
+"Rules.Clearance.Text.Pad"
+"Rules.Clearance.Text.SMD"
+"Rules.Clearance.Text.Trace"
+"Rules.Clearance.Text.Via"
+"Rules.Clearance.Trace.Trace"
+"Rules.Clearance.Via.Trace"
+"Rules.Clearance.Via.Via"
+"Rules.SameNet.Pad.Crn"
+"Rules.SameNet.SMD.Crn"
+"Rules.SameNet.SMD.Via"
+"Rules.Width.Maximum"
+"Rules.Width.Minimum"
+"Rules.Width.Recommended"
+*DEL_ATTRIBUTE*	PART	C5
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	M2
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	U3
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	M1
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	C1
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	R5
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	R10
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	R8
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	R1
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	R2
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	R7
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	R9
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	P4
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	C2
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	U5
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	C4
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	C7
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	C9
+"Rules.Width.Minimum"
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	TP13
+"Rules.Clearance.Board.Pad"
+"Rules.Clearance.Board.SMD"
+"Rules.Clearance.Drill.Pad"
+"Rules.Clearance.Drill.SMD"
+"Rules.Clearance.Drill.Trace"
+"Rules.Clearance.Drill.Via"
+"Rules.Clearance.Pad.Pad"
+"Rules.Clearance.Pad.Trace"
+"Rules.Clearance.Pad.Via"
+"Rules.Clearance.SMD.Pad"
+"Rules.Clearance.SMD.SMD"
+"Rules.Clearance.SMD.Trace"
+"Rules.Clearance.SMD.Via"
+"Rules.Clearance.Text.Pad"
+"Rules.Clearance.Text.SMD"
+"Rules.Clearance.Text.Trace"
+"Rules.Clearance.Text.Via"
+"Rules.Clearance.Trace.Trace"
+"Rules.Clearance.Via.Trace"
+"Rules.Clearance.Via.Via"
+"Rules.SameNet.Pad.Crn"
+"Rules.SameNet.SMD.Crn"
+"Rules.SameNet.SMD.Via"
+"Rules.Width.Maximum"
+"Rules.Width.Minimum"
+"Rules.Width.Recommended"
+*DEL_ATTRIBUTE*	PART	TP14
+"Rules.Clearance.Board.Pad"
+"Rules.Clearance.Board.SMD"
+"Rules.Clearance.Drill.Pad"
+"Rules.Clearance.Drill.SMD"
+"Rules.Clearance.Drill.Trace"
+"Rules.Clearance.Drill.Via"
+"Rules.Clearance.Pad.Pad"
+"Rules.Clearance.Pad.Trace"
+"Rules.Clearance.Pad.Via"
+"Rules.Clearance.SMD.Pad"
+"Rules.Clearance.SMD.SMD"
+"Rules.Clearance.SMD.Trace"
+"Rules.Clearance.SMD.Via"
+"Rules.Clearance.Text.Pad"
+"Rules.Clearance.Text.SMD"
+"Rules.Clearance.Text.Trace"
+"Rules.Clearance.Text.Via"
+"Rules.Clearance.Trace.Trace"
+"Rules.Clearance.Via.Trace"
+"Rules.Clearance.Via.Via"
+"Rules.SameNet.Pad.Crn"
+"Rules.SameNet.SMD.Crn"
+"Rules.SameNet.SMD.Via"
+"Rules.Width.Maximum"
+"Rules.Width.Minimum"
+"Rules.Width.Recommended"
+*DEL_ATTRIBUTE*	PART	TP11
+"Rules.Width.Minimum"
+"Rules.Width.Recommended"
+*DEL_ATTRIBUTE*	PART	TP12
+"Rules.Width.Minimum"
+"Rules.Width.Recommended"
+*DEL_ATTRIBUTE*	PART	P2
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	P3
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	R4
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	R3
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	R6
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	P1
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	TP10
+"Rules.Clearance.Board.Pad"
+"Rules.Clearance.Board.SMD"
+"Rules.Clearance.Drill.Pad"
+"Rules.Clearance.Drill.SMD"
+"Rules.Clearance.Drill.Trace"
+"Rules.Clearance.Drill.Via"
+"Rules.Clearance.Pad.Pad"
+"Rules.Clearance.Pad.Trace"
+"Rules.Clearance.Pad.Via"
+"Rules.Clearance.SMD.Pad"
+"Rules.Clearance.SMD.SMD"
+"Rules.Clearance.SMD.Trace"
+"Rules.Clearance.SMD.Via"
+"Rules.Clearance.Text.Pad"
+"Rules.Clearance.Text.SMD"
+"Rules.Clearance.Text.Trace"
+"Rules.Clearance.Text.Via"
+"Rules.Clearance.Trace.Trace"
+"Rules.Clearance.Via.Trace"
+"Rules.Clearance.Via.Via"
+"Rules.SameNet.Pad.Crn"
+"Rules.SameNet.SMD.Crn"
+"Rules.SameNet.SMD.Via"
+"Rules.Width.Maximum"
+"Rules.Width.Minimum"
+"Rules.Width.Recommended"
+*DEL_ATTRIBUTE*	PART	TP9
+"Rules.Clearance.Board.Pad"
+"Rules.Clearance.Board.SMD"
+"Rules.Clearance.Drill.Pad"
+"Rules.Clearance.Drill.SMD"
+"Rules.Clearance.Drill.Trace"
+"Rules.Clearance.Drill.Via"
+"Rules.Clearance.Pad.Pad"
+"Rules.Clearance.Pad.Trace"
+"Rules.Clearance.Pad.Via"
+"Rules.Clearance.SMD.Pad"
+"Rules.Clearance.SMD.SMD"
+"Rules.Clearance.SMD.Trace"
+"Rules.Clearance.SMD.Via"
+"Rules.Clearance.Text.Pad"
+"Rules.Clearance.Text.SMD"
+"Rules.Clearance.Text.Trace"
+"Rules.Clearance.Text.Via"
+"Rules.Clearance.Trace.Trace"
+"Rules.Clearance.Via.Trace"
+"Rules.Clearance.Via.Via"
+"Rules.SameNet.Pad.Crn"
+"Rules.SameNet.SMD.Crn"
+"Rules.SameNet.SMD.Via"
+"Rules.Width.Maximum"
+"Rules.Width.Minimum"
+"Rules.Width.Recommended"
+*DEL_ATTRIBUTE*	PART	U4
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	U1
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	C3
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PART	L1
+"Geometry.Height"
+*DEL_ATTRIBUTE*	PIN	TP2.1
+"DFT.Nail Diameter"
+*DEL_ATTRIBUTE*	PIN	TP1.1
+"DFT.Nail Diameter"
+*DEL_ATTRIBUTE*	PIN	TP5.1
+"DFT.Nail Diameter"
+*DEL_ATTRIBUTE*	PIN	TP3.1
+"DFT.Nail Diameter"
+*DEL_ATTRIBUTE*	PIN	TP4.1
+"DFT.Nail Diameter"
+*DEL_ATTRIBUTE*	PIN	TP13.1
+"DFT.Nail Diameter"
+*DEL_ATTRIBUTE*	PIN	TP14.1
+"DFT.Nail Diameter"
+*DEL_ATTRIBUTE*	PIN	TP11.1
+"DFT.Nail Diameter"
+*DEL_ATTRIBUTE*	PIN	TP12.1
+"DFT.Nail Diameter"
+*DEL_ATTRIBUTE*	PIN	TP6.1
+"DFT.Nail Diameter"
+*DEL_ATTRIBUTE*	PIN	TP7.1
+"DFT.Nail Diameter"
+*DEL_ATTRIBUTE*	PIN	TP9.1
+"DFT.Nail Diameter"
+*SET_ATTRIBUTE*	PART	P4
+"Description"	ISP Header
+"PKG_TYPE"	HDR6PX2_01_THRU
+*SET_ATTRIBUTE*	PART	U2
+"Description"	ATMEGA328P
+*SET_ATTRIBUTE*	PART	TP2
+"Description"	BATT GND
+*SET_ATTRIBUTE*	PART	TP1
+"Description"	BATT+
+*SET_ATTRIBUTE*	PART	U3
+"Description"	NMOSFETS
+*SET_ATTRIBUTE*	PART	TP5
+"Description"	GND
+*SET_ATTRIBUTE*	PART	TP3
+"Description"	VCC
+*SET_ATTRIBUTE*	PART	TP4
+"Description"	SIGNAL
+*SET_ATTRIBUTE*	PART	TP13
+"Description"	MOTOR-
+*SET_ATTRIBUTE*	PART	TP14
+"Description"	MOTOR+
+*SET_ATTRIBUTE*	PART	TP11
+"Description"	MOTOR+ BACKUP
+*SET_ATTRIBUTE*	PART	TP12
+"Description"	MOTOR- BACKUP
+*SET_ATTRIBUTE*	PART	TP6
+"Description"	TERMINAL 1
+*SET_ATTRIBUTE*	PART	TP8
+"Description"	TERMINAL 3
+*SET_ATTRIBUTE*	PART	TP7
+"Description"	WIPER
+*SET_ATTRIBUTE*	PART	P1
+"Description"	DEBUG HEADER
+*SET_ATTRIBUTE*	PART	U4
+"Description"	H BRIDGE
+*SET_ATTRIBUTE*	PART	U1
+"Description"	BUCK REG
+
+*MODIFY_GENERAL_RULES*	CLEARANCE
+
+HIERARCHY_OBJECT	PCB:PCB
+TRACK_TO_TRACK	6.000000
+VIA_TO_TRACK	6.000000
+VIA_TO_VIA	6.000000
+PAD_TO_TRACK	6.000000
+PAD_TO_VIA	6.000000
+PAD_TO_PAD	6.000000
+SMD_TO_TRACK	6.000000
+SMD_TO_VIA	6.000000
+SMD_TO_PAD	6.000000
+SMD_TO_SMD	6.000000
+COPPER_TO_TRACK	6.000000
+COPPER_TO_VIA	6.000000
+COPPER_TO_PAD	6.000000
+COPPER_TO_SMD	6.000000
+COPPER_TO_COPPER	6.000000
+TEXT_TO_TRACK	6.000000
+TEXT_TO_VIA	6.000000
+TEXT_TO_PAD	6.000000
+TEXT_TO_SMD	6.000000
+OUTLINE_TO_TRACK	6.000000
+OUTLINE_TO_VIA	6.000000
+OUTLINE_TO_PAD	6.000000
+OUTLINE_TO_SMD	6.000000
+OUTLINE_TO_COPPER	6.000000
+DRILL_TO_TRACK	6.000000
+DRILL_TO_VIA	6.000000
+DRILL_TO_PAD	6.000000
+DRILL_TO_SMD	6.000000
+DRILL_TO_COPPER	6.000000
+SAME_NET_SMD_TO_VIA	6.000000
+SAME_NET_SMD_TO_CRN	6.000000
+SAME_NET_VIA_TO_VIA	6.000000
+SAME_NET_PAD_TO_CRN	6.000000
+SAME_NET_TRACK_TO_CRN	6.000000
+MIN_TRACK_WIDTH	12.000000
+REC_TRACK_WIDTH	12.000000
+MAX_TRACK_WIDTH	12.000000
+DRILL_TO_DRILL	6.000000
+BODY_TO_BODY	6.000000
+
+*MODIFY_GENERAL_RULES*	ROUTING
+
+HIERARCHY_OBJECT	PCB:PCB
+LENGTH_MINIMIZATION_TYPE	TOTAL
+VIA_SHARE	ON
+MAX_NUMBER_OF_VIAS	-1
+TRACE_SHARE	ON
+AUTO_ROUTE	ON
+RIPUP	ON
+SHOVE	ON
+SHOVE_PROTECTED	OFF
+ROUTE_PRIORITY	3
+VALID_LAYER	1
+VALID_LAYER	2
+VALID_VIA_TYPE	*USE_CURRENT*
+
+*REMARK*  Deleted pins: 0,  Added pins: 0
+*END*

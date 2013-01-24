@@ -1,0 +1,48 @@
+MENUTXT DFT Extended test point report
+==============================================================================
+=  List all test points by net -- JOBNM -- TIME
+==============================================================================
+FOR ALL SIGWITHTP {
+	COLUMNS 3   20 25   30 40   45 55
+   -------------------------------------------------------
+	SIGNAME   #TP= TESTPOINTCNT  #TP_PINS= TESTPINCNT	#TP_VIAS= TESTVIACNT
+   -------------------------------------------------------
+	FOR ALL TESTPOINTS {
+		COLUMNS 16 29 40 50
+    	TPNAME LOCX LOCY TESTSIDE
+	}
+
+}
+
+
+==============================================================================
+=  List all nets without test points -- JOBNM -- TIME
+==============================================================================
+FOR ALL SIGNOTP {
+   COLUMNS 3
+   SIGNAME
+}
+
+==============================================================================
+=  List all nets and whether they have testpoints -- JOBNM -- TIME
+==============================================================================
+
+   Signal           TP in net?  #TP     
+   ------           ----------  ---
+FOR ALL SIGNALS {
+   COLUMNS 3 20 32
+   SIGNAME TPASSIGNED TESTPOINTCNT 
+}
+
+
+
+==============================================================================
+=  All TP on board, by net -- JOBNM -- TIME
+==============================================================================
+------------------------------------------------------
+Signal name    TP Name       X          Y         Side
+------------------------------------------------------
+FOR ALL TESTPOINTS {
+    COLUMNS 0 16 29 40 50
+    SIGNAME TPNAME LOCX LOCY TESTSIDE
+}

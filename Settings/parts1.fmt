@@ -1,0 +1,15 @@
+MENUTXT Parts List 1
+
+PARTS LIST 1 REPORT -- JOBNM -- TIME
+# NOTE : MAXCOLS and an all ascii record are mutually exclusive
+#        inside a FOR Loop
+
+
+Reference Designation   Logic Type             PartType
+--------------------------------------------------------------------------------
+
+FOR ALL COMPONENTS {
+     COLUMNS 3 27 47
+   COMPNAME             PKGTYPE                  PKGNAME
+
+}

@@ -1,0 +1,7 @@
+MENUTXT Test points report
+Test points report -- JOBNM -- TIME
+Test point name Signal name  X          Y          Layer
+FOR ALL TESTPOINTS {
+    COLUMNS 0 16 29 40 51
+    TPNAME SIGNAME LOCX LOCY TESTSIDE
+}

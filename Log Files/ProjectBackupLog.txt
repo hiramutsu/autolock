@@ -176,3 +176,442 @@
 [2012-12-23 01.42.24] Successfully created [AutoSave] backup [2012-12-23 01.42.23 - auto.zip] requested by [VOLTA:Ian].
 [2012-12-23 01.42.24] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2012-12-15 21.24.06 - auto.zip].
 [2012-12-23 01.42.24] [AutoSave] backup file [autolock\ProjectBackup\backups\2012-12-15 21.24.06 - auto.zip] removed.
+[2012-12-23 01.54.09] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2012-12-23 01.54.09] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2012-12-23 01.54.09] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2012-12-23 01.54.09] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2012-12-23 01.54.09] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2012-12-23 01.54.09] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2012-12-23 01.54.09] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2012-12-23 01.54.09] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2012-12-23 01.54.09] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2012-12-23 01.54.09] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2012-12-23 01.54.09] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2012-12-22 23.34.34] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2012-12-22 23.34.34] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2012-12-22 23.34.34] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2012-12-22 23.34.34] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2012-12-22 23.34.34] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2012-12-22 23.34.34] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2012-12-22 23.34.34] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2012-12-22 23.34.34] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2012-12-22 23.34.34] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2012-12-22 23.34.34] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2012-12-22 23.34.34] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2012-12-26 16.54.25] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2012-12-26 16.54.25] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2012-12-26 16.54.25] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2012-12-26 16.54.25] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2012-12-26 16.54.25] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2012-12-26 16.54.25] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2012-12-26 16.54.25] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2012-12-26 16.54.25] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2012-12-26 16.54.25] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2012-12-26 16.54.25] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2012-12-26 16.54.25] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2012-12-26 16.54.30] Successfully created [AutoSave] backup [2012-12-26 16.54.27 - auto.zip] requested by [VOLTA:Ian].
+[2012-12-26 16.54.30] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2012-12-17 21.37.14 - auto.zip].
+[2012-12-26 16.54.30] [AutoSave] backup file [autolock\ProjectBackup\backups\2012-12-17 21.37.14 - auto.zip] removed.
+[2012-12-26 16.54.49] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2012-12-26 16.54.49] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2012-12-26 16.54.49] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2012-12-26 16.54.49] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2012-12-26 16.54.49] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2012-12-26 16.54.49] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2012-12-26 16.54.49] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2012-12-26 16.54.49] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2012-12-26 16.54.49] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2012-12-26 16.54.49] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2012-12-26 16.54.49] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2012-12-26 16.56.30] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2012-12-26 16.56.30] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2012-12-26 16.56.30] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2012-12-26 16.56.30] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2012-12-26 16.56.30] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2012-12-26 16.56.30] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2012-12-26 16.56.30] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2012-12-26 16.56.30] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2012-12-26 16.56.30] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2012-12-26 16.56.30] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2012-12-26 16.56.30] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2012-12-26 20.54.28] Successfully created [AutoSave] backup [2012-12-26 20.54.27 - auto.zip] requested by [VOLTA:Ian].
+[2012-12-26 20.54.28] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2012-12-17 21.47.03 - auto.zip].
+[2012-12-26 20.54.28] [AutoSave] backup file [autolock\ProjectBackup\backups\2012-12-17 21.47.03 - auto.zip] removed.
+[2012-12-27 00.08.41] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2012-12-27 00.08.41] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2012-12-27 00.08.41] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2012-12-27 00.08.41] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2012-12-27 00.08.41] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2012-12-27 00.08.41] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2012-12-27 00.08.41] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2012-12-27 00.08.41] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2012-12-27 00.08.41] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2012-12-27 00.08.41] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2012-12-27 00.08.41] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2012-12-27 00.54.28] Successfully created [AutoSave] backup [2012-12-27 00.54.27 - auto.zip] requested by [VOLTA:Ian].
+[2012-12-27 00.54.28] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2012-12-23 01.42.23 - auto.zip].
+[2012-12-27 00.54.28] [AutoSave] backup file [autolock\ProjectBackup\backups\2012-12-23 01.42.23 - auto.zip] removed.
+[2012-12-27 04.54.29] Successfully created [AutoSave] backup [2012-12-27 04.54.27 - auto.zip] requested by [VOLTA:Ian].
+[2012-12-27 04.54.29] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2012-12-26 16.54.27 - auto.zip].
+[2012-12-27 04.54.29] [AutoSave] backup file [autolock\ProjectBackup\backups\2012-12-26 16.54.27 - auto.zip] removed.
+[2012-12-27 08.54.29] Successfully created [AutoSave] backup [2012-12-27 08.54.27 - auto.zip] requested by [VOLTA:Ian].
+[2012-12-27 08.54.29] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2012-12-26 20.54.27 - auto.zip].
+[2012-12-27 08.54.29] [AutoSave] backup file [autolock\ProjectBackup\backups\2012-12-26 20.54.27 - auto.zip] removed.
+[2012-12-27 16.40.01] Successfully created [AutoSave] backup [2012-12-27 16.39.21 - auto.zip] requested by [VOLTA:Ian].
+[2012-12-27 16.40.01] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2012-12-27 00.54.27 - auto.zip].
+[2012-12-27 16.40.01] [AutoSave] backup file [autolock\ProjectBackup\backups\2012-12-27 00.54.27 - auto.zip] removed.
+[2013-01-02 00.40.21] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-02 00.40.21] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-02 00.40.21] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-02 00.40.21] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-02 00.40.21] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-02 00.40.21] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-02 00.40.21] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-02 00.40.21] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-02 00.40.21] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-02 00.40.21] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-02 00.40.21] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-02 00.40.23] Successfully created [Database Upgrade] backup [2013-01-02 00.40.23 - upgrade.zip] requested by [VOLTA:Ian].
+[2013-01-02 00.40.23] Migrated iCDB content backup file [cdbback\2013-01-02 00.40.22-5756.zip] removed.
+[2013-01-02 00.53.25] Successfully created [AutoSave] backup [2013-01-02 00.53.23 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-02 00.53.25] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2012-12-27 04.54.27 - auto.zip].
+[2013-01-02 00.53.25] [AutoSave] backup file [autolock\ProjectBackup\backups\2012-12-27 04.54.27 - auto.zip] removed.
+[2013-01-02 07.51.15] Successfully created [AutoSave] backup [2013-01-02 07.50.59 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-02 07.51.15] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2012-12-27 08.54.27 - auto.zip].
+[2013-01-02 07.51.15] [AutoSave] backup file [autolock\ProjectBackup\backups\2012-12-27 08.54.27 - auto.zip] removed.
+[2013-01-03 03.08.21] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-03 03.08.21] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-03 03.08.21] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-03 03.08.21] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-03 03.08.21] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-03 03.08.21] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-03 03.08.21] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-03 03.08.21] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-03 03.08.21] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-03 03.08.21] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-03 03.08.21] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-03 04.13.27] Successfully created [AutoSave] backup [2013-01-03 04.13.26 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-03 04.13.27] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2012-12-27 16.39.21 - auto.zip].
+[2013-01-03 04.13.27] [AutoSave] backup file [autolock\ProjectBackup\backups\2012-12-27 16.39.21 - auto.zip] removed.
+[2013-01-05 16.03.24] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-05 16.03.24] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-05 16.03.24] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-05 16.03.24] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-05 16.03.24] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-05 16.03.24] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-05 16.03.24] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-05 16.03.24] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-05 16.03.24] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-05 16.03.24] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-05 16.03.24] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-05 16.03.26] Successfully created [Constraints Definition Upgrade] backup [2013-01-05 16.03.26 - consDefUpgr.zip] requested by [VOLTA:Ian].
+[2013-01-05 16.03.26] Removing excessive [Constraints Definition Upgrade] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2012-12-23 01.42.23 - consDefUpgr.zip].
+[2013-01-05 16.03.26] [Constraints Definition Upgrade] backup file [autolock\ProjectBackup\backups\2012-12-23 01.42.23 - consDefUpgr.zip] removed.
+[2013-01-05 16.03.26] Migrated iCDB content backup file [cdbback\2013-01-05 16.03.26-56.zip] removed.
+[2013-01-05 16.06.04] Successfully created [AutoSave] backup [2013-01-05 16.06.01 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-05 16.06.04] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-02 00.53.23 - auto.zip].
+[2013-01-05 16.06.04] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-02 00.53.23 - auto.zip] removed.
+[2013-01-05 19.01.35] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-05 19.01.35] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-05 19.01.35] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-05 19.01.35] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-05 19.01.35] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-05 19.01.35] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-05 19.01.35] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-05 19.01.35] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-05 19.01.35] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-05 19.01.35] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-05 19.01.35] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-06 13.11.10] Successfully created [AutoSave] backup [2013-01-06 13.11.06 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-06 13.11.10] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-02 07.50.59 - auto.zip].
+[2013-01-06 13.11.10] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-02 07.50.59 - auto.zip] removed.
+[2013-01-06 14.29.47] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-06 14.29.47] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-06 14.29.47] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-06 14.29.47] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-06 14.29.47] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-06 14.29.47] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-06 14.29.47] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-06 14.29.47] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-06 14.29.47] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-06 14.29.47] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-06 14.29.47] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-06 23.43.22] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-06 23.43.22] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-06 23.43.22] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-06 23.43.22] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-06 23.43.22] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-06 23.43.22] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-06 23.43.22] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-06 23.43.22] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-06 23.43.22] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-06 23.43.22] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-06 23.43.22] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-06 23.46.00] Successfully created [AutoSave] backup [2013-01-06 23.45.58 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-06 23.46.00] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-03 04.13.26 - auto.zip].
+[2013-01-06 23.46.00] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-03 04.13.26 - auto.zip] removed.
+[2013-01-07 00.42.15] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-07 00.42.15] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-07 00.42.15] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-07 00.42.15] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-07 00.42.15] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-07 00.42.15] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-07 00.42.15] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-07 00.42.15] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-07 00.42.15] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-07 00.42.15] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-07 00.42.15] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-07 15.45.28] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-07 15.45.28] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-07 15.45.28] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-07 15.45.28] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-07 15.45.28] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-07 15.45.28] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-07 15.45.28] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-07 15.45.28] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-07 15.45.28] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-07 15.45.28] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-07 15.45.28] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-07 15.46.03] Successfully created [AutoSave] backup [2013-01-07 15.45.59 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-07 15.46.03] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-05 16.06.01 - auto.zip].
+[2013-01-07 15.46.03] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-05 16.06.01 - auto.zip] removed.
+[2013-01-07 17.17.35] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-07 17.17.35] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-07 17.17.35] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-07 17.17.35] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-07 17.17.35] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-07 17.17.35] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-07 17.17.35] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-07 17.17.35] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-07 17.17.35] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-07 17.17.35] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-07 17.17.35] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-07 17.20.57] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-07 17.20.57] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-07 17.20.57] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-07 17.20.57] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-07 17.20.57] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-07 17.20.57] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-07 17.20.57] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-07 17.20.57] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-07 17.20.57] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-07 17.20.57] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-07 17.20.57] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-07 17.22.19] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-07 17.22.19] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-07 17.22.19] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-07 17.22.19] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-07 17.22.19] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-07 17.22.19] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-07 17.22.19] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-07 17.22.19] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-07 17.22.19] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-07 17.22.19] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-07 17.22.19] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-07 19.46.01] Successfully created [AutoSave] backup [2013-01-07 19.45.59 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-07 19.46.01] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-06 13.11.06 - auto.zip].
+[2013-01-07 19.46.01] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-06 13.11.06 - auto.zip] removed.
+[2013-01-07 23.46.01] Successfully created [AutoSave] backup [2013-01-07 23.45.59 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-07 23.46.01] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-06 23.45.58 - auto.zip].
+[2013-01-07 23.46.01] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-06 23.45.58 - auto.zip] removed.
+[2013-01-08 03.46.01] Successfully created [AutoSave] backup [2013-01-08 03.45.59 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-08 03.46.01] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-07 15.45.59 - auto.zip].
+[2013-01-08 03.46.01] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-07 15.45.59 - auto.zip] removed.
+[2013-01-08 07.46.03] Successfully created [AutoSave] backup [2013-01-08 07.45.59 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-08 07.46.03] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-07 19.45.59 - auto.zip].
+[2013-01-08 07.46.03] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-07 19.45.59 - auto.zip] removed.
+[2013-01-08 11.46.03] Successfully created [AutoSave] backup [2013-01-08 11.45.59 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-08 11.46.03] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-07 23.45.59 - auto.zip].
+[2013-01-08 11.46.03] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-07 23.45.59 - auto.zip] removed.
+[2013-01-08 20.51.10] Successfully created [AutoSave] backup [2013-01-08 20.51.04 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-08 20.51.10] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-08 03.45.59 - auto.zip].
+[2013-01-08 20.51.10] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-08 03.45.59 - auto.zip] removed.
+[2013-01-10 18.35.37] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-10 18.35.37] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-10 18.35.37] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-10 18.35.37] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-10 18.35.37] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-10 18.35.37] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-10 18.35.37] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-10 18.35.37] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-10 18.35.37] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-10 18.35.37] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-10 18.35.37] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-10 18.38.14] Successfully created [AutoSave] backup [2013-01-10 18.38.12 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-10 18.38.14] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-08 07.45.59 - auto.zip].
+[2013-01-10 18.38.14] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-08 07.45.59 - auto.zip] removed.
+[2013-01-10 21.38.45] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-10 21.38.45] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-10 21.38.45] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-10 21.38.45] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-10 21.38.45] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-10 21.38.45] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-10 21.38.45] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-10 21.38.45] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-10 21.38.45] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-10 21.38.45] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-10 21.38.45] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-10 22.38.43] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-10 22.38.43] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-10 22.38.43] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-10 22.38.43] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-10 22.38.43] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-10 22.38.43] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-10 22.38.43] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-10 22.38.43] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-10 22.38.43] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-10 22.38.43] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-10 22.38.43] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-10 22.41.22] Successfully created [AutoSave] backup [2013-01-10 22.41.19 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-10 22.41.22] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-08 11.45.59 - auto.zip].
+[2013-01-10 22.41.22] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-08 11.45.59 - auto.zip] removed.
+[2013-01-11 02.41.22] Successfully created [AutoSave] backup [2013-01-11 02.41.19 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-11 02.41.22] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-08 20.51.04 - auto.zip].
+[2013-01-11 02.41.22] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-08 20.51.04 - auto.zip] removed.
+[2013-01-11 15.23.04] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-11 15.23.04] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-11 15.23.04] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-11 15.23.04] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-11 15.23.04] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-11 15.23.04] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-11 15.23.04] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-11 15.23.04] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-11 15.23.04] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-11 15.23.04] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-11 15.23.04] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-11 20.28.15] Successfully created [AutoSave] backup [2013-01-11 20.28.10 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-11 20.28.15] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-10 18.38.12 - auto.zip].
+[2013-01-11 20.28.15] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-10 18.38.12 - auto.zip] removed.
+[2013-01-12 00.28.13] Successfully created [AutoSave] backup [2013-01-12 00.28.10 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-12 00.28.13] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-10 22.41.19 - auto.zip].
+[2013-01-12 00.28.13] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-10 22.41.19 - auto.zip] removed.
+[2013-01-12 04.28.13] Successfully created [AutoSave] backup [2013-01-12 04.28.10 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-12 04.28.13] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-11 02.41.19 - auto.zip].
+[2013-01-12 04.28.13] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-11 02.41.19 - auto.zip] removed.
+[2013-01-12 09.33.20] Successfully created [AutoSave] backup [2013-01-12 09.33.15 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-12 09.33.21] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-11 20.28.10 - auto.zip].
+[2013-01-12 09.33.21] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-11 20.28.10 - auto.zip] removed.
+[2013-01-12 13.33.19] Successfully created [AutoSave] backup [2013-01-12 13.33.15 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-12 13.33.19] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-12 00.28.10 - auto.zip].
+[2013-01-12 13.33.19] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-12 00.28.10 - auto.zip] removed.
+[2013-01-12 17.33.18] Successfully created [AutoSave] backup [2013-01-12 17.33.15 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-12 17.33.18] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-12 04.28.10 - auto.zip].
+[2013-01-12 17.33.18] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-12 04.28.10 - auto.zip] removed.
+[2013-01-12 21.33.19] Successfully created [AutoSave] backup [2013-01-12 21.33.15 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-12 21.33.19] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-12 09.33.15 - auto.zip].
+[2013-01-12 21.33.19] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-12 09.33.15 - auto.zip] removed.
+[2013-01-13 01.33.18] Successfully created [AutoSave] backup [2013-01-13 01.33.15 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-13 01.33.18] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-12 13.33.15 - auto.zip].
+[2013-01-13 01.33.18] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-12 13.33.15 - auto.zip] removed.
+[2013-01-13 04.47.41] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-13 04.47.41] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-13 04.47.41] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-13 04.47.41] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-13 04.47.41] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-13 04.47.41] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-13 04.47.41] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-13 04.47.41] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-13 04.47.41] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-13 04.47.41] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-13 04.47.41] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-13 04.57.31] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-13 04.57.31] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-13 04.57.31] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-13 04.57.31] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-13 04.57.31] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-13 04.57.31] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-13 04.57.31] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-13 04.57.31] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-13 04.57.31] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-13 04.57.31] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-13 04.57.31] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-13 05.33.18] Successfully created [AutoSave] backup [2013-01-13 05.33.15 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-13 05.33.18] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-12 17.33.15 - auto.zip].
+[2013-01-13 05.33.18] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-12 17.33.15 - auto.zip] removed.
+[2013-01-13 05.44.04] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-13 05.44.04] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-13 05.44.04] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-13 05.44.04] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-13 05.44.04] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-13 05.44.04] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-13 05.44.04] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-13 05.44.04] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-13 05.44.04] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-13 05.44.04] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-13 05.44.04] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-13 09.33.18] Successfully created [AutoSave] backup [2013-01-13 09.33.15 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-13 09.33.18] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-12 21.33.15 - auto.zip].
+[2013-01-13 09.33.18] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-12 21.33.15 - auto.zip] removed.
+[2013-01-13 22.38.26] Successfully created [AutoSave] backup [2013-01-13 22.38.20 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-13 22.38.26] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-13 01.33.15 - auto.zip].
+[2013-01-13 22.38.26] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-13 01.33.15 - auto.zip] removed.
+[2013-01-14 02.38.49] Successfully created [AutoSave] backup [2013-01-14 02.38.21 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-14 02.38.49] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-13 05.33.15 - auto.zip].
+[2013-01-14 02.38.49] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-13 05.33.15 - auto.zip] removed.
+[2013-01-14 06.38.26] Successfully created [AutoSave] backup [2013-01-14 06.38.21 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-14 06.38.26] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-13 09.33.15 - auto.zip].
+[2013-01-14 06.38.26] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-13 09.33.15 - auto.zip] removed.
+[2013-01-14 12.31.28] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-14 12.31.28] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-14 12.31.28] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-14 12.31.28] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-14 12.31.28] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-14 12.31.28] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-14 12.31.28] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-14 12.31.28] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-14 12.31.28] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-14 12.31.28] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-14 12.31.28] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-14 12.32.03] Successfully created [AutoSave] backup [2013-01-14 12.31.59 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-14 12.32.03] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-13 22.38.20 - auto.zip].
+[2013-01-14 12.32.03] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-13 22.38.20 - auto.zip] removed.
+[2013-01-14 17.50.03] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-14 17.50.03] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-14 17.50.03] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-14 17.50.03] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-14 17.50.03] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-14 17.50.03] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-14 17.50.03] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-14 17.50.03] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-14 17.50.03] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-14 17.50.03] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-14 17.50.03] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-14 17.50.36] Successfully created [AutoSave] backup [2013-01-14 17.50.33 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-14 17.50.36] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-14 02.38.21 - auto.zip].
+[2013-01-14 17.50.36] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-14 02.38.21 - auto.zip] removed.
+[2013-01-14 21.50.38] Successfully created [AutoSave] backup [2013-01-14 21.50.33 - auto.zip] requested by [VOLTA:Ian].
+[2013-01-14 21.50.38] Removing excessive [AutoSave] backup file [C:\Users\Ian\Documents\GitHub\autolock\ProjectBackup\backups\2013-01-14 06.38.21 - auto.zip].
+[2013-01-14 21.50.38] [AutoSave] backup file [autolock\ProjectBackup\backups\2013-01-14 06.38.21 - auto.zip] removed.
+[2013-01-16 13.00.58] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-16 13.00.58] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-16 13.00.58] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-16 13.00.58] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-16 13.00.58] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-16 13.00.58] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-16 13.00.58] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-16 13.00.58] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-16 13.00.58] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-16 13.00.58] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-16 13.00.58] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-19 00.17.32] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-19 00.17.32] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-19 00.17.32] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-19 00.17.32] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-19 00.17.32] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-19 00.17.32] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-19 00.17.32] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-19 00.17.32] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-19 00.17.32] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-19 00.17.32] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-19 00.17.32] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.
+[2013-01-23 20.13.31] Migrating iCDB upgrade backups from directory [autolock\database\cdbback] to Project Backup format.
+[2013-01-23 20.13.31] WARNING: Ignoring iCDB backup file [2012-12-06 13.07.52-5084-i.zip] - will not be migrated.
+[2013-01-23 20.13.31] WARNING: Ignoring iCDB backup file [2012-11-28 17.43.08-3732-i.zip] - will not be migrated.
+[2013-01-23 20.13.31] WARNING: Ignoring iCDB backup file [2012-11-28 17.42.29-2500-i.zip] - will not be migrated.
+[2013-01-23 20.13.31] WARNING: Ignoring iCDB backup file [2012-11-20 11.42.14-2588-i.zip] - will not be migrated.
+[2013-01-23 20.13.31] WARNING: Ignoring iCDB backup file [2012-11-19 13.12.37-3288-i.zip] - will not be migrated.
+[2013-01-23 20.13.31] WARNING: Ignoring iCDB backup file [2012-11-18 16.08.32-2044-i.zip] - will not be migrated.
+[2013-01-23 20.13.31] WARNING: Ignoring iCDB backup file [2012-11-17 20.16.29-4952-i.zip] - will not be migrated.
+[2013-01-23 20.13.31] WARNING: Ignoring iCDB backup file [2012-11-08 00.29.25-4472-i.zip] - will not be migrated.
+[2013-01-23 20.13.31] WARNING: Ignoring iCDB backup file [2012-11-08 00.27.22-848-i.zip] - will not be migrated.
+[2013-01-23 20.13.31] WARNING: Ignoring iCDB backup file [2012-11-07 12.38.22-5352-i.zip] - will not be migrated.

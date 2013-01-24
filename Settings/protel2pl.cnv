@@ -1,0 +1,55 @@
+[PACKAGE ATTRIBUTES]
+PCB Footprint=PCB DECAL
+
+[COMPONENT ATTRIBUTES]
+Part Type=VALUE
+PCB Footprint=PCB DECAL
+
+[NET ATTRIBUTES]
+
+[PIN TYPES]
+Input=IN
+IO=BI
+Output=OUT
+OpenCollector=OCL
+Passive=IN
+HiZ=UNDEFINED
+OpenEmitter=OEM
+Power=POWER
+VHDL_Buffer=UNDEFINED
+VHDL_Port=UNDEFINED
+
+[PKG_TYPE]
+
+[LOGIC FAMILY]
+D=DIO
+C=CAP
+X=OSC
+R=RES
+Y=OSC
+J=CON
+F=FUS
+L=IND
+P=POT
+K=RLY
+Z=ZEN
+SW=SWI
+RL=RLY
+CON=CON
+T=XFR
+Q=TRX
+OSC=OSC
+S=SWI
+U=TTL
+
+[ILLEGAL CHARACTERS]
+Generic=! "%&*()/\?.,+-[]:<>|
+PinName=\. ,{}!"*
+AttrName=. -{}
+REFDES=, .{}*~
+
+[GLOBAL NETS]
+
+[TITLE BLOCK]
+SheetTotal=Number of Sheets
+SheetNumber=Sheet Number

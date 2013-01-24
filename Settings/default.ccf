@@ -1,0 +1,23 @@
+PADS POWERPCB COLOR CONFIGURATION FILE
+default
+
+BackGroundColor 0
+ForeGroundColor 15
+ConnectionColor 14
+BusColor 14
+LineColor 14
+TextColor 11
+TextBoxColor 9
+PartColor 11
+RefDesColor 11
+RefDesBoxColor 9
+PartTypeColor 11
+PartTypeBoxColor 9
+PartTextColor 11
+PartTextBoxColor 9
+PinNumberColor 11
+PinNumberBoxColor 9
+NetNameColor 11
+NetNameBoxor 9
+HierCompColor 14
+*END*

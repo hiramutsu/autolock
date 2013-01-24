@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest version="1">
+	<fileset name="DxDesigner design" file-root="C:\Users\Ian\Documents\GitHub\autolock\archives\DxDesigner" project-root="C:\Users\Ian\Documents\GitHub\autolock\archives\DxDesigner">
+		<file name = "dxarchiver.log" path = "." modified = "2013-01-11 04:14:29" checksum = "816696774"/>
+		<file name = "EngineeringClasses20130110201427.zip" path = "." modified = "2013-01-11 04:14:29" checksum = "2289051049"/>
+	</fileset>
+</manifest>

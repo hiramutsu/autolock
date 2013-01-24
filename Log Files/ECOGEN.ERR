@@ -1,0 +1,19 @@
+PADS Layout ECO Generator (Version 6.4v) 1/21/2013 7:01:20 AM
+Copyright (c) 2003 - 2008 Mentor Graphics Corp. - All rights reserved
+Command line arguments:  -e C:\Users\Ian\Documents\GitHub\autolock\Log Files\ECOGEN.ERR -r p -a PCB,PART,NET,PIN -l PCB,NET,NETCLASS,GEN,DFP
+10 msec
+1 msec
+Reading the OLD DESIGN
+There are 48 parts in the design
+There are 45 signals in the design
+There are 166 pins in the design
+19 msec
+Reading the NEW DESIGN
+There are 48 parts in the design
+There are 45 signals in the design
+There are 166 pins in the design
+3 msec
+Final cost=32
+Partitioning - 1 msec
+Final Matching - 1 msec
+Deleted pins: 0,  Added pins: 0

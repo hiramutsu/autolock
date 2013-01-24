@@ -1,0 +1,24 @@
+pcb: Note 5996: Using Config File C:\MentorGraphics\9.5PADS\SDD_HOME\standard\pads94.cfg
+pcb: Warning 6094: Lock pin $1I2649.11: Pin not connected
+pcb: Warning 6094: Lock pin $1I2649.13: Pin not connected
+pcb: Warning 6094: Lock pin $1I2649.16: Pin not connected
+pcb: Warning 6094: Lock pin $1I2649.18: Pin not connected
+pcb: Warning 6094: Lock pin $1I2649.20: Pin not connected
+pcb: Warning 6094: Lock pin $1I2649.6: Pin not connected
+pcb: Warning 6094: Lock pin $1I2238.PIN1: Pin not connected
+pcb: Warning 6094: Lock pin $1I2238.PIN10: Pin not connected
+pcb: Warning 6094: Lock pin $1I2238.PIN5: Pin not connected
+pcb: Warning 6094: Lock pin $1I2238.PIN6: Pin not connected
+pcb: Warning 6094: Lock pin $1I2238.PIN7: Pin not connected
+pcb: Warning 6094: Lock pin $1I2238.PIN8: Pin not connected
+pcb: Warning 6094: Lock pin $1I2238.PIN9: Pin not connected
+pcb: Warning 6094: Lock pin $1I2216.PIN4: Pin not connected
+pcb: Warning 6094: Lock pin $1I2216.PIN5: Pin not connected
+pcb: Warning 6094: Lock pin $1I2216.PIN6: Pin not connected
+pcb: Warning 6094: Lock pin $1I2216.PIN7: Pin not connected
+pcb: Warning 6094: Lock pin $1I2216.PIN8: Pin not connected
+pcb: Warning 6094: Lock pin $1I1617.2OUT: Pin not connected
+pcb: Note 5854: Instance value (DEVICE=67996-206HLF) was added to instance ($1I2677) on (LOCK).
+pcb: Note 5626: Summary of Log Files/pcb.err
+Status 0, Notes 2, Warnings 19
+Errors 0, Failures 0, Fatals 0, Internals 0

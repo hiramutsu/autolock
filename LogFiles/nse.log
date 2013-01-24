@@ -1,0 +1,178 @@
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\Users\Ian\Documents\GitHub\autolock\EngineeringClasses.prj -file C:\Users\Ian\Documents\GitHub\autolock\Libs\lock/sym/speaker.1 
+nse::setmode -file -prj C:\\Users\\Ian\\Documents\\GitHub\\autolock\\EngineeringClasses.prj -flow netlist
+nse::opensymbol -file C:\\Users\\Ian\\Documents\\GitHub\\autolock\\Libs\\lock\\SYM\\speaker.1 speaker.1
+nse::selectitems 17
+nse::clearselection
+nse::selectitems 19
+prop::add -value 1 -labelpos under -dest port -ports 17 \#
+prop::setvisible -valueindex 0 -dest port -ports 17 \#
+nse::clearselection
+nse::selectitems 17
+prop::add -value 2 -labelpos under -dest port -ports 19 \#
+prop::setvisible -valueindex 0 -dest port -ports 19 \#
+nse::clearselection
+nse::savesymbol
+nse::selectitems 36
+edit::move -offset 0,-254
+nse::clearselection
+nse::selectitems 17
+port::setside -side left
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\Users\Ian\Documents\GitHub\autolock\EngineeringClasses.prj -file C:\Users\Ian\Documents\GitHub\autolock\Libs\lock/sym/2x3_100mil_thruhole.1 
+nse::setmode -file -prj C:\\Users\\Ian\\Documents\\GitHub\\autolock\\EngineeringClasses.prj -flow netlist
+nse::opensymbol -file C:\\Users\\Ian\\Documents\\GitHub\\autolock\\Libs\\lock\\SYM\\2x3_100mil_thruhole.1 2x3_100mil_thruhole.1
+prop::delete -valueindex 0 PKG_TYPE
+prop::add -value HDR6X2_01IN_THRU PKG_TYPE
+prop::setvisible -valueindex 0 -visible none PKG_TYPE
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\Users\Ian\Documents\GitHub\autolock\EngineeringClasses.prj -file C:\Users\Ian\Documents\GitHub\autolock\Libs\lock/sym/2x3_100mil_thruhole.1 
+nse::setmode -file -prj C:\\Users\\Ian\\Documents\\GitHub\\autolock\\EngineeringClasses.prj -flow netlist
+nse::opensymbol -file C:\\Users\\Ian\\Documents\\GitHub\\autolock\\Libs\\lock\\SYM\\2x3_100mil_thruhole.1 2x3_100mil_thruhole.1
+nse::selectitems 52
+edit::move -offset 0,0
+nse::clearselection
+symbol::setorigin -point -2540,0
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\Users\Ian\Documents\GitHub\autolock\EngineeringClasses.prj -file C:\Users\Ian\Documents\GitHub\autolock\Libs\lock/sym/2x3_100mil_thruhole.1 
+nse::setmode -file -prj C:\\Users\\Ian\\Documents\\GitHub\\autolock\\EngineeringClasses.prj -flow netlist
+nse::opensymbol -file C:\\Users\\Ian\\Documents\\GitHub\\autolock\\Libs\\lock\\SYM\\2x3_100mil_thruhole.1 2x3_100mil_thruhole.1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\Users\Ian\Documents\GitHub\autolock\EngineeringClasses.prj -file C:\Users\Ian\Documents\GitHub\autolock\Libs\lock/sym/10x2mm_thruhole.1 
+nse::setmode -file -prj C:\\Users\\Ian\\Documents\\GitHub\\autolock\\EngineeringClasses.prj -flow netlist
+nse::opensymbol -file C:\\Users\\Ian\\Documents\\GitHub\\autolock\\Libs\\lock\\SYM\\10x2mm_thruhole.1 10x2mm_thruhole.1
+prop::delete -valueindex 0 PKG_TYPE
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\Users\Ian\Documents\GitHub\autolock\EngineeringClasses.prj -file C:\Users\Ian\Documents\GitHub\autolock\Libs\lock/sym/10x2mm_thruhole.1 
+nse::setmode -file -prj C:\\Users\\Ian\\Documents\\GitHub\\autolock\\EngineeringClasses.prj -flow netlist
+nse::opensymbol -file C:\\Users\\Ian\\Documents\\GitHub\\autolock\\Libs\\lock\\SYM\\10x2mm_thruhole.1 10x2mm_thruhole.1
+# C:\MentorGraphics\9.5PADS\SDD_HOME\nse\win32\nse.exe -prj C:\Users\Ian\Documents\GitHub\autolock\EngineeringClasses.prj -file C:\Users\Ian\Documents\GitHub\autolock\Libs\lock/sym/atmega328p_qfp.1 
+nse::setmode -file -prj C:\\Users\\Ian\\Documents\\GitHub\\autolock\\EngineeringClasses.prj -flow netlist
+nse::opensymbol -file C:\\Users\\Ian\\Documents\\GitHub\\autolock\\Libs\\lock\\SYM\\atmega328p_qfp.1 atmega328p_qfp.1
+utils::execute -args "-padslibfolder=\"\" -dxsymbolname=\"$current::symbol\" -pkg_type=\"$current::properties(PKG_TYPE)\" -alt_pkg_lst=\"$current::properties(ALT_PKG_LST)\" -nseid=\"$current::nseid\""   "$env(SDD_HOME)\\programs\\PADSDecalBrowser.exe"
+# C:\MentorGraphics\9.5PADS\SDD_HOME\programs\PADSDecalBrowser.exe -padslibfolder="" -dxsymbolname="atmega328p_qfp.1" -pkg_type="QFP80P900X900X120-32N" -alt_pkg_lst="" -nseid="NSE::"
+nse::closesymbol
+# C:\MentorGraphics\9.5PADS\SDD_HOME\nse\win32\nse.exe -prj C:\Users\Ian\Documents\GitHub\autolock\EngineeringClasses.prj -file C:\Users\Ian\Documents\GitHub\autolock\Libs\lock/sym/Resettable_fuse.1 
+nse::setmode -file -prj C:\\Users\\Ian\\Documents\\GitHub\\autolock\\EngineeringClasses.prj -flow netlist
+nse::opensymbol -file C:\\Users\\Ian\\Documents\\GitHub\\autolock\\Libs\\lock\\SYM\\Resettable_fuse.1 Resettable_fuse.1
+prop::setvalue -value FUSM3317X55N -valueindex 0 PKG_TYPE
+prop::setvalue -value F? -valueindex 0 REFDES
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.5PADS\SDD_HOME\nse\win32\nse.exe -prj C:\Users\Ian\Documents\GitHub\autolock\EngineeringClasses.prj -file C:\Users\Ian\Documents\GitHub\autolock\Libs\lock/sym/Resettable_fuse.1 
+nse::setmode -file -prj C:\\Users\\Ian\\Documents\\GitHub\\autolock\\EngineeringClasses.prj -flow netlist
+nse::opensymbol -file C:\\Users\\Ian\\Documents\\GitHub\\autolock\\Libs\\lock\\SYM\\Resettable_fuse.1 Resettable_fuse.1
+utils::execute -args "-padslibfolder=\"\" -dxsymbolname=\"$current::symbol\" -pkg_type=\"$current::properties(PKG_TYPE)\" -alt_pkg_lst=\"$current::properties(ALT_PKG_LST)\" -nseid=\"$current::nseid\""   "$env(SDD_HOME)\\programs\\PADSDecalBrowser.exe"
+# C:\MentorGraphics\9.5PADS\SDD_HOME\programs\PADSDecalBrowser.exe -padslibfolder="" -dxsymbolname="Resettable_fuse.1" -pkg_type="FUSM3317X55N" -alt_pkg_lst="" -nseid="NSE::"
+nse::closesymbol
+# C:\MentorGraphics\9.5PADS\SDD_HOME\nse\win32\nse.exe -prj C:\Users\Ian\Documents\GitHub\autolock\EngineeringClasses.prj -file C:\Users\Ian\Documents\GitHub\autolock\Libs\lock/sym/atmega328p_qfp.1 
+nse::setmode -file -prj C:\\Users\\Ian\\Documents\\GitHub\\autolock\\EngineeringClasses.prj -flow netlist
+nse::opensymbol -file C:\\Users\\Ian\\Documents\\GitHub\\autolock\\Libs\\lock\\SYM\\atmega328p_qfp.1 atmega328p_qfp.1
+nse::selectitems 173
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems 176
+nse::clearselection
+nse::selectitems 171
+nse::clearselection
+nse::selectitems 41
+nse::clearselection
+nse::selectitems {41 44 47 50 53 56 59 62}
+port::setside -side right
+nse::deselectitems {41 44 47 50 53 56 59 62}
+nse::selectitems 173
+edit::move -offset 0,0
+nse::deselectitems 173
+nse::selectitems 176
+nse::deselectitems 176
+nse::selectitems 173
+edit::move -offset 5080,-5080
+nse::deselectitems 173
+nse::selectitems 176
+edit::move -offset 5080,0
+nse::deselectitems 176
+nse::selectitems 41
+edit::move -offset 7620,20320
+nse::deselectitems 41
+nse::selectitems 176
+edit::move -offset -5080,0
+nse::deselectitems 176
+nse::selectitems 173
+edit::move -offset -5080,5080
+nse::clearselection
+nse::selectitems 194
+nse::clearselection
+nse::selectitems 194
+nse::clearselection
+nse::selectitems {62 135 171 189 192 194}
+nse::clearselection
+nse::selectitems 194
+edit::move -offset -5080,0
+nse::undo
+nse::clearselection
+nse::selectitems {62 135 171 192 194}
+nse::deselectitems 171
+edit::move -offset -2540,-2540
+nse::undo
+nse::deselectitems 135
+edit::move -offset 0,-17780
+nse::deselectitems {62 192 194}
+nse::selectitems 173
+nse::clearselection
+nse::selectitems {41 171 173}
+edit::move -offset -7620,-2540
+nse::clearselection
+nse::selectitems {44 176 179}
+nse::deselectitems 179
+edit::move -offset 10160,12700
+edit::move -offset 5080,0
+nse::clearselection
+nse::selectitems 174
+edit::move -offset 0,0
+nse::undo
+nse::clearselection
+nse::selectitems {59 135 173 186 189 191}
+nse::deselectitems 186
+nse::selectitems 171
+nse::deselectitems 171
+nse::deselectitems 135
+edit::move -offset 0,0
+nse::deselectitems 173
+edit::move -offset 0,-15240
+nse::deselectitems {59 189 191}
+nse::selectitems 174
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems {44 174 176}
+edit::move -offset -15240,0
+nse::clearselection
+nse::selectitems {56 135 176 186 188}
+nse::deselectitems 176
+nse::deselectitems 135
+edit::move -offset 17780,-7620
+nse::clearselection
+nse::selectitems {47 135 177 179 182}
+nse::deselectitems 182
+nse::deselectitems 135
+edit::move -offset 0,7620
+nse::clearselection
+nse::selectitems {56 186 188}
+edit::move -offset -17780,0
+nse::clearselection
+nse::selectitems 180
+nse::clearselection
+nse::selectitems {50 182 185}
+nse::deselectitems 185
+edit::move -offset 17780,10160
+nse::clearselection
+nse::selectitems {53 135 179 183 185}
+nse::deselectitems 179
+nse::deselectitems 135
+edit::move -offset 0,-2540
+nse::clearselection
+nse::selectitems {50 180 182}
+edit::move -offset -17780,-7620
+nse::clearselection
+nse::savesymbol
+nse::closesymbol

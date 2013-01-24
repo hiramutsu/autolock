@@ -1,0 +1,102 @@
+# This file specifies the N/C drill output format options.
+# The file is divided into two sections:-
+# 1) Drill Listing - which determines the format of the Drill Listing file.
+# 2) N/C Drill - which determines the format of the output file to drive the
+#    actual drill machine.
+# Each section has a header of the form: $<Section Name>.
+# The sections can be in any order but the section name must be preceeded by
+# a "$" character in the 1st column of a line.
+# Currently the only valid section names are "Drill Listing" and "N/C Drill".
+# Comments such as these may appear anywhere in the file so long as they
+# start with a "#" character in the 1st column.
+#
+# Each format option is identified by a 3 character mnemonic followed by a
+# colon ":".
+# A format option will either take a numeric value or a format string
+# immediately following the colon.
+# A format string specifies the exact text to be used within the drill
+# command that it is defining.
+# Format strings may contain the character "@" which indicates that a
+# numeric value or other data will be inserted at this point by the N/C Drill
+# software.
+# The character immediately following the "@" specifies the type of data to
+# be inserted as follows:-
+#	@u - Units                 - valid in SDF: only.
+#	@l - Leading digits        - valid in SDF: only.
+#	@m - Trailing digits       - valid in SDF: only.
+#	@0 - Zero suppression      - valid in SDF: only.
+#	@d - Drill size            - valid in STS: only.
+#	@t - Tool number           - valid in STS: only.
+#	@f - Drill feed rate       - valid in STS: only.
+#	@s - Drill speed           - valid in STS: only.
+#	@x - Drill X co-ordinate   - valid in XYC: and SRC: only.
+#	@y - Drill Y co-ordinate   - valid in XYC: and SRC: only.
+#	@c - Drill coordinates		- valid in SDC: only.
+#	@z - Drill X/Y co-ordinate value          - valid in DXC: and DYC: only.
+#	@r - Step & Repeat section (if selected)  - valid in ETS: or EDF: only.
+#	@n - Start new line in output file        - valid in any format string.
+#
+# Note: the N/C Drill software only supplies the data types listed above.
+#		  Any additional commands such as Rewind commands, Swap or Mirror
+#		  axes commands must be inserted by the user in the apropriate format
+#		  string.  The user should refer to his N/C Drill machine manual for
+#		  details.
+#
+# The format options are as follows:-
+#	EIA: - Numeric value: 0 = ASCII output, 1 = EIA RS-244 output code.
+#	MET: - Numeric value: 0 = English units, 1 = Metric units.
+#	PRE: - Numeric value: number of fractional digits in co-ordinates
+#			 assuming English units of inches or Metric units of millimetres.
+#	NDG: - Numeric value: total number of significant digits in co-ordinates.
+#	LTZ: - Numeric value: 0 = no zero suppression, 1 = suppress leading zeros,
+#			 2 = suppress trailing zeros.
+#	INC: - Numeric value: 0 = absolute co-ordinates, 1 = incremental coords.
+#	RPT: - Numeric value: 0 = no suppression, 1 = suppress repeated coords.
+#	SDF: - Format string: commands for start of drill file.
+#	STS: - Format string: commands for start of tool section.
+#	XYC: - Format string: commands for drill hole co-ordinates.
+#	DXC: - Format string: commands for drill hole X co-ordinate.
+#	DYC: - Format string: commands for drill hole Y co-ordinate.
+#	SDC: - Format string: commands for slotted drill hole co-ordinates.
+#	ETS: - Format string: commands for end of tool section.
+#	EDF: - Format string: commands for end of drill file.
+#	SSR: - Format string: commands for start of Step & Repeat section.
+#	SRC: - Format string: commands for Step & Repeat offset co-ordinates.
+#	ESR: - Format string: commands for end of Step & Repeat section.
+
+$Excellon
+EIA:0
+MET:0
+PRE:4
+NDG:6
+LTZ:2
+INC:0
+RPT:0
+SFD:3
+SDF:%
+STS:T@tC@dF@fS@s
+XYC:@x@y
+DXC:X@z
+DYC:Y@z
+SSR:M01
+SRC:M02@x@y
+ESR:M02@nM08
+EDF:@rM30
+SDC:@cG85@c
+
+$Drill Listing
+EIA:0
+MET:0
+PRE:5
+NDG:8
+LTZ:1
+INC:0
+RPT:0
+SDF:Drill Listing@n=============
+STS:Drill: @d  Tool: @t  Feed: @f  Speed: @s
+XYC:@x  @y
+DXC:X @z
+DYC:Y @z
+SDC:@c @c
+ETS:
+EDF:End of Listing

@@ -1,0 +1,23 @@
+PADS POWERPCB COLOR CONFIGURATION FILE
+Monochrome
+
+BackGroundColor 0
+ForeGroundColor 15
+ConnectionColor 7
+BusColor 7
+LineColor 7
+TextColor 7
+TextBoxColor 0
+PartColor 7
+RefDesColor 7
+RefDesBoxColor 0
+PartTypeColor 7
+PartTypeBoxColor 0
+PartTextColor 7
+PartTextBoxColor 0
+PinNumberColor 7
+PinNumberBoxColor 0
+NetNameColor 7
+NetNameBoxor 0
+HierCompColor 7
+*END*

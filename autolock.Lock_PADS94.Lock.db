@@ -1,0 +1,1574 @@
+
+(pcb
+ "C:\Users\Ian\Documents\GitHub\autolock\autolock.Lock_PADS94.Lock.db"
+	(version "5.0.0")
+	(units "basic")
+	(config_properties
+		(attributes
+			(attval "PcbConfigName"
+ "C:\MentorGraphics\9.5PADS\SDD_HOME/standard/pads94.cfg")
+			(attval "CnsFile"
+ "C:\MentorGraphics\9.5PADS\SDD_HOME\standard\isis\pads94.cns")
+			(attval "BeAdapter" "PADS94")
+			(attval "FeAdapter" "DxDesigner")
+			(attval "SYSCONFIG" "pcbfwd")
+			(attval "LASTSYSCONFIG" "pcbfwd"))
+		(constraints
+			(cnsval "U:Velocity" "Unknown:3")
+			(cnsval "U:Time" "Unknown:3")
+			(cnsval "U:Ampere" "Unknown:3")
+			(cnsval "U:Capacitance" "Unknown:3")
+			(cnsval "U:Inductance" "Unknown:3")
+			(cnsval "U:Ohm" "Unknown:3")
+			(cnsval "U:Volt" "Unknown:3")
+			(cnsval "U:Power" "Unknown:3")
+			(cnsval "U:Unknown" "Unknown:3")
+			(cnsval "U:Angle" "Unknown:3")
+			(cnsval "U:Linear" "THOUSANDTHS:3")))
+	(project_properties
+		(attributes
+			(attval "EPLANNER_DSN" "1.0")))
+	(part_library
+		(part "VLS252012ET-2R2M")
+		(logical_part_mapping "VLS252012ET-2R2M"
+			(comp "L1"))
+		(logical_part "VLS252012ET-2R2M"
+			(slots
+				(slot "IND_LL1008__VLS252012ET-2R2M_1"
+					(attributes
+						(attval "DEVICE" "IND_SMT_5%_1008")
+						(attval "PKG_TYPE" "LL1008")
+						(attval "REFDES" "L?")
+						(attval "Value" "?NH"))))
+			(pin 2  0 "IND_LL1008__VLS252012ET-2R2M_1" 0 "N2" 0)
+			(pin 1  0 "IND_LL1008__VLS252012ET-2R2M_1" 0 "N1" 0))
+		(part "UVR0J102MPD1TA")
+		(logical_part_mapping "UVR0J102MPD1TA"
+			(comp "C3"))
+		(logical_part "UVR0J102MPD1TA"
+			(slots
+				(slot "CAP_ELECT_25V_5DX2SMM_RADIAL___UVR0J102MPD1TA_1"
+					(attributes
+						(attval "DEVICE" "CAP_ELECT_25V_5DX2SMM_RADIAL")
+						(attval "PKG_TYPE" "RADIAL_ELECT_5DIAX2MM")
+						(attval "REFDES" "C?")
+						(attval "Value" "10UF"))))
+			(pin 1  5 "CAP_ELECT_25V_5DX2SMM_RADIAL___UVR0J102MPD1TA_1" 0 "P" 0)
+			(pin 2  5 "CAP_ELECT_25V_5DX2SMM_RADIAL___UVR0J102MPD1TA_1" 0 "N" 0))
+		(part "TPS62172DSGT")
+		(logical_part_mapping "TPS62172DSGT"
+			(comp "U1"))
+		(logical_part "TPS62172DSGT"
+			(slots
+				(slot "TPS62172DSG__TPS62172DSGT_1"
+					(attributes
+						(attval "DEVICE" "TPS62172DSGT")
+						(attval "PKG_TYPE" "SON50P200X200X75_HS-9N")
+						(attval "REFDES" "U?"))))
+			(pin 6  3 "TPS62172DSG__TPS62172DSGT_1" 0 "VOS" 0)
+			(pin 2  2 "TPS62172DSG__TPS62172DSGT_1" 0 "VIN" 0)
+			(pin 9  5 "TPS62172DSG__TPS62172DSGT_1" 0 "THERMAL" 0)
+			(pin 7  4 "TPS62172DSG__TPS62172DSGT_1" 0 "SW" 0)
+			(pin 1  0 "TPS62172DSG__TPS62172DSGT_1" 0 "PGND" 0)
+			(pin 8  3 "TPS62172DSG__TPS62172DSGT_1" 0 "PG" 0)
+			(pin 5  3 "TPS62172DSG__TPS62172DSGT_1" 0 "FB" 0)
+			(pin 3  3 "TPS62172DSG__TPS62172DSGT_1" 0 "EN" 0)
+			(pin 4  0 "TPS62172DSG__TPS62172DSGT_1" 0 "AGND" 0))
+		(part "TB6552FNG")
+		(logical_part_mapping "TB6552FNG"
+			(comp "U4"))
+		(logical_part "TB6552FNG"
+			(slots
+				(slot "TB6552FNG__TB6552FNG_1"
+					(attributes
+						(attval "DEVICE" "TB6552FNG")
+						(attval "PKG_TYPE" "SOP65P640X160-16N")
+						(attval "REFDES" "U?"))))
+			(pin 6  3 "TB6552FNG__TB6552FNG_1" 0 "VM" 0)
+			(pin 16  2 "TB6552FNG__TB6552FNG_1" 0 "VCC" 0)
+			(pin 9  3 "TB6552FNG__TB6552FNG_1" 0 "PGND" 0)
+			(pin 1  0 "TB6552FNG__TB6552FNG_1" 0 "GND" 0)
+			(pin 12  3 "TB6552FNG__TB6552FNG_1" 0 "BSTBY" 0)
+			(pin 13  3 "TB6552FNG__TB6552FNG_1" 0 "BPWM" 0)
+			(pin 10  4 "TB6552FNG__TB6552FNG_1" 0 "BO2" 0)
+			(pin 11  4 "TB6552FNG__TB6552FNG_1" 0 "BO1" 0)
+			(pin 14  3 "TB6552FNG__TB6552FNG_1" 0 "BIN2" 0)
+			(pin 15  3 "TB6552FNG__TB6552FNG_1" 0 "BIN1" 0)
+			(pin 5  3 "TB6552FNG__TB6552FNG_1" 0 "ASTBY" 0)
+			(pin 4  3 "TB6552FNG__TB6552FNG_1" 0 "APWM" 0)
+			(pin 8  4 "TB6552FNG__TB6552FNG_1" 0 "AO2" 0)
+			(pin 7  4 "TB6552FNG__TB6552FNG_1" 0 "AO1" 0)
+			(pin 3  3 "TB6552FNG__TB6552FNG_1" 0 "AIN2" 0)
+			(pin 2  3 "TB6552FNG__TB6552FNG_1" 0 "AIN1" 0))
+		(part "SPEAKER_PLUS")
+		(logical_part_mapping "SPEAKER_PLUS"
+			(comp "TP9"))
+		(logical_part "SPEAKER_PLUS"
+			(slots
+				(slot "TEST_POINT__SPEAKER_PLUS_1"
+					(attributes
+						(attval "CLASS" "TESTPOINT")
+						(attval "DEVICE" "TEST_POINT")
+						(attval "PKG_TYPE" "TEST_PAD")
+						(attval "REFDES" "TP?"))))
+			(pin 1  3 "TEST_POINT__SPEAKER_PLUS_1" 0 "TST" 0))
+		(part "SPEAKER_MINUS")
+		(logical_part_mapping "SPEAKER_MINUS"
+			(comp "TP10"))
+		(logical_part "SPEAKER_MINUS"
+			(slots
+				(slot "TEST_POINT__SPEAKER_MINUS_1"
+					(attributes
+						(attval "CLASS" "TESTPOINT")
+						(attval "DEVICE" "TEST_POINT")
+						(attval "PKG_TYPE" "TEST_PAD")
+						(attval "REFDES" "TP?"))))
+			(pin 1  3 "TEST_POINT__SPEAKER_MINUS_1" 0 "TST" 0))
+		(part "SBH11-PBPC-D10-ST-BK")
+		(logical_part_mapping "SBH11-PBPC-D10-ST-BK"
+			(comp "P1"))
+		(logical_part "SBH11-PBPC-D10-ST-BK"
+			(slots
+				(slot "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1"
+					(attributes
+						(attval "DEVICE" "HDR20X2_01IN_VTSHR_THRU")
+						(attval "PKG_TYPE" "HDR20X2_01IN_VTSHR_THRU")
+						(attval "REFDES" "P?"))))
+			(pin 9  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "9" 0)
+			(pin 8  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "8" 0)
+			(pin 7  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "7" 0)
+			(pin 6  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "6" 0)
+			(pin 5  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "5" 0)
+			(pin 4  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "4" 0)
+			(pin 3  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "3" 0)
+			(pin 20  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "20" 0)
+			(pin 2  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "2" 0)
+			(pin 19  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "19" 0)
+			(pin 18  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "18" 0)
+			(pin 17  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "17" 0)
+			(pin 16  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "16" 0)
+			(pin 15  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "15" 0)
+			(pin 14  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "14" 0)
+			(pin 13  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "13" 0)
+			(pin 12  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "12" 0)
+			(pin 11  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "11" 0)
+			(pin 10  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "10" 0)
+			(pin 1  5 "HDR20X2_VT_SHR_THR__SBH11-PBPC-D10-ST-BK_1" 0 "1" 0))
+		(part "RC1206JR-0762RL")
+		(logical_part_mapping "RC1206JR-0762RL"
+			(comp "R6"))
+		(logical_part "RC1206JR-0762RL"
+			(slots
+				(slot "RES_RC1206__RC1206JR-0762RL_1"
+					(attributes
+						(attval "DEVICE" "RES_5%_1/4_W_1206")
+						(attval "PKG_TYPE" "RC1206")
+						(attval "REFDES" "R?")
+						(attval "Value" "?OHM"))))
+			(pin 2  5 "RES_RC1206__RC1206JR-0762RL_1" 0 "N2" 0)
+			(pin 1  5 "RES_RC1206__RC1206JR-0762RL_1" 0 "N1" 0))
+		(part "RC0603FR-075K6L")
+		(logical_part_mapping "RC0603FR-075K6L"
+			(comp "R3"))
+		(logical_part "RC0603FR-075K6L"
+			(slots
+				(slot "RES_RC0603__RC0603FR-075K6L_1"
+					(attributes
+						(attval "DEVICE" "RES_5%_1/10_W_0603")
+						(attval "PKG_TYPE" "RC0603")
+						(attval "REFDES" "R?")
+						(attval "Value" "?OHM"))))
+			(pin 2  5 "RES_RC0603__RC0603FR-075K6L_1" 0 "N2" 0)
+			(pin 1  5 "RES_RC0603__RC0603FR-075K6L_1" 0 "N1" 0))
+		(part "RC0603FR-071KL")
+		(logical_part_mapping "RC0603FR-071KL"
+			(comp "R4"))
+		(logical_part "RC0603FR-071KL"
+			(slots
+				(slot "RES_RC0603__RC0603FR-071KL_1"
+					(attributes
+						(attval "DEVICE" "RES_5%_1/10_W_0603")
+						(attval "PKG_TYPE" "RC0603")
+						(attval "REFDES" "R?")
+						(attval "Value" "?OHM"))))
+			(pin 2  5 "RES_RC0603__RC0603FR-071KL_1" 0 "N2" 0)
+			(pin 1  5 "RES_RC0603__RC0603FR-071KL_1" 0 "N1" 0))
+		(part "POT_WIPER_TERMINAL")
+		(logical_part_mapping "POT_WIPER_TERMINAL"
+			(comp "TP7"))
+		(logical_part "POT_WIPER_TERMINAL"
+			(slots
+				(slot "TEST_POINT__POT_WIPER_TERMINAL_1"
+					(attributes
+						(attval "CLASS" "TESTPOINT")
+						(attval "DEVICE" "TEST_POINT")
+						(attval "PKG_TYPE" "TEST_PAD")
+						(attval "REFDES" "TP?"))))
+			(pin 1  3 "TEST_POINT__POT_WIPER_TERMINAL_1" 0 "TST" 0))
+		(part "POT_TERMINAL_2")
+		(logical_part_mapping "POT_TERMINAL_2"
+			(comp "TP8"))
+		(logical_part "POT_TERMINAL_2"
+			(slots
+				(slot "TEST_POINT__POT_TERMINAL_2_1"
+					(attributes
+						(attval "CLASS" "TESTPOINT")
+						(attval "DEVICE" "TEST_POINT")
+						(attval "PKG_TYPE" "TEST_PAD")
+						(attval "REFDES" "TP?"))))
+			(pin 1  3 "TEST_POINT__POT_TERMINAL_2_1" 0 "TST" 0))
+		(part "POT_TERMINAL_1")
+		(logical_part_mapping "POT_TERMINAL_1"
+			(comp "TP6"))
+		(logical_part "POT_TERMINAL_1"
+			(slots
+				(slot "TEST_POINT__POT_TERMINAL_1_1"
+					(attributes
+						(attval "CLASS" "TESTPOINT")
+						(attval "DEVICE" "TEST_POINT")
+						(attval "PKG_TYPE" "TEST_PAD")
+						(attval "REFDES" "TP?"))))
+			(pin 1  3 "TEST_POINT__POT_TERMINAL_1_1" 0 "TST" 0))
+		(part "NPPN101BFCN-RC")
+		(logical_part_mapping "NPPN101BFCN-RC"
+			(comp "P3" "P2"))
+		(logical_part "NPPN101BFCN-RC"
+			(slots
+				(slot "RCPT10X1_2MM_THRU__NPPN101BFCN-RC_1"
+					(attributes
+						(attval "DEVICE" "NPPN101BFCN-RC")
+						(attval "PKG_TYPE" "RCPT10X1_2MM_THRU")
+						(attval "REFDES" "U?"))))
+			(pin 9  5 "RCPT10X1_2MM_THRU__NPPN101BFCN-RC_1" 0 "PIN9" 0)
+			(pin 8  5 "RCPT10X1_2MM_THRU__NPPN101BFCN-RC_1" 0 "PIN8" 0)
+			(pin 7  5 "RCPT10X1_2MM_THRU__NPPN101BFCN-RC_1" 0 "PIN7" 0)
+			(pin 6  5 "RCPT10X1_2MM_THRU__NPPN101BFCN-RC_1" 0 "PIN6" 0)
+			(pin 5  5 "RCPT10X1_2MM_THRU__NPPN101BFCN-RC_1" 0 "PIN5" 0)
+			(pin 4  5 "RCPT10X1_2MM_THRU__NPPN101BFCN-RC_1" 0 "PIN4" 0)
+			(pin 3  5 "RCPT10X1_2MM_THRU__NPPN101BFCN-RC_1" 0 "PIN3" 0)
+			(pin 2  5 "RCPT10X1_2MM_THRU__NPPN101BFCN-RC_1" 0 "PIN2" 0)
+			(pin 10  5 "RCPT10X1_2MM_THRU__NPPN101BFCN-RC_1" 0 "PIN10" 0)
+			(pin 1  5 "RCPT10X1_2MM_THRU__NPPN101BFCN-RC_1" 0 "PIN1" 0))
+		(part "MOTOR_WIRE_BACKUP_2")
+		(logical_part_mapping "MOTOR_WIRE_BACKUP_2"
+			(comp "TP12"))
+		(logical_part "MOTOR_WIRE_BACKUP_2"
+			(slots
+				(slot "TEST_POINT__MOTOR_WIRE_BACKUP_2_1"
+					(attributes
+						(attval "CLASS" "TESTPOINT")
+						(attval "DEVICE" "TEST_POINT")
+						(attval "PKG_TYPE" "TEST_PAD")
+						(attval "REFDES" "TP?"))))
+			(pin 1  3 "TEST_POINT__MOTOR_WIRE_BACKUP_2_1" 0 "TST" 0))
+		(part "MOTOR_WIRE_BACKUP_1")
+		(logical_part_mapping "MOTOR_WIRE_BACKUP_1"
+			(comp "TP11"))
+		(logical_part "MOTOR_WIRE_BACKUP_1"
+			(slots
+				(slot "TEST_POINT__MOTOR_WIRE_BACKUP_1_1"
+					(attributes
+						(attval "CLASS" "TESTPOINT")
+						(attval "DEVICE" "TEST_POINT")
+						(attval "PKG_TYPE" "TEST_PAD")
+						(attval "REFDES" "TP?"))))
+			(pin 1  3 "TEST_POINT__MOTOR_WIRE_BACKUP_1_1" 0 "TST" 0))
+		(part "MOTOR_WIRE_2")
+		(logical_part_mapping "MOTOR_WIRE_2"
+			(comp "TP14"))
+		(logical_part "MOTOR_WIRE_2"
+			(slots
+				(slot "TEST_POINT__MOTOR_WIRE_2_1"
+					(attributes
+						(attval "CLASS" "TESTPOINT")
+						(attval "DEVICE" "TEST_POINT")
+						(attval "PKG_TYPE" "TEST_PAD")
+						(attval "REFDES" "TP?"))))
+			(pin 1  3 "TEST_POINT__MOTOR_WIRE_2_1" 0 "TST" 0))
+		(part "MOTOR_WIRE_1")
+		(logical_part_mapping "MOTOR_WIRE_1"
+			(comp "TP13"))
+		(logical_part "MOTOR_WIRE_1"
+			(slots
+				(slot "TEST_POINT__MOTOR_WIRE_1_1"
+					(attributes
+						(attval "CLASS" "TESTPOINT")
+						(attval "DEVICE" "TEST_POINT")
+						(attval "PKG_TYPE" "TEST_PAD")
+						(attval "REFDES" "TP?"))))
+			(pin 1  3 "TEST_POINT__MOTOR_WIRE_1_1" 0 "TST" 0))
+		(part "LMK107B7105KA-T")
+		(logical_part_mapping "LMK107B7105KA-T"
+			(comp "C9" "C7" "C4"))
+		(logical_part "LMK107B7105KA-T"
+			(slots
+				(slot "CAP_NP_CC0603__LMK107B7105KA-T_1"
+					(attributes
+						(attval "DEVICE" "CAP_10%_25_VDC_0603")
+						(attval "PKG_TYPE" "CC0603")
+						(attval "REFDES" "C?")
+						(attval "Value" "?UF"))))
+			(pin 2  5 "CAP_NP_CC0603__LMK107B7105KA-T_1" 0 "N2" 0)
+			(pin 1  5 "CAP_NP_CC0603__LMK107B7105KA-T_1" 0 "N1" 0))
+		(part "LM2904DR")
+		(logical_part_mapping "LM2904DR"
+			(comp "U5"))
+		(logical_part "LM2904DR"
+			(slots
+				(slot "LM2904DR__LM2904DR_1"
+					(attributes
+						(attval "DEVICE" "LM2904DR")
+						(attval "PKG_TYPE" "SOIC127P600X175-8N")
+						(attval "REFDES" "U?"))))
+			(pin 8  2 "LM2904DR__LM2904DR_1" 0 "VCC" 0)
+			(pin 4  0 "LM2904DR__LM2904DR_1" 0 "GND" 0)
+			(pin 7  4 "LM2904DR__LM2904DR_1" 0 "2OUT" 0)
+			(pin 6  3 "LM2904DR__LM2904DR_1" 0 "2IN-" 0)
+			(pin 5  3 "LM2904DR__LM2904DR_1" 0 "2IN+" 0)
+			(pin 1  4 "LM2904DR__LM2904DR_1" 0 "1OUT" 0)
+			(pin 2  3 "LM2904DR__LM2904DR_1" 0 "1IN-" 0)
+			(pin 3  3 "LM2904DR__LM2904DR_1" 0 "1IN+" 0))
+		(part "JMK212BJ226MG-T")
+		(logical_part_mapping "JMK212BJ226MG-T"
+			(comp "C2"))
+		(logical_part "JMK212BJ226MG-T"
+			(slots
+				(slot "CAP_NP_CC0805__JMK212BJ226MG-T_1"
+					(attributes
+						(attval "DEVICE" "CAP_10%_50_VDC_0805")
+						(attval "PKG_TYPE" "CC0805")
+						(attval "REFDES" "C?")
+						(attval "Value" "?UF"))))
+			(pin 2  5 "CAP_NP_CC0805__JMK212BJ226MG-T_1" 0 "N2" 0)
+			(pin 1  5 "CAP_NP_CC0805__JMK212BJ226MG-T_1" 0 "N1" 0))
+		(part "HALL_EFFECT_SIGNAL")
+		(logical_part_mapping "HALL_EFFECT_SIGNAL"
+			(comp "TP4"))
+		(logical_part "HALL_EFFECT_SIGNAL"
+			(slots
+				(slot "TEST_POINT__HALL_EFFECT_SIGNAL_1"
+					(attributes
+						(attval "CLASS" "TESTPOINT")
+						(attval "DEVICE" "TEST_POINT")
+						(attval "PKG_TYPE" "TEST_PAD")
+						(attval "REFDES" "TP?"))))
+			(pin 1  3 "TEST_POINT__HALL_EFFECT_SIGNAL_1" 0 "TST" 0))
+		(part "HALL_EFFECT_POWER")
+		(logical_part_mapping "HALL_EFFECT_POWER"
+			(comp "TP3"))
+		(logical_part "HALL_EFFECT_POWER"
+			(slots
+				(slot "TEST_POINT__HALL_EFFECT_POWER_1"
+					(attributes
+						(attval "CLASS" "TESTPOINT")
+						(attval "DEVICE" "TEST_POINT")
+						(attval "PKG_TYPE" "TEST_PAD")
+						(attval "REFDES" "TP?"))))
+			(pin 1  3 "TEST_POINT__HALL_EFFECT_POWER_1" 0 "TST" 0))
+		(part "HALL_EFFECT_GROUND")
+		(logical_part_mapping "HALL_EFFECT_GROUND"
+			(comp "TP5"))
+		(logical_part "HALL_EFFECT_GROUND"
+			(slots
+				(slot "TEST_POINT__HALL_EFFECT_GROUND_1"
+					(attributes
+						(attval "CLASS" "TESTPOINT")
+						(attval "DEVICE" "TEST_POINT")
+						(attval "PKG_TYPE" "TEST_PAD")
+						(attval "REFDES" "TP?"))))
+			(pin 1  3 "TEST_POINT__HALL_EFFECT_GROUND_1" 0 "TST" 0))
+		(part "ERJ-14YJ100U")
+		(logical_part_mapping "ERJ-14YJ100U"
+			(comp "R5"))
+		(logical_part "ERJ-14YJ100U"
+			(slots
+				(slot "RES_RC2010__ERJ-14YJ100U_1"
+					(attributes
+						(attval "DEVICE" "RES_5%_1/2_W_2010")
+						(attval "PKG_TYPE" "RC2010")
+						(attval "REFDES" "R?")
+						(attval "Value" "?OHM"))))
+			(pin 2  5 "RES_RC2010__ERJ-14YJ100U_1" 0 "N2" 0)
+			(pin 1  5 "RES_RC2010__ERJ-14YJ100U_1" 0 "N1" 0))
+		(part "ERJ-8RQFR27V")
+		(logical_part_mapping "ERJ-8RQFR27V"
+			(comp "R9"))
+		(logical_part "ERJ-8RQFR27V"
+			(slots
+				(slot "RES_RC1206__ERJ-8RQFR27V_1"
+					(attributes
+						(attval "DEVICE" "RES_5%_1/4_W_1206")
+						(attval "PKG_TYPE" "RC1206")
+						(attval "REFDES" "R?")
+						(attval "Value" "?OHM"))))
+			(pin 2  5 "RES_RC1206__ERJ-8RQFR27V_1" 0 "N2" 0)
+			(pin 1  5 "RES_RC1206__ERJ-8RQFR27V_1" 0 "N1" 0))
+		(part "ERJ-6GEY0R00V")
+		(logical_part_mapping "ERJ-6GEY0R00V"
+			(comp "R7" "R2" "R1"))
+		(logical_part "ERJ-6GEY0R00V"
+			(slots
+				(slot "RES_RC0805__ERJ-6GEY0R00V_1"
+					(attributes
+						(attval "DEVICE" "RES_5%_1/8_W_0805")
+						(attval "PKG_TYPE" "RC0805")
+						(attval "REFDES" "R?")
+						(attval "Value" "?OHM"))))
+			(pin 2  5 "RES_RC0805__ERJ-6GEY0R00V_1" 0 "N2" 0)
+			(pin 1  5 "RES_RC0805__ERJ-6GEY0R00V_1" 0 "N1" 0))
+		(part "ERJ-3GEYJ103V")
+		(logical_part_mapping "ERJ-3GEYJ103V"
+			(comp "R8"))
+		(logical_part "ERJ-3GEYJ103V"
+			(slots
+				(slot "RES_RC0603__ERJ-3GEYJ103V_1"
+					(attributes
+						(attval "DEVICE" "RES_5%_1/10_W_0603")
+						(attval "PKG_TYPE" "RC0603")
+						(attval "REFDES" "R?")
+						(attval "Value" "?OHM"))))
+			(pin 2  5 "RES_RC0603__ERJ-3GEYJ103V_1" 0 "N2" 0)
+			(pin 1  5 "RES_RC0603__ERJ-3GEYJ103V_1" 0 "N1" 0))
+		(part "ERJ-3EKF3832V")
+		(logical_part_mapping "ERJ-3EKF3832V"
+			(comp "R10"))
+		(logical_part "ERJ-3EKF3832V"
+			(slots
+				(slot "RES_RC0603__ERJ-3EKF3832V_1"
+					(attributes
+						(attval "DEVICE" "RES_5%_1/10_W_0603")
+						(attval "PKG_TYPE" "RC0603")
+						(attval "REFDES" "R?")
+						(attval "Value" "?OHM"))))
+			(pin 2  5 "RES_RC0603__ERJ-3EKF3832V_1" 0 "N2" 0)
+			(pin 1  5 "RES_RC0603__ERJ-3EKF3832V_1" 0 "N1" 0))
+		(part "EMK212BJ106KG-T")
+		(logical_part_mapping "EMK212BJ106KG-T"
+			(comp "C1"))
+		(logical_part "EMK212BJ106KG-T"
+			(slots
+				(slot "CAP_NP_CC0805__EMK212BJ106KG-T_1"
+					(attributes
+						(attval "DEVICE" "CAP_10%_50_VDC_0805")
+						(attval "PKG_TYPE" "CC0805")
+						(attval "REFDES" "C?")
+						(attval "Value" "?UF"))))
+			(pin 2  5 "CAP_NP_CC0805__EMK212BJ106KG-T_1" 0 "N2" 0)
+			(pin 1  5 "CAP_NP_CC0805__EMK212BJ106KG-T_1" 0 "N1" 0))
+		(part "DMN3404L-7")
+		(logical_part_mapping "DMN3404L-7"
+			(comp "M1"))
+		(logical_part "DMN3404L-7"
+			(slots
+				(slot "BSS138__DMN3404L-7_1"
+					(attributes
+						(attval "DEVICE" "BSS138")
+						(attval "PKG_TYPE" "SOT-23")
+						(attval "REFDES" "M?"))))
+			(pin 2  5 "BSS138__DMN3404L-7_1" 0 "S" 0)
+			(pin 1  5 "BSS138__DMN3404L-7_1" 0 "G" 0)
+			(pin 3  5 "BSS138__DMN3404L-7_1" 0 "D" 0))
+		(part "DMG9926USD-13")
+		(logical_part_mapping "DMG9926USD-13"
+			(comp "U3"))
+		(logical_part "DMG9926USD-13"
+			(slots
+				(slot "DMG9926USD-13__DMG9926USD-13_1"
+					(attributes
+						(attval "DEVICE" "DMG9926USD-13")
+						(attval "PKG_TYPE" "8-SOP")
+						(attval "REFDES" "U?"))))
+			(pin 3  3 "DMG9926USD-13__DMG9926USD-13_1" 0 "S2" 0)
+			(pin 1  3 "DMG9926USD-13__DMG9926USD-13_1" 0 "S1" 0)
+			(pin 4  3 "DMG9926USD-13__DMG9926USD-13_1" 0 "G2" 0)
+			(pin 2  3 "DMG9926USD-13__DMG9926USD-13_1" 0 "G1" 0)
+			(pin 6  3 "DMG9926USD-13__DMG9926USD-13_1" 0 "D2B" 0)
+			(pin 5  3 "DMG9926USD-13__DMG9926USD-13_1" 0 "D2A" 0)
+			(pin 8  3 "DMG9926USD-13__DMG9926USD-13_1" 0 "D1B" 0)
+			(pin 7  3 "DMG9926USD-13__DMG9926USD-13_1" 0 "D1A" 0))
+		(part "DMG1012T-7")
+		(logical_part_mapping "DMG1012T-7"
+			(comp "M2"))
+		(logical_part "DMG1012T-7"
+			(slots
+				(slot "BSS138__DMG1012T-7_1"
+					(attributes
+						(attval "DEVICE" "BSS138")
+						(attval "PKG_TYPE" "SOT-23")
+						(attval "REFDES" "M?"))))
+			(pin 2  5 "BSS138__DMG1012T-7_1" 0 "S" 0)
+			(pin 1  5 "BSS138__DMG1012T-7_1" 0 "G" 0)
+			(pin 3  5 "BSS138__DMG1012T-7_1" 0 "D" 0))
+		(part "C1608C0G1H8R2C")
+		(logical_part_mapping "C1608C0G1H8R2C"
+			(comp "C5"))
+		(logical_part "C1608C0G1H8R2C"
+			(slots
+				(slot "CAP_NP_CC0603__C1608C0G1H8R2C_1"
+					(attributes
+						(attval "DEVICE" "CAP_10%_25_VDC_0603")
+						(attval "PKG_TYPE" "CC0603")
+						(attval "REFDES" "C?")
+						(attval "Value" "?UF"))))
+			(pin 2  5 "CAP_NP_CC0603__C1608C0G1H8R2C_1" 0 "N2" 0)
+			(pin 1  5 "CAP_NP_CC0603__C1608C0G1H8R2C_1" 0 "N1" 0))
+		(part "BATTERY_PWR")
+		(logical_part_mapping "BATTERY_PWR"
+			(comp "TP1"))
+		(logical_part "BATTERY_PWR"
+			(slots
+				(slot "TEST_POINT__BATTERY_PWR_1"
+					(attributes
+						(attval "CLASS" "TESTPOINT")
+						(attval "DEVICE" "TEST_POINT")
+						(attval "PKG_TYPE" "TEST_PAD")
+						(attval "REFDES" "TP?"))))
+			(pin 1  3 "TEST_POINT__BATTERY_PWR_1" 0 "TST" 0))
+		(part "BATTERY_GND")
+		(logical_part_mapping "BATTERY_GND"
+			(comp "TP2"))
+		(logical_part "BATTERY_GND"
+			(slots
+				(slot "TEST_POINT__BATTERY_GND_1"
+					(attributes
+						(attval "CLASS" "TESTPOINT")
+						(attval "DEVICE" "TEST_POINT")
+						(attval "PKG_TYPE" "TEST_PAD")
+						(attval "REFDES" "TP?"))))
+			(pin 1  3 "TEST_POINT__BATTERY_GND_1" 0 "TST" 0))
+		(part "ATMEGA328P-AU")
+		(logical_part_mapping "ATMEGA328P-AU"
+			(comp "U2"))
+		(logical_part "ATMEGA328P-AU"
+			(slots
+				(slot "ATMEGA328P_QFP__ATMEGA328P-AU_1"
+					(attributes
+						(attval "DEVICE" "ATMEGA328P-AU")
+						(attval "PKG_TYPE" "QFP80P900X900X120-32N")
+						(attval "REFDES" "U?"))))
+			(pin 6  2 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "VCC2" 0)
+			(pin 4  2 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "VCC1" 0)
+			(pin 11  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PD7" 0)
+			(pin 10  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PD6" 0)
+			(pin 9  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PD5" 0)
+			(pin 2  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PD4" 0)
+			(pin 1  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PD3" 0)
+			(pin 32  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PD2" 0)
+			(pin 31  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PD1" 0)
+			(pin 30  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PD0" 0)
+			(pin 29  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PC6" 0)
+			(pin 28  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PC5" 0)
+			(pin 27  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PC4" 0)
+			(pin 26  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PC3" 0)
+			(pin 25  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PC2" 0)
+			(pin 24  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PC1" 0)
+			(pin 23  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PC0" 0)
+			(pin 8  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PB7" 0)
+			(pin 7  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PB6" 0)
+			(pin 17  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PB5" 0)
+			(pin 16  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PB4" 0)
+			(pin 15  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PB3" 0)
+			(pin 14  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PB2" 0)
+			(pin 13  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PB1" 0)
+			(pin 12  5 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "PB0" 0)
+			(pin 21  0 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "GND3" 0)
+			(pin 5  0 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "GND2" 0)
+			(pin 3  0 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "GND1" 0)
+			(pin 18  3 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "AVCC" 0)
+			(pin 20  3 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "AREF" 0)
+			(pin 22  3 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "ADC7" 0)
+			(pin 19  3 "ATMEGA328P_QFP__ATMEGA328P-AU_1" 0 "ADC6" 0))
+		(part "APD3224SECK-F01")
+		(logical_part_mapping "APD3224SECK-F01"
+			(comp "D1"))
+		(logical_part "APD3224SECK-F01"
+			(slots
+				(slot "LED__APD3224SECK-F01_1"
+					(attributes
+						(attval "DEVICE" "LED_T1_3/4")
+						(attval "PKG_TYPE" "LED_T1_3/4")
+						(attval "REFDES" "D?"))))
+			(pin 2  3 "LED__APD3224SECK-F01_1" 0 "CATH" 0)
+			(pin 1  3 "LED__APD3224SECK-F01_1" 0 "ANODE" 0))
+		(part "67996-206HLF")
+		(logical_part_mapping "67996-206HLF"
+			(comp "P4"))
+		(logical_part "67996-206HLF"
+			(slots
+				(slot "HDR6X2_01IN_RTSHR_THRU__67996-206HLF_1"
+					(attributes
+						(attval "DEVICE" "HDR6X2_01IN_RTSHR_THRU")
+						(attval "PKG_TYPE" "HDR6PX2_01_RT_THRU")
+						(attval "REFDES" "P?"))))
+			(pin 6  5 "HDR6X2_01IN_RTSHR_THRU__67996-206HLF_1" 0 "6" 0)
+			(pin 5  5 "HDR6X2_01IN_RTSHR_THRU__67996-206HLF_1" 0 "5" 0)
+			(pin 4  5 "HDR6X2_01IN_RTSHR_THRU__67996-206HLF_1" 0 "4" 0)
+			(pin 3  5 "HDR6X2_01IN_RTSHR_THRU__67996-206HLF_1" 0 "3" 0)
+			(pin 2  5 "HDR6X2_01IN_RTSHR_THRU__67996-206HLF_1" 0 "2" 0)
+			(pin 1  5 "HDR6X2_01IN_RTSHR_THRU__67996-206HLF_1" 0 "1" 0))
+		(part "06035A101JAT2A")
+		(logical_part_mapping "06035A101JAT2A"
+			(comp "C6"))
+		(logical_part "06035A101JAT2A"
+			(slots
+				(slot "CAP_NP_CC0603__06035A101JAT2A_1"
+					(attributes
+						(attval "DEVICE" "CAP_10%_25_VDC_0603")
+						(attval "PKG_TYPE" "CC0603")
+						(attval "REFDES" "C?")
+						(attval "Value" "?UF"))))
+			(pin 2  5 "CAP_NP_CC0603__06035A101JAT2A_1" 0 "N2" 0)
+			(pin 1  5 "CAP_NP_CC0603__06035A101JAT2A_1" 0 "N1" 0))
+		(part "0603YC104KAT2A")
+		(logical_part_mapping "0603YC104KAT2A"
+			(comp "C10" "C8"))
+		(logical_part "0603YC104KAT2A"
+			(slots
+				(slot "CAP_NP_CC0603__0603YC104KAT2A_1"
+					(attributes
+						(attval "DEVICE" "CAP_10%_25_VDC_0603")
+						(attval "PKG_TYPE" "CC0603")
+						(attval "REFDES" "C?")
+						(attval "Value" "?UF"))))
+			(pin 2  5 "CAP_NP_CC0603__0603YC104KAT2A_1" 0 "N2" 0)
+			(pin 1  5 "CAP_NP_CC0603__0603YC104KAT2A_1" 0 "N1" 0))
+		(part "0ZCA0050FF2G")
+		(logical_part_mapping "0ZCA0050FF2G"
+			(comp "F1"))
+		(logical_part "0ZCA0050FF2G"
+			(slots
+				(slot "RESETTABLE_FUSE__0ZCA0050FF2G_1"
+					(attributes
+						(attval "DEVICE" "0ZCA0050FF2G")
+						(attval "PKG_TYPE" "FUSM3317X55N")
+						(attval "REFDES" "F?"))))
+			(pin 2  5 "RESETTABLE_FUSE__0ZCA0050FF2G_1" 0 "2" 0)
+			(pin 1  5 "RESETTABLE_FUSE__0ZCA0050FF2G_1" 0 "1" 0)))
+	(placement
+		(component "SOIC127P600X175-8N"
+			(place "U5" 0.0 0.0 top 0.0
+				(comp_pin "8" 0.0 0.0 "POWER")
+				(comp_pin "4" 0.0 0.0)
+				(comp_pin "7" 0.0 0.0 "OUT")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "SENSE OPAMP")
+				(attval "DEVICE" "LM2904DR")
+				(attval "REFDES" "U5")))
+		(component "SOP65P640X160-16N"
+			(place "U4" 0.0 0.0 top 0.0
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "POWER")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0)
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "OUT")
+				(comp_pin "11" 0.0 0.0 "OUT")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "OUT")
+				(comp_pin "7" 0.0 0.0 "OUT")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "H BRIDGE")
+				(attval "DEVICE" "TB6552FNG")
+				(attval "REFDES" "U4")))
+		(component "SOIC127P600X175-8N"
+			(place "U3" 0.0 0.0 top 0.0
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "NMOSFETS")
+				(attval "DEVICE" "DMG9926USD-13")
+				(attval "REFDES" "U3")))
+		(component "QFP80P900X900X120-32N"
+			(place "U2" 0.0 0.0 top 0.0
+				(comp_pin "6" 0.0 0.0 "POWER")
+				(comp_pin "4" 0.0 0.0 "POWER")
+				(comp_pin "11" 0.0 0.0 "BI")
+				(comp_pin "10" 0.0 0.0 "BI")
+				(comp_pin "9" 0.0 0.0 "BI")
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI")
+				(comp_pin "32" 0.0 0.0 "BI")
+				(comp_pin "31" 0.0 0.0 "BI")
+				(comp_pin "30" 0.0 0.0 "BI")
+				(comp_pin "29" 0.0 0.0 "BI")
+				(comp_pin "28" 0.0 0.0 "BI")
+				(comp_pin "27" 0.0 0.0 "BI")
+				(comp_pin "26" 0.0 0.0 "BI")
+				(comp_pin "25" 0.0 0.0 "BI")
+				(comp_pin "24" 0.0 0.0 "BI")
+				(comp_pin "23" 0.0 0.0 "BI")
+				(comp_pin "8" 0.0 0.0 "BI")
+				(comp_pin "7" 0.0 0.0 "BI")
+				(comp_pin "17" 0.0 0.0 "BI")
+				(comp_pin "16" 0.0 0.0 "BI")
+				(comp_pin "15" 0.0 0.0 "BI")
+				(comp_pin "14" 0.0 0.0 "BI")
+				(comp_pin "13" 0.0 0.0 "BI")
+				(comp_pin "12" 0.0 0.0 "BI")
+				(comp_pin "21" 0.0 0.0)
+				(comp_pin "5" 0.0 0.0)
+				(comp_pin "3" 0.0 0.0)
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "ATMEGA328P")
+				(attval "DEVICE" "ATMEGA328P-AU")
+				(attval "REFDES" "U2")))
+		(component "SON50P200X200X80-9N"
+			(place "U1" 0.0 0.0 top 0.0
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "POWER")
+				(comp_pin "9" 0.0 0.0 "BI")
+				(comp_pin "7" 0.0 0.0 "OUT")
+				(comp_pin "1" 0.0 0.0)
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0))
+			(attributes
+				(attval "Rules.Clearance.Via.Via" "7.00")
+				(attval "Rules.Clearance.Via.Trace" "7.00")
+				(attval "Rules.Clearance.Trace.Trace" "7.00")
+				(attval "Rules.Clearance.Text.Via" "7.00")
+				(attval "Rules.Clearance.Text.Trace" "7.00")
+				(attval "Rules.Clearance.Text.SMD" "7.00")
+				(attval "Rules.Clearance.Text.Pad" "7.00")
+				(attval "Rules.Clearance.SMD.Via" "7.00")
+				(attval "Rules.Clearance.SMD.Trace" "7.00")
+				(attval "Rules.Clearance.SMD.SMD" "7.00")
+				(attval "Rules.Clearance.SMD.Pad" "7.00")
+				(attval "Rules.SameNet.SMD.Via" "7.00")
+				(attval "Rules.SameNet.SMD.Crn" "7.00")
+				(attval "Rules.SameNet.Pad.Crn" "7.00")
+				(attval "Rules.Width.Recommended" "8.00")
+				(attval "Rules.Clearance.Pad.Via" "7.00")
+				(attval "Rules.Clearance.Pad.Trace" "7.00")
+				(attval "Rules.Clearance.Pad.Pad" "7.00")
+				(attval "Rules.Clearance.Board.SMD" "7.00")
+				(attval "Rules.Clearance.Board.Pad" "7.00")
+				(attval "Rules.Width.Minimum" "7.00")
+				(attval "Rules.Width.Maximum" "60.00")
+				(attval "Rules.Clearance.Drill.Via" "7.00")
+				(attval "Rules.Clearance.Drill.Trace" "7.00")
+				(attval "Rules.Clearance.Drill.SMD" "7.00")
+				(attval "Rules.Clearance.Drill.Pad" "7.00")
+				(attval "Description" "BUCK REG")
+				(attval "DEVICE" "TPS62172DSGT")
+				(attval "REFDES" "U1")))
+		(component "PAD64P"
+			(place "TP14" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "CLASS" "TESTPOINT")
+				(attval "Description" "MOTOR+")
+				(attval "DEVICE" "MOTOR_WIRE_2")
+				(attval "REFDES" "TP14")))
+		(component "PAD64P"
+			(place "TP13" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "CLASS" "TESTPOINT")
+				(attval "Description" "MOTOR-")
+				(attval "DEVICE" "MOTOR_WIRE_1")
+				(attval "REFDES" "TP13")))
+		(component "PAD64P"
+			(place "TP12" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "CLASS" "TESTPOINT")
+				(attval "Rules.Clearance.Via.Via" "7.00")
+				(attval "Rules.Clearance.Via.Trace" "7.00")
+				(attval "Rules.Clearance.Trace.Trace" "7.00")
+				(attval "Rules.Clearance.Text.Via" "7.00")
+				(attval "Rules.Clearance.Text.Trace" "7.00")
+				(attval "Rules.Clearance.Text.SMD" "7.00")
+				(attval "Rules.Clearance.Text.Pad" "7.00")
+				(attval "Rules.Clearance.SMD.Via" "7.00")
+				(attval "Rules.Clearance.SMD.Trace" "7.00")
+				(attval "Rules.Clearance.SMD.SMD" "7.00")
+				(attval "Rules.Clearance.SMD.Pad" "7.00")
+				(attval "Rules.SameNet.SMD.Via" "12.00")
+				(attval "Rules.SameNet.SMD.Crn" "12.00")
+				(attval "Rules.SameNet.Pad.Crn" "12.00")
+				(attval "Rules.Clearance.Pad.Via" "7.00")
+				(attval "Rules.Clearance.Pad.Trace" "7.00")
+				(attval "Rules.Clearance.Pad.Pad" "7.00")
+				(attval "Rules.Clearance.Board.SMD" "7.00")
+				(attval "Rules.Clearance.Board.Pad" "7.00")
+				(attval "Rules.Width.Maximum" "30.00")
+				(attval "Rules.Clearance.Drill.Via" "7.00")
+				(attval "Rules.Clearance.Drill.Trace" "7.00")
+				(attval "Rules.Clearance.Drill.SMD" "7.00")
+				(attval "Rules.Clearance.Drill.Pad" "7.00")
+				(attval "Description" "MOTOR- BACKUP")
+				(attval "DEVICE" "MOTOR_WIRE_BACKUP_2")
+				(attval "REFDES" "TP12")))
+		(component "PAD64P"
+			(place "TP11" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "CLASS" "TESTPOINT")
+				(attval "Rules.Clearance.Via.Via" "7.00")
+				(attval "Rules.Clearance.Via.Trace" "7.00")
+				(attval "Rules.Clearance.Trace.Trace" "7.00")
+				(attval "Rules.Clearance.Text.Via" "7.00")
+				(attval "Rules.Clearance.Text.Trace" "7.00")
+				(attval "Rules.Clearance.Text.SMD" "7.00")
+				(attval "Rules.Clearance.Text.Pad" "7.00")
+				(attval "Rules.Clearance.SMD.Via" "7.00")
+				(attval "Rules.Clearance.SMD.Trace" "7.00")
+				(attval "Rules.Clearance.SMD.SMD" "7.00")
+				(attval "Rules.Clearance.SMD.Pad" "7.00")
+				(attval "Rules.SameNet.SMD.Via" "12.00")
+				(attval "Rules.SameNet.SMD.Crn" "12.00")
+				(attval "Rules.SameNet.Pad.Crn" "12.00")
+				(attval "Rules.Clearance.Pad.Via" "7.00")
+				(attval "Rules.Clearance.Pad.Trace" "7.00")
+				(attval "Rules.Clearance.Pad.Pad" "7.00")
+				(attval "Rules.Clearance.Board.SMD" "7.00")
+				(attval "Rules.Clearance.Board.Pad" "7.00")
+				(attval "Rules.Width.Maximum" "30.00")
+				(attval "Rules.Clearance.Drill.Via" "7.00")
+				(attval "Rules.Clearance.Drill.Trace" "7.00")
+				(attval "Rules.Clearance.Drill.SMD" "7.00")
+				(attval "Rules.Clearance.Drill.Pad" "7.00")
+				(attval "Description" "MOTOR+ BACKUP")
+				(attval "DEVICE" "MOTOR_WIRE_BACKUP_1")
+				(attval "REFDES" "TP11")))
+		(component "PAD64P"
+			(place "TP10" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "CLASS" "TESTPOINT")
+				(attval "DEVICE" "SPEAKER_MINUS")
+				(attval "REFDES" "TP10")))
+		(component "PAD64P"
+			(place "TP9" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "CLASS" "TESTPOINT")
+				(attval "DEVICE" "SPEAKER_PLUS")
+				(attval "REFDES" "TP9")))
+		(component "PAD25C"
+			(place "TP8" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "CLASS" "TESTPOINT")
+				(attval "Description" "TERMINAL 3")
+				(attval "DEVICE" "POT_TERMINAL_2")
+				(attval "REFDES" "TP8")))
+		(component "PAD25C"
+			(place "TP7" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "CLASS" "TESTPOINT")
+				(attval "Description" "WIPER")
+				(attval "DEVICE" "POT_WIPER_TERMINAL")
+				(attval "REFDES" "TP7")))
+		(component "PAD25C"
+			(place "TP6" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "CLASS" "TESTPOINT")
+				(attval "Description" "TERMINAL 1")
+				(attval "DEVICE" "POT_TERMINAL_1")
+				(attval "REFDES" "TP6")))
+		(component "PAD25C"
+			(place "TP5" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "CLASS" "TESTPOINT")
+				(attval "Description" "GND")
+				(attval "DEVICE" "HALL_EFFECT_GROUND")
+				(attval "REFDES" "TP5")))
+		(component "PAD25C"
+			(place "TP4" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "CLASS" "TESTPOINT")
+				(attval "Description" "SIGNAL")
+				(attval "DEVICE" "HALL_EFFECT_SIGNAL")
+				(attval "REFDES" "TP4")))
+		(component "PAD25C"
+			(place "TP3" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "CLASS" "TESTPOINT")
+				(attval "Description" "VCC")
+				(attval "DEVICE" "HALL_EFFECT_POWER")
+				(attval "REFDES" "TP3")))
+		(component "PAD64P"
+			(place "TP2" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "CLASS" "TESTPOINT")
+				(attval "Description" "BATT GND")
+				(attval "DEVICE" "BATTERY_GND")
+				(attval "REFDES" "TP2")))
+		(component "PAD64P"
+			(place "TP1" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "CLASS" "TESTPOINT")
+				(attval "Description" "BATT+")
+				(attval "DEVICE" "BATTERY_PWR")
+				(attval "REFDES" "TP1")))
+		(component "RESC1609X55N"
+			(place "R10" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "38.3KOHM")
+				(attval "Tolerance" "1%")
+				(attval "DEVICE" "ERJ-3EKF3832V")
+				(attval "REFDES" "R10")))
+		(component "RESC3116X75N"
+			(place "R9" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "0.27OHM")
+				(attval "Tolerance" "1%")
+				(attval "DEVICE" "ERJ-8RQFR27V")
+				(attval "REFDES" "R9")))
+		(component "RESC1609X55N"
+			(place "R8" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "10KOHM")
+				(attval "Tolerance" "5%")
+				(attval "DEVICE" "ERJ-3GEYJ103V")
+				(attval "REFDES" "R8")))
+		(component "RESC2013X70N"
+			(place "R7" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "0OHM")
+				(attval "DEVICE" "ERJ-6GEY0R00V")
+				(attval "REFDES" "R7")))
+		(component "RESC3116X65N"
+			(place "R6" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "62OHM")
+				(attval "Tolerance" "5%")
+				(attval "DEVICE" "RC1206JR-0762RL")
+				(attval "REFDES" "R6")))
+		(component "RESC3225X70N"
+			(place "R5" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "10OHM")
+				(attval "Tolerance" "5%")
+				(attval "DEVICE" "ERJ-14YJ100U")
+				(attval "REFDES" "R5")))
+		(component "RESC1608X55N"
+			(place "R4" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "1KOHM")
+				(attval "Tolerance" "1%")
+				(attval "DEVICE" "RC0603FR-071KL")
+				(attval "REFDES" "R4")))
+		(component "RESC1608X55N"
+			(place "R3" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "5.6KOHM")
+				(attval "Tolerance" "1%")
+				(attval "DEVICE" "RC0603FR-075K6L")
+				(attval "REFDES" "R3")))
+		(component "RESC2013X70N"
+			(place "R2" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "0OHM")
+				(attval "DEVICE" "ERJ-6GEY0R00V")
+				(attval "REFDES" "R2")))
+		(component "RESC2013X70N"
+			(place "R1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "0OHM")
+				(attval "DEVICE" "ERJ-6GEY0R00V")
+				(attval "REFDES" "R1")))
+		(component "HDR6PX2_01_THRU"
+			(place "P4" 0.0 0.0 top 0.0
+				(comp_pin "6" 0.0 0.0 "BI")
+				(comp_pin "5" 0.0 0.0 "BI")
+				(comp_pin "4" 0.0 0.0 "BI")
+				(comp_pin "3" 0.0 0.0 "BI")
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Description" "ISP Header")
+				(attval "DEVICE" "67996-206HLF")
+				(attval "REFDES" "P4")))
+		(component "RCPT10X1_2MM_THRU"
+			(place "P3" 0.0 0.0 top 0.0
+				(comp_pin "9" 0.0 0.0 "BI")
+				(comp_pin "8" 0.0 0.0 "BI")
+				(comp_pin "7" 0.0 0.0 "BI")
+				(comp_pin "6" 0.0 0.0 "BI")
+				(comp_pin "5" 0.0 0.0 "BI")
+				(comp_pin "4" 0.0 0.0 "BI")
+				(comp_pin "3" 0.0 0.0 "BI")
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "10" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "DEVICE" "NPPN101BFCN-RC")
+				(attval "REFDES" "P3")))
+		(component "RCPT10X1_2MM_THRU"
+			(place "P2" 0.0 0.0 top 0.0
+				(comp_pin "9" 0.0 0.0 "BI")
+				(comp_pin "8" 0.0 0.0 "BI")
+				(comp_pin "7" 0.0 0.0 "BI")
+				(comp_pin "6" 0.0 0.0 "BI")
+				(comp_pin "5" 0.0 0.0 "BI")
+				(comp_pin "4" 0.0 0.0 "BI")
+				(comp_pin "3" 0.0 0.0 "BI")
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "10" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "DEVICE" "NPPN101BFCN-RC")
+				(attval "REFDES" "P2")))
+		(component "HDR20X2_01IN_VTSHR_THRU"
+			(place "P1" 0.0 0.0 top 0.0
+				(comp_pin "9" 0.0 0.0 "BI")
+				(comp_pin "8" 0.0 0.0 "BI")
+				(comp_pin "7" 0.0 0.0 "BI")
+				(comp_pin "6" 0.0 0.0 "BI")
+				(comp_pin "5" 0.0 0.0 "BI")
+				(comp_pin "4" 0.0 0.0 "BI")
+				(comp_pin "3" 0.0 0.0 "BI")
+				(comp_pin "20" 0.0 0.0 "BI")
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "19" 0.0 0.0 "BI")
+				(comp_pin "18" 0.0 0.0 "BI")
+				(comp_pin "17" 0.0 0.0 "BI")
+				(comp_pin "16" 0.0 0.0 "BI")
+				(comp_pin "15" 0.0 0.0 "BI")
+				(comp_pin "14" 0.0 0.0 "BI")
+				(comp_pin "13" 0.0 0.0 "BI")
+				(comp_pin "12" 0.0 0.0 "BI")
+				(comp_pin "11" 0.0 0.0 "BI")
+				(comp_pin "10" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Rules.Clearance.Via.Via" "8.00")
+				(attval "Rules.Clearance.Via.Trace" "8.00")
+				(attval "Rules.Clearance.Trace.Trace" "8.00")
+				(attval "Rules.Clearance.Text.Via" "8.00")
+				(attval "Rules.Clearance.Text.Trace" "8.00")
+				(attval "Rules.Clearance.Text.SMD" "8.00")
+				(attval "Rules.Clearance.Text.Pad" "8.00")
+				(attval "Rules.Clearance.SMD.Via" "8.00")
+				(attval "Rules.Clearance.SMD.Trace" "8.00")
+				(attval "Rules.Clearance.SMD.SMD" "8.00")
+				(attval "Rules.Clearance.SMD.Pad" "8.00")
+				(attval "Rules.SameNet.SMD.Via" "8.00")
+				(attval "Rules.SameNet.SMD.Crn" "8.00")
+				(attval "Rules.SameNet.Pad.Crn" "8.00")
+				(attval "Rules.Width.Recommended" "8.00")
+				(attval "Rules.Clearance.Pad.Via" "8.00")
+				(attval "Rules.Clearance.Pad.Trace" "8.00")
+				(attval "Rules.Clearance.Pad.Pad" "8.00")
+				(attval "Rules.Clearance.Board.SMD" "8.00")
+				(attval "Rules.Clearance.Board.Pad" "8.00")
+				(attval "Rules.Width.Minimum" "7.00")
+				(attval "Rules.Width.Maximum" "30.00")
+				(attval "Rules.Clearance.Drill.Via" "8.00")
+				(attval "Rules.Clearance.Drill.Trace" "8.00")
+				(attval "Rules.Clearance.Drill.SMD" "8.00")
+				(attval "Rules.Clearance.Drill.Pad" "8.00")
+				(attval "Description" "DEBUG HEADER")
+				(attval "DEVICE" "SBH11-PBPC-D10-ST-BK")
+				(attval "REFDES" "P1")))
+		(component "SOT50P160X90-3N"
+			(place "M2" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI")
+				(comp_pin "3" 0.0 0.0 "BI"))
+			(attributes
+				(attval "DEVICE" "DMG1012T-7")
+				(attval "REFDES" "M2")))
+		(component "SOT95P240X120-3N"
+			(place "M1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI")
+				(comp_pin "3" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Rules.Clearance.Via.Via" "8.00")
+				(attval "Rules.Clearance.Via.Trace" "8.00")
+				(attval "Rules.Clearance.Trace.Trace" "8.00")
+				(attval "Rules.Clearance.Text.Via" "8.00")
+				(attval "Rules.Clearance.Text.Trace" "8.00")
+				(attval "Rules.Clearance.Text.SMD" "8.00")
+				(attval "Rules.Clearance.Text.Pad" "8.00")
+				(attval "Rules.Clearance.SMD.Via" "8.00")
+				(attval "Rules.Clearance.SMD.Trace" "8.00")
+				(attval "Rules.Clearance.SMD.SMD" "8.00")
+				(attval "Rules.Clearance.SMD.Pad" "8.00")
+				(attval "Rules.SameNet.SMD.Via" "8.00")
+				(attval "Rules.SameNet.SMD.Crn" "8.00")
+				(attval "Rules.SameNet.Pad.Crn" "8.00")
+				(attval "Rules.Width.Recommended" "15.00")
+				(attval "Rules.Clearance.Pad.Via" "8.00")
+				(attval "Rules.Clearance.Pad.Trace" "8.00")
+				(attval "Rules.Clearance.Pad.Pad" "8.00")
+				(attval "Rules.Clearance.Board.SMD" "8.00")
+				(attval "Rules.Clearance.Board.Pad" "8.00")
+				(attval "Rules.Width.Minimum" "15.00")
+				(attval "Rules.Width.Maximum" "30.00")
+				(attval "Rules.Clearance.Drill.Via" "8.00")
+				(attval "Rules.Clearance.Drill.Trace" "8.00")
+				(attval "Rules.Clearance.Drill.SMD" "8.00")
+				(attval "Rules.Clearance.Drill.Pad" "8.00")
+				(attval "DEVICE" "DMN3404L-7")
+				(attval "REFDES" "M1")))
+		(component "INDM2020X120N"
+			(place "L1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0)
+				(comp_pin "1" 0.0 0.0))
+			(attributes
+				(attval "Value" "2.2UH")
+				(attval "Tolerance" "20%")
+				(attval "DEVICE" "VLS252012ET-2R2M")
+				(attval "REFDES" "L1")))
+		(component "FUSM3317X55N"
+			(place "F1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "DEVICE" "0ZCA0050FF2G")
+				(attval "REFDES" "F1")))
+		(component "LEDSC320X240X250-2N"
+			(place "D1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "DEVICE" "APD3224SECK-F01")
+				(attval "REFDES" "D1")))
+		(component "CAPC1608X90N_AVX"
+			(place "C10" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "0.1UF")
+				(attval "Tolerance" "10%")
+				(attval "DEVICE" "0603YC104KAT2A")
+				(attval "REFDES" "C10")))
+		(component "CAPC1608X90N_TAIYO_YUDEN_MK107"
+			(place "C9" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Rules.Clearance.Via.Via" "8.00")
+				(attval "Rules.Clearance.Via.Trace" "8.00")
+				(attval "Value" "1UF")
+				(attval "Rules.Clearance.Trace.Trace" "8.00")
+				(attval "Tolerance" "10%")
+				(attval "Rules.Clearance.Text.Via" "8.00")
+				(attval "Rules.Clearance.Text.Trace" "8.00")
+				(attval "Rules.Clearance.Text.SMD" "8.00")
+				(attval "Rules.Clearance.Text.Pad" "8.00")
+				(attval "Rules.Clearance.SMD.Via" "8.00")
+				(attval "Rules.Clearance.SMD.Trace" "8.00")
+				(attval "Rules.Clearance.SMD.SMD" "8.00")
+				(attval "Rules.Clearance.SMD.Pad" "8.00")
+				(attval "Rules.SameNet.SMD.Via" "0.00")
+				(attval "Rules.SameNet.SMD.Crn" "0.00")
+				(attval "Rules.SameNet.Pad.Crn" "0.00")
+				(attval "Rules.Width.Recommended" "15.00")
+				(attval "Rules.Clearance.Pad.Via" "8.00")
+				(attval "Rules.Clearance.Pad.Trace" "8.00")
+				(attval "Rules.Clearance.Pad.Pad" "8.00")
+				(attval "Rules.Clearance.Board.SMD" "8.00")
+				(attval "Rules.Clearance.Board.Pad" "8.00")
+				(attval "Rules.Width.Maximum" "60.00")
+				(attval "Rules.Clearance.Drill.Via" "8.00")
+				(attval "Rules.Clearance.Drill.Trace" "8.00")
+				(attval "Rules.Clearance.Drill.SMD" "8.00")
+				(attval "Rules.Clearance.Drill.Pad" "8.00")
+				(attval "DEVICE" "LMK107B7105KA-T")
+				(attval "REFDES" "C9")))
+		(component "CAPC1608X90N_AVX"
+			(place "C8" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "0.1UF")
+				(attval "Tolerance" "10%")
+				(attval "DEVICE" "0603YC104KAT2A")
+				(attval "REFDES" "C8")))
+		(component "CAPC1608X90N_TAIYO_YUDEN_MK107"
+			(place "C7" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "1UF")
+				(attval "Tolerance" "10%")
+				(attval "DEVICE" "LMK107B7105KA-T")
+				(attval "REFDES" "C7")))
+		(component "CAPC1608X90N_AVX"
+			(place "C6" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "100PF")
+				(attval "Tolerance" "+-5%")
+				(attval "DEVICE" "06035A101JAT2A")
+				(attval "REFDES" "C6")))
+		(component "CAPC1608X90N_TDK"
+			(place "C5" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "8.2PF")
+				(attval "Tolerance" "0.25PF")
+				(attval "DEVICE" "C1608C0G1H8R2C")
+				(attval "REFDES" "C5")))
+		(component "CAPC1608X90N_TAIYO_YUDEN_MK107"
+			(place "C4" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "1UF")
+				(attval "Tolerance" "10%")
+				(attval "DEVICE" "LMK107B7105KA-T")
+				(attval "REFDES" "C4")))
+		(component "CAPPRD350W60D800H1300P"
+			(place "C3" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "BI")
+				(comp_pin "2" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "1000UF")
+				(attval "Tolerance" "20%")
+				(attval "DEVICE" "UVR0J102MPD1TA")
+				(attval "REFDES" "C3")))
+		(component "CAPC2013X135N"
+			(place "C2" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "22UF")
+				(attval "Tolerance" "20%")
+				(attval "DEVICE" "JMK212BJ226MG-T")
+				(attval "REFDES" "C2")))
+		(component "CAPC2013X135N"
+			(place "C1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "Tolerance" "10%")
+				(attval "DEVICE" "EMK212BJ106KG-T")
+				(attval "REFDES" "C1"))))
+	(functions
+		(func "$1I1617" "" "U5" 1)
+		(func "$1I705" "" "U4" 1)
+		(func "$1I1196" "" "U3" 1)
+		(func "$1I1077" "" "U2" 1)
+		(func "$1I937" "" "U1" 1)
+		(func "$1I1685" "" "TP14" 1)
+		(func "$1I1689" "" "TP13" 1)
+		(func "$1I2405" "" "TP12" 1)
+		(func "$1I2406" "" "TP11" 1)
+		(func "$1I2715" "" "TP10" 1)
+		(func "$1I2714" "" "TP9" 1)
+		(func "$1I1755" "" "TP8" 1)
+		(func "$1I1748" "" "TP7" 1)
+		(func "$1I1745" "" "TP6" 1)
+		(func "$1I1943" "" "TP5" 1)
+		(func "$1I1944" "" "TP4" 1)
+		(func "$1I1945" "" "TP3" 1)
+		(func "$1I1681" "" "TP2" 1)
+		(func "$1I1677" "" "TP1" 1)
+		(func "$1I1639" "" "R10" 1)
+		(func "$1I1627" "" "R9" 1)
+		(func "$1I1647" "" "R8" 1)
+		(func "$1I2633" "" "R7" 1)
+		(func "$1I1532" "" "R6" 1)
+		(func "$1I1502" "" "R5" 1)
+		(func "$1I1309" "" "R4" 1)
+		(func "$1I1305" "" "R3" 1)
+		(func "$1I1026" "" "R2" 1)
+		(func "$1I2619" "" "R1" 1)
+		(func "$1I2677" "" "P4" 1)
+		(func "$1I2238" "" "P3" 1)
+		(func "$1I2216" "" "P2" 1)
+		(func "$1I2649" "" "P1" 1)
+		(func "$1I1429" "" "M2" 1)
+		(func "$1I1367" "" "M1" 1)
+		(func "$1I948" "" "L1" 1)
+		(func "$1I1669" "" "F1" 1)
+		(func "$1I1256" "" "D1" 1)
+		(func "$1I702" "" "C10" 1)
+		(func "$1I2528" "" "C9" 1)
+		(func "$1I2497" "" "C8" 1)
+		(func "$1I2513" "" "C7" 1)
+		(func "$1I1228" "" "C6" 1)
+		(func "$1I627" "" "C5" 1)
+		(func "$1I625" "" "C4" 1)
+		(func "$1I626" "" "C3" 1)
+		(func "$1I970" "" "C2" 1)
+		(func "$1I993" "" "C1" 1))
+	(network
+		(net "$1N696"
+			(pins TP13-1 U4-8))
+		(net "$1N697"
+			(pins TP14-1 U4-7))
+		(net "$1N798"
+			(pins R9-1 U4-9 U5-3))
+		(net "$1N1119"
+			(pins P4-1 U2-16))
+		(net "$1N1120"
+			(pins P4-3 U2-17))
+		(net "$1N1121"
+			(pins P4-4 U2-15))
+		(net "$1N1184"
+			(pins R5-2 TP9-1))
+		(net "$1N1212"
+			(pins P2-9 U2-28))
+		(net "$1N1232"
+			(pins C6-2 U2-20))
+		(net "$1N1265"
+			(pins U3-5 U3-6 D1-2))
+		(net "$1N1410"
+			(pins TP2-1 M1-3))
+		(net "$1N1548"
+			(pins R6-2 D1-1))
+		(net "$1N1645"
+			(pins R8-2 R10-1 U5-2))
+		(net "$1N1674"
+			(pins TP1-1 F1-1))
+		(net "$1N1735"
+			(pins U4-12 R7-1))
+		(net "$1N2415"
+			(pins TP12-1 U4-10))
+		(net "$1N2417"
+			(pins TP11-1 U4-11))
+		(net "ADC_MOTOR_SENSE"
+			(pins R10-2 U5-1 U2-22))
+		(net "ADC_POT"
+			(pins TP7-1 U2-26))
+		(net "ADC_VOLTAGE_LEVEL"
+			(pins M2-2 R4-2 U2-24))
+		(net "BATTERY_LEVEL_ADC_DRAIN"
+			(pins R3-1 P1-17 M2-3))
+		(net "GND"
+			(pins TP5-1 C6-1 R8-1 P4-6 U3-1 U3-3 P2-10 U1-4 U1-5 U1-8 U1-1 U1-9 C8-2 C10-2
+ C3-2 P1-19 P1-3 R9-2 M1-2 C1-2 U4-1 TP8-1 R4-1 R7-2 C5-2 C2-2 U5-5 U5-6 U5-4
+ U2-3 U2-5 U2-21 C7-2 C9-2 C4-2))
+		(net "HALL_EFFECT_ON_OFF_CONTROL"
+			(pins P1-12 U2-8 TP3-1))
+		(net "HALL_EFFECT_SIGNAL"
+			(pins TP4-1 U2-7))
+		(net "H_BRIDGE_STANDBY"
+			(pins P1-2 U4-5 U2-11))
+		(net "MOTOR_CONTROL_1"
+			(pins U4-2 U4-15 U2-14))
+		(net "MOTOR_CONTROL_2"
+			(pins U4-3 U4-14 U2-13))
+		(net "MOTOR_SENSE_ENABLE"
+			(pins P1-15 U5-8 U2-23))
+		(net "POT_ON_OFF_CONTROL"
+			(pins TP6-1 U2-27))
+		(net "PWM_LED"
+			(pins U3-4 P1-10 U2-9))
+		(net "PWM_MOTOR"
+			(pins U4-4 U4-13 U2-12))
+		(net "PWM_SPEAKER"
+			(pins U3-2 P1-8 U2-10))
+		(net "REG_EN"
+			(pins U1-3 P1-4 R1-2))
+		(net "RESET"
+			(pins P4-5 U2-19 U2-29))
+		(net "RXD"
+			(pins P2-2 U2-30))
+		(net "SPEAKER_MINUS"
+			(pins U3-7 U3-8 P1-14 TP10-1))
+		(net "SW"
+			(pins L1-1 U1-7 P1-9))
+		(net "TXD"
+			(pins P2-3 U2-31))
+		(net "VDD3_3"
+			(pins P4-2 P2-1 R5-1 C10-1 C3-1 P1-5 R6-1 U4-16 R2-2 C5-1 U2-18 U2-4 U2-6 C9-1
+ C4-1))
+		(net "VOLTAGE_LEVEL_CHECK_ON_OFF_CONTROL"
+			(pins M2-1 U2-25))
+		(net "VOS"
+			(pins L1-2 U1-6 P1-7 R2-1 C2-1))
+		(net "V_BATT"
+			(pins R3-2 U1-2 C8-1 P1-1 M1-1 C1-1 U4-6 R1-1 C7-1 F1-2))
+		(net "XBEE_EXTRA_NET"
+			(pins P3-4 U2-2))
+		(net "XBEE_FLOW_CONTROL"
+			(pins P3-2 U2-32))
+		(net "XBEE_SLEEP"
+			(pins P3-3 U2-1)))
+	(network_electrical
+		(net_scalar "XBEE_SLEEP"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "XBEE_FLOW_CONTROL"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "XBEE_EXTRA_NET"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "V_BATT"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "VOS"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "VOLTAGE_LEVEL_CHECK_ON_OFF_CONTROL"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "VDD3_3"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "TXD"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SW"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SPEAKER_MINUS"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "RXD"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "RESET"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "REG_EN"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "PWM_SPEAKER"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "PWM_MOTOR"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "PWM_LED"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "POT_ON_OFF_CONTROL"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "MOTOR_SENSE_ENABLE"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "MOTOR_CONTROL_2"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "MOTOR_CONTROL_1"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "H_BRIDGE_STANDBY"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "HALL_EFFECT_SIGNAL"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "HALL_EFFECT_ON_OFF_CONTROL"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "GND"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "BATTERY_LEVEL_ADC_DRAIN"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "ADC_VOLTAGE_LEVEL"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "ADC_POT"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "ADC_MOTOR_SENSE"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N2417"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N2415"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1735"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1674"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1645"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1548"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1410"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1265"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1232"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1212"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1184"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1121"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1120"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1119"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N798"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N697"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N696"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))))

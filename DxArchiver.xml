@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DxArchiverProject version="1">
-	<DxProject Path="U:\wv\EngineeringClasses\EngineeringClasses.prj"/>
-	<TargetDirectory Path="\\en-file\users\jayakusr\Profile\Desktop"/>
+	<DxProject Path="./EngineeringClasses.prj"/>
+	<TargetDirectory Path="C:\Users\Ian\Documents\GitHub\autolock\archives\DxDesigner"/>
 	<Compression Type="Zip"/>
 	<PDF Type="0"/>
 	<AdditionalFiles>

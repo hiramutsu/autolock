@@ -1,0 +1,52 @@
+[PACKAGE ATTRIBUTES]
+PCB Footprint=PCB DECAL
+
+[COMPONENT ATTRIBUTES]
+RefDes=REF-DES
+
+[NET ATTRIBUTES]
+Name=NETNAME
+
+[PIN TYPES]
+Passive=IN
+Input=IN
+Output=OUT
+Bidirectional=BI
+Open-H=OEM
+Open-L=OCL
+Passive-H=IN
+Passive-L=IN
+3-State=TRI
+Power=POWER
+Unknown=UNDEFINIED
+
+[PKG_TYPE]
+
+[LOGIC FAMILY]
+D=DIO
+C=CAP
+X=OSC
+R=RES
+Y=OSC
+J=CON
+F=FUS
+L=IND
+P=POT
+K=RLY
+Z=ZEN
+SW=SWI
+RL=RLY
+CON=CON
+T=XFR
+Q=TRX
+OSC=OSC
+S=SWI
+U=TTL
+
+[ILLEGAL CHARACTERS]
+Generic=! "%&*()/\?.,+-[]:<>|
+PinName=\. ,{}!"*
+AttrName=. -{}
+REFDES=, .{}*~
+
+[TITLE BLOCK]

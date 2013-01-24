@@ -1,0 +1,17 @@
+MENUTXT Net List w/pin info
+
+NET LIST REPORT -- JOBNM -- TIME
+# NOTE : MAXCOLS and an all ascii record are mutually exclusive
+#        inside a FOR Loop
+
+FOR ALL SIGNALS {
+
+*SIG SIGNAME
+#   Pin records for net SIGNAME
+   FOR ALL PINS {
+    BETWEEN 24
+    MAXCOLS 4
+    DELIMIT .
+COMPNAME.PINNUM.PINTYP
+   }
+}

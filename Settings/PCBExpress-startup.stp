@@ -1,0 +1,4065 @@
+!PADS-POWERPCB-V4.0-BASIC! DESIGN DATABASE ASCII FILE 1.0
+*PCB*        GENERAL PARAMETERS OF THE PCB DESIGN
+
+UNITS        0              2=Inches 1=Metric 0=Mils
+USERGRID     3810000 3810000  Space between USER grid points
+MAXIMUMLAYER 4              Maximum routing layer 
+WORKLEVEL    1              Level items will be created on
+DISPLAYLEVEL 1              toggle for displaying working level last
+LAYERPAIR    1      2       Layer pair used to route connection
+VIAMODE      T              Type of via to use when routing between layers
+LINEWIDTH    381000         Width items will be created with
+TEXTSIZE     3810000 381000  Height and LineWidth text will be created with
+JOBTIME      0              Amount of time spent on this PCB design
+DOTGRID      19050000 19050000  Space between graphic dots
+SCALE        3.342          Scale of window expansion
+ORIGIN       381000000 381000000  User defined origin location
+WINDOWCENTER 381000000 381000000  Point defining the center of the window
+BACKUPTIME   20             Number of minutes between database backups
+REAL WIDTH   381000         Widths greater then this are displayed real size
+ALLSIGONOFF  1              All signal nets displayed on/off
+REFNAMESIZE  2667000 266700  Height and LineWidth used by part ref. names
+HIGHLIGHT    0              Highlight nets flag
+JOBNAME      Untitled
+CONCOL 1
+FBGCOL 1 0
+HATCHGRID    381000         Copper pour hatching grid
+TEARDROP     2713690        Teardrop tracks
+THERLINEWID  571500         Copper pour thermal line width
+PSVIAGRID    952500 952500  Push & Shove Via Grid
+PADFILLWID   381000         CAM finger pad fill width
+THERSMDWID   381000         Copper pour thermal line width for SMD
+MINHATAREA   0              Minimum hatch area
+HATCHMODE    0              Hatch generation mode
+HATCHDISP    0              Hatch display flag
+DRILLHOLE    228600         Drill hole checking spacing
+MITRERADII   0.5 1.0 1.5 2.0 2.5 3.0 3.5
+MITRETYPE    1              Mitring type
+HATCHRAD     0.500000       Hatch outline smoothing radius
+MITREANG     180 180 180 180 180 180 90 
+HATCHANG     0              Hatch angle
+THERFLAGS    0              Copper pour thermal line flags
+DRLOVERSIZE  114300         Drill oversize for plated holes
+PLANERAD     0.000000       Plane outline smoothing radius
+PLANEFLAGS   OUTLINE ALL Y Y Y N N Y Y Y N N Y Y N Y Y N N   Plane and Test Points flags
+COMPHEIGHT   0              Board Top Component Height Restriction
+KPTHATCHGRID 3810000        Copper pour hatching grid
+BOTCMPHEIGHT 0              Board Bottom Component Height Restriction
+FANOUTGRID   952500 952500  Fanout grid
+FANOUTLENGTH 9525000        Maximum fanout length
+ROUTERFLAGS  83879441       Autorouter specific flags
+VERIFYFLAGS  1861           Verify Design flags
+PLNSEPGAP    228600         Plane separation gap
+IDFSHAPELAY  0              IDF shapes layer
+
+TEARDROPDATA     90     90 
+*VIA*  ITEMS
+
+*REMARK* NAME  DRILL STACKLINES [DRILL START] [DRILL END]
+*REMARK* LEVEL SIZE SHAPE [INNER DIAMETER]
+
+JMPVIA_AAAAA     1409700 3
+-2 2095500 R
+-1 2667000 R
+0  2095500 R
+
+STANDARDVIA      838200 3
+-2 1371600 R
+-1 2133600 R
+0  1371600 R
+
+
+*MISC*      MISCELLANEOUS PARAMETERS
+
+*REMARK*    PARENT_KEYWORD PARENT_VALUE
+*REMARK*  [ { 
+*REMARK*       CHILD_KEYWORD CHILD_VALUE
+*REMARK*     [ CHILD_KEYWORD CHILD_VALUE
+*REMARK*     [ { 
+*REMARK*          GRAND_CHILD_KEYWORD GRAND_CHILD_VALUE [...] 
+*REMARK*       } ]] 
+*REMARK*    } ] 
+
+LAYER DATA
+{
+LAYER 0
+{
+LAYER_THICKNESS 0
+DIELECTRIC 3.300000
+}
+LAYER 1
+{
+LAYER_NAME Top
+LAYER_TYPE COMPONENT
+PLANE NONE
+ROUTING_DIRECTION HORIZONTAL
+ASSOCIATED_SILK_SCREEN Silkscreen Top
+ASSOCIATED_PASTE_MASK Paste Mask Top
+ASSOCIATED_SOLDER_MASK Solder Mask Top
+ASSOCIATED_ASSEMBLY Assembly Drawing Top
+COMPONENT Y
+ROUTABLE Y
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 3
+VIA 3
+PAD 3
+COPPER 3
+2DLINE 3
+TEXT 3
+ERROR 5
+TOPCOMPONENT 1
+BOTTOMCOMPONENT 0
+REFDES 1
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 381000
+COPPER_THICKNESS 51435
+DIELECTRIC 4.300000
+COST 0
+}
+LAYER 2
+{
+LAYER_NAME Inner Layer 2
+LAYER_TYPE PLANE
+PLANE CAM
+ROUTING_DIRECTION VERTICAL
+ASSOCIATED_SILK_SCREEN Silkscreen Bottom
+ASSOCIATED_PASTE_MASK Paste Mask Bottom
+ASSOCIATED_SOLDER_MASK Solder Mask Bottom
+ASSOCIATED_ASSEMBLY Assembly Drawing Bottom
+ROUTABLE Y
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 381000
+COPPER_THICKNESS 51435
+DIELECTRIC 4.300000
+COST 0
+}
+LAYER 3
+{
+LAYER_NAME Inner Layer 3
+LAYER_TYPE PLANE
+PLANE CAM
+ROUTING_DIRECTION HORIZONTAL
+ROUTABLE Y
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 381000
+COPPER_THICKNESS 51435
+DIELECTRIC 4.300000
+COST 0
+}
+LAYER 4
+{
+LAYER_NAME Bottom
+LAYER_TYPE COMPONENT
+PLANE NONE
+ROUTING_DIRECTION VERTICAL
+ASSOCIATED_SILK_SCREEN Silkscreen Bottom
+ASSOCIATED_PASTE_MASK Paste Mask Bottom
+ASSOCIATED_SOLDER_MASK Solder Mask Bottom
+ASSOCIATED_ASSEMBLY Assembly Drawing Bottom
+COMPONENT Y
+ROUTABLE Y
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 11
+VIA 11
+PAD 11
+COPPER 11
+2DLINE 11
+TEXT 11
+ERROR 13
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 14
+REFDES 14
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 51435
+DIELECTRIC 3.300000
+COST 0
+}
+LAYER 5
+{
+LAYER_NAME Layer_5
+LAYER_TYPE UNASSIGNED
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 6
+{
+LAYER_NAME Layer_6
+LAYER_TYPE UNASSIGNED
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 7
+{
+LAYER_NAME Layer_7
+LAYER_TYPE UNASSIGNED
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 8
+{
+LAYER_NAME Layer_8
+LAYER_TYPE UNASSIGNED
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 9
+{
+LAYER_NAME Layer_9
+LAYER_TYPE UNASSIGNED
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 10
+{
+LAYER_NAME Layer_10
+LAYER_TYPE UNASSIGNED
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 11
+{
+LAYER_NAME Layer_11
+LAYER_TYPE UNASSIGNED
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 12
+{
+LAYER_NAME Layer_12
+LAYER_TYPE UNASSIGNED
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 13
+{
+LAYER_NAME Layer_13
+LAYER_TYPE UNASSIGNED
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 14
+{
+LAYER_NAME Layer_14
+LAYER_TYPE UNASSIGNED
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 15
+{
+LAYER_NAME Layer_15
+LAYER_TYPE UNASSIGNED
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 16
+{
+LAYER_NAME Layer_16
+LAYER_TYPE UNASSIGNED
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 17
+{
+LAYER_NAME Layer_17
+LAYER_TYPE UNASSIGNED
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 18
+{
+LAYER_NAME Layer_18
+LAYER_TYPE UNASSIGNED
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 19
+{
+LAYER_NAME Layer_19
+LAYER_TYPE UNASSIGNED
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 20
+{
+LAYER_NAME Layer_20
+LAYER_TYPE UNASSIGNED
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 21
+{
+LAYER_NAME Solder Mask Top
+LAYER_TYPE SOLDER_MASK
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 22
+{
+LAYER_NAME Paste Mask Bottom
+LAYER_TYPE PASTE_MASK
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 23
+{
+LAYER_NAME Paste Mask Top
+LAYER_TYPE PASTE_MASK
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 24
+{
+LAYER_NAME Drill Drawing
+LAYER_TYPE DRILL
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 5
+TEXT 5
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 25
+{
+LAYER_NAME Layer_25
+LAYER_TYPE UNASSIGNED
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 26
+{
+LAYER_NAME Silkscreen Top
+LAYER_TYPE SILK_SCREEN
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 15
+TEXT 15
+ERROR 15
+TOPCOMPONENT 15
+BOTTOMCOMPONENT 0
+REFDES 15
+PARTTYPE 15
+ATTRIBUTE 15
+KEEPOUT 15
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 27
+{
+LAYER_NAME Assembly Drawing Top
+LAYER_TYPE ASSEMBLY
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 28
+{
+LAYER_NAME Solder Mask Bottom
+LAYER_TYPE SOLDER_MASK
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 29
+{
+LAYER_NAME Silkscreen Bottom
+LAYER_TYPE SILK_SCREEN
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+LAYER 30
+{
+LAYER_NAME Assembly Drawing Bottom
+LAYER_TYPE ASSEMBLY
+PLANE NONE
+ROUTING_DIRECTION NO_PREFERENCE
+VISIBLE Y
+SELECTABLE Y
+ENABLED Y
+COLORS :
+{
+ROUTE 0
+VIA 0
+PAD 0
+COPPER 0
+2DLINE 0
+TEXT 0
+ERROR 0
+TOPCOMPONENT 0
+BOTTOMCOMPONENT 0
+REFDES 0
+PARTTYPE 0
+ATTRIBUTE 0
+KEEPOUT 0
+}
+LAYER_THICKNESS 0
+COPPER_THICKNESS 0
+DIELECTRIC 0.000000
+COST 0
+}
+}
+SELECTABILITY DATA
+{
+PARTS Y
+PINS Y
+TRACES Y
+VIAS Y
+TACKS Y
+UNROUTED Y
+EDGES Y
+NODES Y
+SHAPES Y
+DIMENSIONS Y
+TEXT Y
+AREA_PARTS Y
+AREA_PINS Y
+AREA_TRACES Y
+AREA_VIAS Y
+AREA_TACKS Y
+AREA_UNROUTED Y
+AREA_EDGES Y
+AREA_NODES Y
+AREA_SHAPES Y
+AREA_DIMENSIONS Y
+AREA_TEXT Y
+}
+VISIBILITY DATA
+{
+PADS Y
+TRACKS Y
+VIAS Y
+COPPER Y
+LINES Y
+TEXT Y
+ERRORS Y
+CLUSTER Y
+TOP_COMPONENT Y
+BOTTOM_COMPONENT Y
+PLANE_THERMAL Y
+REFDES Y
+PARTTYPES Y
+ATTRIBUTES Y
+KEEPOUTS Y
+SELECTION_COLOR 15
+HIGHLIGHT_COLOR 14
+FIXED_COLOR 3
+}
+
+*MISC*      MISCELLANEOUS PARAMETERS
+
+*REMARK*    PARENT_KEYWORD PARENT_VALUE
+*REMARK*  [ { 
+*REMARK*       CHILD_KEYWORD CHILD_VALUE
+*REMARK*     [ CHILD_KEYWORD CHILD_VALUE
+*REMARK*     [ { 
+*REMARK*          GRAND_CHILD_KEYWORD GRAND_CHILD_VALUE [...] 
+*REMARK*       } ]] 
+*REMARK*    } ] 
+
+RULES_SECTION PARENT
+{
+DESIGN RULES
+{
+RULE_SET (1)
+{
+FOR :
+{
+DEFAULT :
+}
+AGAINST :
+{
+DEFAULT :
+}
+LAYER 0
+CLEARANCE_RULE :
+{
+TRACK_TO_TRACK 304800
+VIA_TO_TRACK 304800
+VIA_TO_VIA 304800
+PAD_TO_TRACK 304800
+PAD_TO_VIA 304800
+PAD_TO_PAD 304800
+SMD_TO_TRACK 304800
+SMD_TO_VIA 304800
+SMD_TO_PAD 304800
+SMD_TO_SMD 304800
+COPPER_TO_TRACK 304800
+COPPER_TO_VIA 304800
+COPPER_TO_PAD 304800
+COPPER_TO_SMD 304800
+TEXT_TO_TRACK 304800
+TEXT_TO_VIA 304800
+TEXT_TO_PAD 304800
+TEXT_TO_SMD 304800
+OUTLINE_TO_TRACK 1905000
+OUTLINE_TO_VIA 1905000
+OUTLINE_TO_PAD 1905000
+OUTLINE_TO_SMD 1905000
+DRILL_TO_TRACK 304800
+DRILL_TO_VIA 304800
+DRILL_TO_PAD 304800
+DRILL_TO_SMD 304800
+SAME_NET_SMD_TO_VIA 304800
+SAME_NET_SMD_TO_CRN 304800
+SAME_NET_VIA_TO_VIA 304800
+SAME_NET_PAD_TO_CRN 304800
+MIN_TRACK_WIDTH 266700
+REC_TRACK_WIDTH 381000
+MAX_TRACK_WIDTH 571500
+DRILL_TO_DRILL 381000
+BODY_TO_BODY 381000
+SAME_NET_TRACK_TO_CRN 304800
+}
+}
+RULE_SET (2)
+{
+FOR :
+{
+DEFAULT :
+}
+AGAINST :
+{
+DEFAULT :
+}
+LAYER 0
+HIGH_SPEED_RULE :
+{
+MIN_LENGTH 0
+MAX_LENGTH 1904999936
+STUB_LENGTH 0
+PARALLEL_LENGTH 38100000
+PARALLEL_GAP 7620000
+TANDEM_LENGTH 38100000
+TANDEM_GAP 7620000
+MIN_DELAY 0.000000
+MAX_DELAY 10.000000
+MIN_CAPACITANCE 0.000000
+MAX_CAPACITANCE 10.000000
+MIN_IMPEDANCE 50.000000
+MAX_IMPEDANCE 150.000000
+SHIELD_NET *
+SHIELD_GAP 7620000
+MATCH_LENGTH_TOLERANCE -7620000
+}
+}
+RULE_SET (3)
+{
+FOR :
+{
+DEFAULT :
+}
+AGAINST :
+{
+DEFAULT :
+}
+LAYER 0
+ROUTE_RULE :
+{
+LENGTH_MINIMIZATION_TYPE 1
+COPPER_SHARE Y
+AUTO_ROUTE Y
+RIPUP Y
+SHOVE Y
+ROUTE_PRIORITY 3
+VALID_LAYER 1
+VALID_LAYER 2
+VALID_LAYER 3
+VALID_LAYER 4
+VALID_VIA_TYPE STANDARDVIA
+}
+}
+}
+}
+
+*MISC*      MISCELLANEOUS PARAMETERS
+
+*REMARK*    PARENT_KEYWORD PARENT_VALUE
+*REMARK*  [ { 
+*REMARK*       CHILD_KEYWORD CHILD_VALUE
+*REMARK*     [ CHILD_KEYWORD CHILD_VALUE
+*REMARK*     [ { 
+*REMARK*          GRAND_CHILD_KEYWORD GRAND_CHILD_VALUE [...] 
+*REMARK*       } ]] 
+*REMARK*    } ] 
+
+CAM_SECTION PARENT
+{
+CAM_VERSION V4.0
+CAM_DOC_LIST PARENT
+{
+CAM_DOC_DIRECTORY default
+CAM_DOC_NAME Top
+{
+DOC_PLOT_TYPE  Routing
+DOC_DEVICE_TYPE  Photo
+DOC_OUTPUT_FILE  art001.pho
+DOC_LAYER_NAMES  Top                             
+DOC_LAYER_NUMBERS  1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES  Component                             
+DOC_FABRICATION_LAYER_NUMBER  1
+DOC_SCALE  1 1
+DOC_ORIENTATION  0
+DOC_MIRROR  N
+DOC_JUSTIFICATION  OO
+DOC_OFFSET  38100000 38100000
+DOC_CLIP  0
+DOC_FIT_OUTPUT  0
+DOC_NO_PLANE_THERMALS  0
+DOC_ASSEMBLY_OPTION  ""
+DOC_CUSTOM_THERMALS  0
+DOC_BOARD  None
+DOC_CONNECTIONS  None
+DOC_OUTLINES  None None
+DOC_SLOTS  None None
+DOC_REFDES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_REFDES  None None None None None
+DOC_PARTTYPES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES  None None None None None
+DOC_ATTRIBUTES  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES  None None None None None None
+DOC_TESTPOINTS  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS  None None None None None None
+DOC_OUTLINE_LAYERS  N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PADS  None None None None None
+DOC_VIAS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS  None None None None None
+DOC_ROUTES  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES  None None None None None
+DOC_COPPER  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER  None None None None None
+DOC_LINES  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_LINES  Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black
+DOC_KEEPOUTS  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS  None None None None None
+DOC_PINS_ADV  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE  0
+DOC_PLOT_JOBNAME  Y
+DOC_PLOT_OLE  N
+DOC_MIRROR_REFS  N
+DOC_SUPRESS_PREFIXES  ""
+DOC_PLOT_QUALITY  Filled
+DOC_DRILL_CHART  Y
+DOC_CHART_OFFSET  0 0
+DOC_SUPRESS_EXCLUDE_PADS  N
+}
+CAM_DOC_NAME Layer2
+{
+DOC_PLOT_TYPE  Plane
+DOC_DEVICE_TYPE  Photo
+DOC_OUTPUT_FILE  pgp002.pho
+DOC_LAYER_NAMES  Inner_Layer_2                             
+DOC_LAYER_NUMBERS  2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES  Component                             
+DOC_FABRICATION_LAYER_NUMBER  2
+DOC_SCALE  1 1
+DOC_ORIENTATION  0
+DOC_MIRROR  N
+DOC_JUSTIFICATION  OO
+DOC_OFFSET  38100000 38100000
+DOC_CLIP  0
+DOC_FIT_OUTPUT  0
+DOC_NO_PLANE_THERMALS  0
+DOC_ASSEMBLY_OPTION  ""
+DOC_CUSTOM_THERMALS  0
+DOC_BOARD  None
+DOC_CONNECTIONS  None
+DOC_OUTLINES  None None
+DOC_SLOTS  None None
+DOC_REFDES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_REFDES  None None None None None
+DOC_PARTTYPES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES  None None None None None
+DOC_ATTRIBUTES  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES  None None None None None None
+DOC_TESTPOINTS  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS  None None None None None None
+DOC_OUTLINE_LAYERS  N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PADS  None None None None None
+DOC_VIAS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS  None None None None None
+DOC_ROUTES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES  None None None None None
+DOC_COPPER  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER  None None None None None
+DOC_LINES  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_LINES  Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black
+DOC_KEEPOUTS  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS  None None None None None
+DOC_PINS_ADV  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE  0
+DOC_PLOT_JOBNAME  Y
+DOC_PLOT_OLE  N
+DOC_MIRROR_REFS  N
+DOC_SUPRESS_PREFIXES  ""
+DOC_PLOT_QUALITY  Filled
+DOC_DRILL_CHART  Y
+DOC_CHART_OFFSET  0 0
+DOC_SUPRESS_EXCLUDE_PADS  N
+}
+CAM_DOC_NAME Layer3
+{
+DOC_PLOT_TYPE  Plane
+DOC_DEVICE_TYPE  Photo
+DOC_OUTPUT_FILE  pgp003.pho
+DOC_LAYER_NAMES  Inner_Layer_3                             
+DOC_LAYER_NUMBERS  3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES  Component                             
+DOC_FABRICATION_LAYER_NUMBER  3
+DOC_SCALE  1 1
+DOC_ORIENTATION  0
+DOC_MIRROR  N
+DOC_JUSTIFICATION  OO
+DOC_OFFSET  38100000 38100000
+DOC_CLIP  0
+DOC_FIT_OUTPUT  0
+DOC_NO_PLANE_THERMALS  0
+DOC_ASSEMBLY_OPTION  ""
+DOC_CUSTOM_THERMALS  0
+DOC_BOARD  None
+DOC_CONNECTIONS  None
+DOC_OUTLINES  None None
+DOC_SLOTS  None None
+DOC_REFDES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_REFDES  None None None None None
+DOC_PARTTYPES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES  None None None None None
+DOC_ATTRIBUTES  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES  None None None None None None
+DOC_TESTPOINTS  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS  None None None None None None
+DOC_OUTLINE_LAYERS  N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PADS  None None None None None
+DOC_VIAS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS  None None None None None
+DOC_ROUTES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES  None None None None None
+DOC_COPPER  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER  None None None None None
+DOC_LINES  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_LINES  Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black
+DOC_KEEPOUTS  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS  None None None None None
+DOC_PINS_ADV  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE  0
+DOC_PLOT_JOBNAME  Y
+DOC_PLOT_OLE  N
+DOC_MIRROR_REFS  N
+DOC_SUPRESS_PREFIXES  ""
+DOC_PLOT_QUALITY  Filled
+DOC_DRILL_CHART  Y
+DOC_CHART_OFFSET  0 0
+DOC_SUPRESS_EXCLUDE_PADS  N
+}
+CAM_DOC_NAME Bottom
+{
+DOC_PLOT_TYPE  Routing
+DOC_DEVICE_TYPE  Photo
+DOC_OUTPUT_FILE  art004.pho
+DOC_LAYER_NAMES  Bottom                             
+DOC_LAYER_NUMBERS  4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES  Component                             
+DOC_FABRICATION_LAYER_NUMBER  4
+DOC_SCALE  1 1
+DOC_ORIENTATION  0
+DOC_MIRROR  N
+DOC_JUSTIFICATION  OO
+DOC_OFFSET  38100000 38100000
+DOC_CLIP  0
+DOC_FIT_OUTPUT  0
+DOC_NO_PLANE_THERMALS  0
+DOC_ASSEMBLY_OPTION  ""
+DOC_CUSTOM_THERMALS  0
+DOC_BOARD  None
+DOC_CONNECTIONS  None
+DOC_OUTLINES  None None
+DOC_SLOTS  None None
+DOC_REFDES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_REFDES  None None None None None
+DOC_PARTTYPES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES  None None None None None
+DOC_ATTRIBUTES  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES  None None None None None None
+DOC_TESTPOINTS  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS  None None None None None None
+DOC_OUTLINE_LAYERS  N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PADS  None None None None None
+DOC_VIAS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS  None None None None None
+DOC_ROUTES  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES  None None None None None
+DOC_COPPER  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER  None None None None None
+DOC_LINES  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_LINES  Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black
+DOC_KEEPOUTS  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS  None None None None None
+DOC_PINS_ADV  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE  0
+DOC_PLOT_JOBNAME  Y
+DOC_PLOT_OLE  N
+DOC_MIRROR_REFS  N
+DOC_SUPRESS_PREFIXES  ""
+DOC_PLOT_QUALITY  Filled
+DOC_DRILL_CHART  Y
+DOC_CHART_OFFSET  0 0
+DOC_SUPRESS_EXCLUDE_PADS  N
+}
+CAM_DOC_NAME Topmask
+{
+DOC_PLOT_TYPE  Solder_Mask
+DOC_DEVICE_TYPE  Photo
+DOC_OUTPUT_FILE  sm001021.pho
+DOC_LAYER_NAMES  Top Solder_Mask_Top                            
+DOC_LAYER_NUMBERS  1 21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES  Component SilkScreen                            
+DOC_FABRICATION_LAYER_NUMBER  21
+DOC_SCALE  1 1
+DOC_ORIENTATION  0
+DOC_MIRROR  N
+DOC_JUSTIFICATION  OO
+DOC_OFFSET  38100000 38100000
+DOC_CLIP  0
+DOC_FIT_OUTPUT  0
+DOC_NO_PLANE_THERMALS  0
+DOC_ASSEMBLY_OPTION  ""
+DOC_CUSTOM_THERMALS  0
+DOC_BOARD  None
+DOC_CONNECTIONS  None
+DOC_OUTLINES  None None
+DOC_SLOTS  None None
+DOC_REFDES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_REFDES  None None None None None
+DOC_PARTTYPES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES  None None None None None
+DOC_ATTRIBUTES  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES  None None None None None None
+DOC_TESTPOINTS  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_TESTPOINTS  Black Black Black Black Black Black Black Black Black Black
+DOC_OUTLINE_LAYERS  N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PADS  None None None None None
+DOC_VIAS  None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS  None None None None
+DOC_ROUTES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES  None None None None None
+DOC_COPPER  None Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_COPPER  Black Black Black Black Black Black Black Black Black
+DOC_LINES  None Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_LINES  Black Black Black Black Black Black Black Black Black
+DOC_TEXT  None Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black
+DOC_KEEPOUTS  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS  None None None None None
+DOC_PINS_ADV  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE  381000
+DOC_PLOT_JOBNAME  Y
+DOC_PLOT_OLE  N
+DOC_MIRROR_REFS  N
+DOC_SUPRESS_PREFIXES  ""
+DOC_PLOT_QUALITY  Filled
+DOC_DRILL_CHART  Y
+DOC_CHART_OFFSET  0 0
+DOC_SUPRESS_EXCLUDE_PADS  N
+}
+CAM_DOC_NAME Bottommask
+{
+DOC_PLOT_TYPE  Solder_Mask
+DOC_DEVICE_TYPE  Photo
+DOC_OUTPUT_FILE  sm004028.pho
+DOC_LAYER_NAMES  Bottom Solder_Mask_Bottom                            
+DOC_LAYER_NUMBERS  4 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES  Component SilkScreen                            
+DOC_FABRICATION_LAYER_NUMBER  28
+DOC_SCALE  1 1
+DOC_ORIENTATION  0
+DOC_MIRROR  N
+DOC_JUSTIFICATION  OO
+DOC_OFFSET  38100000 38100000
+DOC_CLIP  0
+DOC_FIT_OUTPUT  0
+DOC_NO_PLANE_THERMALS  0
+DOC_ASSEMBLY_OPTION  ""
+DOC_CUSTOM_THERMALS  0
+DOC_BOARD  None
+DOC_CONNECTIONS  None
+DOC_OUTLINES  None None
+DOC_SLOTS  None None
+DOC_REFDES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_REFDES  None None None None None
+DOC_PARTTYPES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES  None None None None None
+DOC_ATTRIBUTES  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES  None None None None None None
+DOC_TESTPOINTS  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_TESTPOINTS  Black Black Black Black Black Black Black Black Black Black
+DOC_OUTLINE_LAYERS  N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PADS  None None None None None
+DOC_VIAS  None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS  None None None None
+DOC_ROUTES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES  None None None None None
+DOC_COPPER  None Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_COPPER  Black Black Black Black Black Black Black Black Black
+DOC_LINES  None Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_LINES  Black Black Black Black Black Black Black Black Black
+DOC_TEXT  None Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black
+DOC_KEEPOUTS  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS  None None None None None
+DOC_PINS_ADV  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE  381000
+DOC_PLOT_JOBNAME  Y
+DOC_PLOT_OLE  N
+DOC_MIRROR_REFS  N
+DOC_SUPRESS_PREFIXES  ""
+DOC_PLOT_QUALITY  Filled
+DOC_DRILL_CHART  Y
+DOC_CHART_OFFSET  0 0
+DOC_SUPRESS_EXCLUDE_PADS  N
+}
+CAM_DOC_NAME NCDrill
+{
+DOC_PLOT_TYPE  NC_Drill
+DOC_DEVICE_TYPE  Drill
+DOC_OUTPUT_FILE  drl001.drl
+DOC_LAYER_NAMES  Top                             
+DOC_LAYER_NUMBERS  1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES  Component                             
+DOC_FABRICATION_LAYER_NUMBER  0
+DOC_SCALE  1 1
+DOC_ORIENTATION  0
+DOC_MIRROR  N
+DOC_JUSTIFICATION  OO
+DOC_OFFSET  38100000 38100000
+DOC_CLIP  0
+DOC_FIT_OUTPUT  0
+DOC_NO_PLANE_THERMALS  0
+DOC_ASSEMBLY_OPTION  ""
+DOC_CUSTOM_THERMALS  0
+DOC_DRILL_PLATED  Y
+DOC_DRILL_NONPLATED  Y
+DOC_DRILL_THRU_VIA  Y
+DOC_DRILL_PARTIAL_VIA  N
+DOC_DRILL_TESTPOINTS  N
+DOC_REPEAT_COUNTS  0 0
+DOC_STEP_SIZES  0 0
+DOC_DRILL_LIST  Y
+DOC_DRILL_FILE  Y
+}
+CAM_DOC_NAME Assembly
+{
+DOC_PLOT_TYPE  Assembly
+DOC_DEVICE_TYPE  Photo
+DOC_OUTPUT_FILE  adt001027.pho
+DOC_LAYER_NAMES  Top Silkscreen_Top Assembly_Drawing_Top                           
+DOC_LAYER_NUMBERS  1 26 27 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES  Component Plane PasteMask                           
+DOC_FABRICATION_LAYER_NUMBER  0
+DOC_SCALE  1 1
+DOC_ORIENTATION  0
+DOC_MIRROR  N
+DOC_JUSTIFICATION  OO
+DOC_OFFSET  38100000 38100000
+DOC_CLIP  0
+DOC_FIT_OUTPUT  0
+DOC_NO_PLANE_THERMALS  0
+DOC_ASSEMBLY_OPTION  ""
+DOC_CUSTOM_THERMALS  0
+DOC_BOARD  Black
+DOC_CONNECTIONS  None
+DOC_OUTLINES  Black None
+DOC_SLOTS  None None
+DOC_REFDES  Black Black None None None None None None None None None None None None None None None None None None None None None None None
+DOC_REFDES  None None None None None
+DOC_PARTTYPES  None Black None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES  None None None None None None
+DOC_ATTRIBUTES  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES  None None None None None None
+DOC_TESTPOINTS  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS  None None None None None None
+DOC_OUTLINE_LAYERS  N Y Y N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS  None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PADS  None None None None
+DOC_VIAS  None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS  None None None None
+DOC_ROUTES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES  None None None None None
+DOC_COPPER  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER  None None None None None
+DOC_LINES  None Black Black None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES  None None None None None
+DOC_TEXT  Black Black Black None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT  None None None None None
+DOC_KEEPOUTS  None Black None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS  None None None None None
+DOC_PINS_ADV  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE  0
+DOC_PLOT_JOBNAME  Y
+DOC_PLOT_OLE  N
+DOC_MIRROR_REFS  N
+DOC_SUPRESS_PREFIXES  ""
+DOC_PLOT_QUALITY  Filled
+DOC_DRILL_CHART  Y
+DOC_CHART_OFFSET  0 0
+DOC_SUPRESS_EXCLUDE_PADS  N
+}
+CAM_DOC_NAME Top_proof
+{
+DOC_PLOT_TYPE  Routing
+DOC_DEVICE_TYPE  Printer
+DOC_OUTPUT_FILE  art001.lpr
+DOC_LAYER_NAMES  Top                             
+DOC_LAYER_NUMBERS  1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES  Component                             
+DOC_FABRICATION_LAYER_NUMBER  0
+DOC_SCALE  1 1
+DOC_ORIENTATION  0
+DOC_MIRROR  N
+DOC_JUSTIFICATION  OO
+DOC_OFFSET  38100000 38100000
+DOC_CLIP  0
+DOC_FIT_OUTPUT  0
+DOC_NO_PLANE_THERMALS  0
+DOC_ASSEMBLY_OPTION  ""
+DOC_CUSTOM_THERMALS  0
+DOC_BOARD  None
+DOC_CONNECTIONS  None
+DOC_OUTLINES  None None
+DOC_SLOTS  None None
+DOC_REFDES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_REFDES  None None None None None
+DOC_PARTTYPES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES  None None None None None
+DOC_ATTRIBUTES  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES  None None None None None None
+DOC_TESTPOINTS  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS  None None None None None None
+DOC_OUTLINE_LAYERS  N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PADS  None None None None None
+DOC_VIAS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS  None None None None None
+DOC_ROUTES  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES  None None None None None
+DOC_COPPER  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER  None None None None None
+DOC_LINES  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_LINES  Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black
+DOC_KEEPOUTS  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS  None None None None None
+DOC_PINS_ADV  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE  0
+DOC_PLOT_JOBNAME  Y
+DOC_PLOT_OLE  N
+DOC_MIRROR_REFS  N
+DOC_SUPRESS_PREFIXES  ""
+DOC_PLOT_QUALITY  Filled
+DOC_DRILL_CHART  Y
+DOC_CHART_OFFSET  0 0
+DOC_SUPRESS_EXCLUDE_PADS  N
+}
+CAM_DOC_NAME Bottom_proof
+{
+DOC_PLOT_TYPE  Routing
+DOC_DEVICE_TYPE  Printer
+DOC_OUTPUT_FILE  art004.lpr
+DOC_LAYER_NAMES  Bottom                             
+DOC_LAYER_NUMBERS  4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES  Component                             
+DOC_FABRICATION_LAYER_NUMBER  0
+DOC_SCALE  1 1
+DOC_ORIENTATION  0
+DOC_MIRROR  N
+DOC_JUSTIFICATION  OO
+DOC_OFFSET  38100000 38100000
+DOC_CLIP  0
+DOC_FIT_OUTPUT  0
+DOC_NO_PLANE_THERMALS  0
+DOC_ASSEMBLY_OPTION  ""
+DOC_CUSTOM_THERMALS  0
+DOC_BOARD  None
+DOC_CONNECTIONS  None
+DOC_OUTLINES  None None
+DOC_SLOTS  None None
+DOC_REFDES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_REFDES  None None None None None
+DOC_PARTTYPES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES  None None None None None
+DOC_ATTRIBUTES  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES  None None None None None None
+DOC_TESTPOINTS  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS  None None None None None None
+DOC_OUTLINE_LAYERS  N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PADS  None None None None None
+DOC_VIAS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS  None None None None None
+DOC_ROUTES  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES  None None None None None
+DOC_COPPER  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER  None None None None None
+DOC_LINES  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_LINES  Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black
+DOC_KEEPOUTS  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS  None None None None None
+DOC_PINS_ADV  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE  0
+DOC_PLOT_JOBNAME  Y
+DOC_PLOT_OLE  N
+DOC_MIRROR_REFS  N
+DOC_SUPRESS_PREFIXES  ""
+DOC_PLOT_QUALITY  Filled
+DOC_DRILL_CHART  Y
+DOC_CHART_OFFSET  0 0
+DOC_SUPRESS_EXCLUDE_PADS  N
+}
+CAM_DOC_NAME Layer2_proof
+{
+DOC_PLOT_TYPE  Plane
+DOC_DEVICE_TYPE  Printer
+DOC_OUTPUT_FILE  pgp002.lpr
+DOC_LAYER_NAMES  Inner_Layer_2                             
+DOC_LAYER_NUMBERS  2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES  Component                             
+DOC_FABRICATION_LAYER_NUMBER  0
+DOC_SCALE  1 1
+DOC_ORIENTATION  0
+DOC_MIRROR  N
+DOC_JUSTIFICATION  OO
+DOC_OFFSET  38100000 38100000
+DOC_CLIP  0
+DOC_FIT_OUTPUT  0
+DOC_NO_PLANE_THERMALS  0
+DOC_ASSEMBLY_OPTION  ""
+DOC_CUSTOM_THERMALS  0
+DOC_BOARD  None
+DOC_CONNECTIONS  None
+DOC_OUTLINES  None None
+DOC_SLOTS  None None
+DOC_REFDES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_REFDES  None None None None None
+DOC_PARTTYPES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES  None None None None None
+DOC_ATTRIBUTES  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES  None None None None None None
+DOC_TESTPOINTS  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS  None None None None None None
+DOC_OUTLINE_LAYERS  N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PADS  None None None None None
+DOC_VIAS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS  None None None None None
+DOC_ROUTES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES  None None None None None
+DOC_COPPER  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER  None None None None None
+DOC_LINES  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_LINES  Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black
+DOC_KEEPOUTS  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS  None None None None None
+DOC_PINS_ADV  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE  0
+DOC_PLOT_JOBNAME  Y
+DOC_PLOT_OLE  N
+DOC_MIRROR_REFS  N
+DOC_SUPRESS_PREFIXES  ""
+DOC_PLOT_QUALITY  Filled
+DOC_DRILL_CHART  Y
+DOC_CHART_OFFSET  0 0
+DOC_SUPRESS_EXCLUDE_PADS  N
+}
+CAM_DOC_NAME Layer3_proof
+{
+DOC_PLOT_TYPE  Plane
+DOC_DEVICE_TYPE  Printer
+DOC_OUTPUT_FILE  pgp003.lpr
+DOC_LAYER_NAMES  Inner_Layer_3                             
+DOC_LAYER_NUMBERS  3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES  Component                             
+DOC_FABRICATION_LAYER_NUMBER  0
+DOC_SCALE  1 1
+DOC_ORIENTATION  0
+DOC_MIRROR  N
+DOC_JUSTIFICATION  OO
+DOC_OFFSET  38100000 38100000
+DOC_CLIP  0
+DOC_FIT_OUTPUT  0
+DOC_NO_PLANE_THERMALS  0
+DOC_ASSEMBLY_OPTION  ""
+DOC_CUSTOM_THERMALS  0
+DOC_BOARD  None
+DOC_CONNECTIONS  None
+DOC_OUTLINES  None None
+DOC_SLOTS  None None
+DOC_REFDES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_REFDES  None None None None None
+DOC_PARTTYPES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES  None None None None None
+DOC_ATTRIBUTES  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES  None None None None None None
+DOC_TESTPOINTS  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS  None None None None None None
+DOC_OUTLINE_LAYERS  N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PADS  None None None None None
+DOC_VIAS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS  None None None None None
+DOC_ROUTES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES  None None None None None
+DOC_COPPER  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER  None None None None None
+DOC_LINES  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_LINES  Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black
+DOC_KEEPOUTS  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS  None None None None None
+DOC_PINS_ADV  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE  0
+DOC_PLOT_JOBNAME  Y
+DOC_PLOT_OLE  N
+DOC_MIRROR_REFS  N
+DOC_SUPRESS_PREFIXES  ""
+DOC_PLOT_QUALITY  Filled
+DOC_DRILL_CHART  Y
+DOC_CHART_OFFSET  0 0
+DOC_SUPRESS_EXCLUDE_PADS  N
+}
+CAM_DOC_NAME Assembly_proof
+{
+DOC_PLOT_TYPE  Assembly
+DOC_DEVICE_TYPE  Printer
+DOC_OUTPUT_FILE  adt001026.lpr
+DOC_LAYER_NAMES  Top Silkscreen_Top Assembly_Drawing_Top                           
+DOC_LAYER_NUMBERS  1 26 27 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES  Component Plane PasteMask                           
+DOC_FABRICATION_LAYER_NUMBER  0
+DOC_SCALE  1 1
+DOC_ORIENTATION  0
+DOC_MIRROR  N
+DOC_JUSTIFICATION  OO
+DOC_OFFSET  38100000 38100000
+DOC_CLIP  0
+DOC_FIT_OUTPUT  0
+DOC_NO_PLANE_THERMALS  0
+DOC_ASSEMBLY_OPTION  ""
+DOC_CUSTOM_THERMALS  0
+DOC_BOARD  Black
+DOC_CONNECTIONS  None
+DOC_OUTLINES  Black None
+DOC_SLOTS  None None
+DOC_REFDES  Black Black None None None None None None None None None None None None None None None None None None None None None None None
+DOC_REFDES  None None None None None
+DOC_PARTTYPES  None Black None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES  None None None None None None
+DOC_ATTRIBUTES  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES  None None None None None None
+DOC_TESTPOINTS  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS  None None None None None None
+DOC_OUTLINE_LAYERS  N Y Y N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS  None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PADS  None None None None
+DOC_VIAS  None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS  None None None None
+DOC_ROUTES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES  None None None None None
+DOC_COPPER  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER  None None None None None
+DOC_LINES  None Black Black None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES  None None None None None
+DOC_TEXT  Black Black Black None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT  None None None None None
+DOC_KEEPOUTS  None Black None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS  None None None None None
+DOC_PINS_ADV  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE  0
+DOC_PLOT_JOBNAME  Y
+DOC_PLOT_OLE  N
+DOC_MIRROR_REFS  N
+DOC_SUPRESS_PREFIXES  ""
+DOC_PLOT_QUALITY  Filled
+DOC_DRILL_CHART  Y
+DOC_CHART_OFFSET  0 0
+DOC_SUPRESS_EXCLUDE_PADS  N
+}
+CAM_DOC_NAME Drill_dwg
+{
+DOC_PLOT_TYPE  Drill_Drawing
+DOC_DEVICE_TYPE  Printer
+DOC_OUTPUT_FILE  dd001024.lpr
+DOC_LAYER_NAMES  Top Drill_Drawing                            
+DOC_LAYER_NUMBERS  1 24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES  Component Routing                            
+DOC_FABRICATION_LAYER_NUMBER  0
+DOC_SCALE  1 1
+DOC_ORIENTATION  0
+DOC_MIRROR  N
+DOC_JUSTIFICATION  OO
+DOC_OFFSET  38100000 38100000
+DOC_CLIP  0
+DOC_FIT_OUTPUT  0
+DOC_NO_PLANE_THERMALS  0
+DOC_ASSEMBLY_OPTION  ""
+DOC_CUSTOM_THERMALS  0
+DOC_BOARD  Black
+DOC_CONNECTIONS  None
+DOC_OUTLINES  None None
+DOC_SLOTS  None None
+DOC_REFDES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_REFDES  None None None None None
+DOC_PARTTYPES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES  None None None None None
+DOC_ATTRIBUTES  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES  None None None None None None
+DOC_TESTPOINTS  None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS  None None None None None None
+DOC_OUTLINE_LAYERS  N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PADS  None None None None None
+DOC_VIAS  Black None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS  None None None None None
+DOC_ROUTES  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES  None None None None None
+DOC_COPPER  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER  None None None None None
+DOC_LINES  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_LINES  Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_TEXT  Black Black Black Black Black Black Black Black Black
+DOC_KEEPOUTS  None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS  None None None None None
+DOC_PINS_ADV  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE  0
+DOC_PLOT_JOBNAME  Y
+DOC_PLOT_OLE  N
+DOC_MIRROR_REFS  N
+DOC_SUPRESS_PREFIXES  ""
+DOC_PLOT_QUALITY  Filled
+DOC_DRILL_CHART  Y
+DOC_CHART_OFFSET  0 0
+DOC_SUPRESS_EXCLUDE_PADS  N
+}
+}
+CAM_DRILL_SPEED_FEED_TABLE PARENT
+{
+DRILL_RANGE_1  381000 761619 95 300
+DRILL_RANGE_2  762000 1523619 197 550
+DRILL_RANGE_3  1524000 1904619 139 550
+DRILL_RANGE_4  1905000 2285619 107 550
+DRILL_RANGE_5  2286000 2666619 89 550
+DRILL_RANGE_6  2667000 3047619 81 550
+DRILL_RANGE_7  3048000 3428619 74 550
+DRILL_RANGE_8  3429000 3809619 66 550
+DRILL_RANGE_9  3810000 4571619 69 658
+DRILL_RANGE_10  4572000 5333619 35 794
+DRILL_RANGE_11  5334000 6095619 35 900
+DRILL_RANGE_12  6096000 7619619 35 1033
+}
+CAM_AUGMENT_ON_THE_FLY Y
+CAM_DRILL_SYMBOL_TABLE PARENT
+{
+MARKER_SIZE  3048000
+MARKER_LINE_WIDTH  381000
+MARKER_CHAR_HEIGHT  1905000
+CHART_TEXT_HEIGHT  4572000
+CHART_LINE_WIDTH  381000
+}
+}
+
+*MISC*      MISCELLANEOUS PARAMETERS
+
+ATTRIBUTES DICTIONARY
+{
+ATTRIBUTE Value
+{
+TYPE FREETEXT N
+INHERITANCE PART PARTTYPE
+ECO_REGISTRATION Y
+READONLY N
+SYSTEM Y
+HIDDEN N
+}
+ATTRIBUTE Tolerance
+{
+TYPE FREETEXT N
+INHERITANCE PART PARTTYPE
+ECO_REGISTRATION Y
+READONLY N
+SYSTEM Y
+HIDDEN N
+}
+ATTRIBUTE Part Number
+{
+TYPE FREETEXT N
+INHERITANCE PART PARTTYPE
+ECO_REGISTRATION Y
+READONLY N
+SYSTEM N
+HIDDEN N
+}
+ATTRIBUTE Description
+{
+TYPE FREETEXT N
+INHERITANCE PART PARTTYPE
+ECO_REGISTRATION Y
+READONLY N
+SYSTEM N
+HIDDEN N
+}
+ATTRIBUTE Cost
+{
+TYPE FREETEXT N
+INHERITANCE PART PARTTYPE
+ECO_REGISTRATION Y
+READONLY N
+SYSTEM N
+HIDDEN N
+}
+ATTRIBUTE Manufacturer #1
+{
+TYPE FREETEXT N
+INHERITANCE PART PARTTYPE
+ECO_REGISTRATION Y
+READONLY N
+SYSTEM N
+HIDDEN N
+}
+ATTRIBUTE Manufacturer #2
+{
+TYPE FREETEXT N
+INHERITANCE PART PARTTYPE
+ECO_REGISTRATION Y
+READONLY N
+SYSTEM N
+HIDDEN N
+}
+ATTRIBUTE PowerGround
+{
+TYPE BOOLEAN
+INHERITANCE NET NETCLASS PCB
+ECO_REGISTRATION Y
+READONLY N
+SYSTEM Y
+HIDDEN N
+}
+ATTRIBUTE Voltage
+{
+TYPE QUANTITY
+QUANTITY Voltage
+ABBR V
+UNIT Volt
+MIN -100kV
+MAX 100kV
+INHERITANCE NET NETCLASS
+ECO_REGISTRATION Y
+READONLY N
+SYSTEM Y
+HIDDEN N
+}
+ATTRIBUTE Geometry.Height
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 952500000dbunit
+INHERITANCE PCB
+INHERITANCE PART PARTTYPE DECAL
+ECO_REGISTRATION N
+READONLY N
+SYSTEM Y
+HIDDEN N
+}
+ATTRIBUTE DFT.Nail Count Per Net
+{
+TYPE INTEGER
+MIN 0
+MAX 1000
+INHERITANCE NET NETCLASS PCB
+ECO_REGISTRATION Y
+READONLY N
+SYSTEM Y
+HIDDEN N
+}
+ATTRIBUTE DFT.Nail Diameter
+{
+TYPE FREETEXT N
+INHERITANCE PIN
+INHERITANCE VIA
+ECO_REGISTRATION N
+READONLY N
+SYSTEM Y
+HIDDEN N
+}
+ATTRIBUTE DFT.Nail Number
+{
+TYPE FREETEXT N
+INHERITANCE PIN
+INHERITANCE VIA
+ECO_REGISTRATION N
+READONLY N
+SYSTEM Y
+HIDDEN N
+}
+ATTRIBUTE HyperLynx.Model
+{
+TYPE FREETEXT N
+INHERITANCE PART PARTTYPE
+ECO_REGISTRATION Y
+READONLY N
+SYSTEM Y
+HIDDEN N
+}
+ATTRIBUTE HyperLynx.Model File
+{
+TYPE FREETEXT N
+INHERITANCE PART PARTTYPE
+ECO_REGISTRATION Y
+READONLY N
+SYSTEM Y
+HIDDEN N
+}
+ATTRIBUTE HyperLynx.Sim Direction
+{
+TYPE LIST N
+{
+SIM_BOTH
+SIM_IN
+SIM_OUT
+}
+INHERITANCE PIN
+ECO_REGISTRATION Y
+READONLY N
+SYSTEM Y
+HIDDEN N
+}
+ATTRIBUTE HyperLynx.Frequency
+{
+TYPE QUANTITY
+QUANTITY Frequency
+ABBR Hz
+UNIT Hertz
+MIN 0Hz
+MAX 1000GHz
+INHERITANCE NET NETCLASS
+ECO_REGISTRATION Y
+READONLY N
+SYSTEM Y
+HIDDEN N
+}
+ATTRIBUTE HyperLynx.Duty Cycle
+{
+TYPE QUANTITY
+QUANTITY 
+ABBR %
+UNIT percent
+MIN 0%
+MAX 100%
+INHERITANCE NET NETCLASS
+ECO_REGISTRATION Y
+READONLY N
+SYSTEM Y
+HIDDEN N
+}
+ATTRIBUTE HyperLynx.Signal Type
+{
+TYPE LIST N
+{
+Address
+Analog High Speed
+Analog Low Speed
+Clock
+Data
+Do Not Analyze
+Power Supply
+Strobe
+}
+INHERITANCE NET NETCLASS
+ECO_REGISTRATION Y
+READONLY N
+SYSTEM Y
+HIDDEN N
+}
+ATTRIBUTE HyperLynx.Default IC.Model
+{
+TYPE FREETEXT N
+INHERITANCE NET NETCLASS
+ECO_REGISTRATION Y
+READONLY N
+SYSTEM Y
+HIDDEN N
+}
+ATTRIBUTE HyperLynx.Default IC.Model File
+{
+TYPE FREETEXT N
+INHERITANCE NET NETCLASS
+ECO_REGISTRATION Y
+READONLY N
+SYSTEM Y
+HIDDEN N
+}
+ATTRIBUTE HyperLynx.Default IC.Model Pin
+{
+TYPE FREETEXT N
+INHERITANCE NET NETCLASS
+ECO_REGISTRATION Y
+READONLY N
+SYSTEM Y
+HIDDEN N
+}
+ATTRIBUTE Strategy.Fanout.Pass
+{
+TYPE LIST N
+{
+No
+Yes
+Done
+}
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Fanout.Protect
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Fanout.Pause
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Fanout.Intensity
+{
+TYPE LIST N
+{
+Low
+Medium
+High
+}
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Fanout.Priority
+{
+TYPE INTEGER
+INHERITANCE NET NETCLASS PCB
+INHERITANCE PART
+INHERITANCE PINPAIR
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Fanout.PlanePriority
+{
+TYPE INTEGER
+MIN 0
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Fanout.DiffPairPriority
+{
+TYPE INTEGER
+MIN 0
+INHERITANCE NET
+INHERITANCE PINPAIR
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Fanout.MLGPriority
+{
+TYPE INTEGER
+INHERITANCE NET NETCLASS PCB
+INHERITANCE PINPAIR GROUP
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Patterns.Pass
+{
+TYPE LIST N
+{
+No
+Yes
+Done
+}
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Patterns.Protect
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Patterns.Pause
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Patterns.Intensity
+{
+TYPE LIST N
+{
+Low
+Medium
+High
+}
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Patterns.Priority
+{
+TYPE INTEGER
+INHERITANCE NET NETCLASS PCB
+INHERITANCE PART
+INHERITANCE PINPAIR
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Patterns.PlanePriority
+{
+TYPE INTEGER
+MIN 0
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Patterns.DiffPairPriority
+{
+TYPE INTEGER
+MIN 0
+INHERITANCE NET
+INHERITANCE PINPAIR
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Patterns.MLGPriority
+{
+TYPE INTEGER
+INHERITANCE NET NETCLASS PCB
+INHERITANCE PINPAIR GROUP
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Route.Pass
+{
+TYPE LIST N
+{
+No
+Yes
+Done
+}
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Route.Protect
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Route.Pause
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Route.Intensity
+{
+TYPE LIST N
+{
+Low
+Medium
+High
+}
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Route.Priority
+{
+TYPE INTEGER
+INHERITANCE NET NETCLASS PCB
+INHERITANCE PART
+INHERITANCE PINPAIR
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Route.PlanePriority
+{
+TYPE INTEGER
+MIN 0
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Route.DiffPairPriority
+{
+TYPE INTEGER
+MIN 0
+INHERITANCE NET
+INHERITANCE PINPAIR
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Route.MLGPriority
+{
+TYPE INTEGER
+INHERITANCE NET NETCLASS PCB
+INHERITANCE PINPAIR GROUP
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Optimize.Pass
+{
+TYPE LIST N
+{
+No
+Yes
+Done
+}
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Optimize.Protect
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Optimize.Pause
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Optimize.Intensity
+{
+TYPE LIST N
+{
+Low
+Medium
+High
+}
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Optimize.Priority
+{
+TYPE INTEGER
+INHERITANCE NET NETCLASS PCB
+INHERITANCE PART
+INHERITANCE PINPAIR
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Optimize.PlanePriority
+{
+TYPE INTEGER
+MIN 0
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Optimize.DiffPairPriority
+{
+TYPE INTEGER
+MIN 0
+INHERITANCE NET
+INHERITANCE PINPAIR
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Optimize.MLGPriority
+{
+TYPE INTEGER
+INHERITANCE NET NETCLASS PCB
+INHERITANCE PINPAIR GROUP
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Miters.Pass
+{
+TYPE LIST N
+{
+No
+Yes
+Done
+}
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Miters.Protect
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Miters.Pause
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Miters.Intensity
+{
+TYPE LIST N
+{
+Low
+Medium
+High
+}
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Miters.Priority
+{
+TYPE INTEGER
+INHERITANCE NET NETCLASS PCB
+INHERITANCE PART
+INHERITANCE PINPAIR
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Miters.PlanePriority
+{
+TYPE INTEGER
+MIN 0
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Miters.DiffPairPriority
+{
+TYPE INTEGER
+MIN 0
+INHERITANCE NET
+INHERITANCE PINPAIR
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Miters.MLGPriority
+{
+TYPE INTEGER
+INHERITANCE NET NETCLASS PCB
+INHERITANCE PINPAIR GROUP
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.TestPoint.Pass
+{
+TYPE LIST N
+{
+No
+Yes
+Done
+}
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.TestPoint.Protect
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.TestPoint.Pause
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.TestPoint.Intensity
+{
+TYPE LIST N
+{
+Low
+Medium
+High
+}
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.TestPoint.Priority
+{
+TYPE INTEGER
+INHERITANCE NET NETCLASS PCB
+INHERITANCE PART
+INHERITANCE PINPAIR
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.TestPoint.PlanePriority
+{
+TYPE INTEGER
+MIN 0
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.TestPoint.DiffPairPriority
+{
+TYPE INTEGER
+MIN 0
+INHERITANCE NET
+INHERITANCE PINPAIR
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.TestPoint.MLGPriority
+{
+TYPE INTEGER
+INHERITANCE NET NETCLASS PCB
+INHERITANCE PINPAIR GROUP
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Center.Pass
+{
+TYPE LIST N
+{
+No
+Yes
+Done
+}
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Center.Protect
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Center.Pause
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Center.Intensity
+{
+TYPE LIST N
+{
+Low
+Medium
+High
+}
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Center.PlanePriority
+{
+TYPE INTEGER
+MIN 0
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Center.Priority
+{
+TYPE INTEGER
+INHERITANCE NET NETCLASS PCB
+INHERITANCE PART
+INHERITANCE PINPAIR
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Center.DiffPairPriority
+{
+TYPE INTEGER
+MIN 0
+INHERITANCE NET
+INHERITANCE PINPAIR
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Center.MLGPriority
+{
+TYPE INTEGER
+INHERITANCE NET NETCLASS PCB
+INHERITANCE PINPAIR GROUP
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Tune.Pass
+{
+TYPE LIST N
+{
+No
+Yes
+Done
+}
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Tune.Protect
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Tune.Pause
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Tune.Intensity
+{
+TYPE LIST N
+{
+Low
+Medium
+High
+}
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Tune.PlanePriority
+{
+TYPE INTEGER
+MIN 0
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Tune.Priority
+{
+TYPE INTEGER
+INHERITANCE NET NETCLASS PCB
+INHERITANCE PART
+INHERITANCE PINPAIR
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Tune.DiffPairPriority
+{
+TYPE INTEGER
+MIN 0
+INHERITANCE NET
+INHERITANCE PINPAIR
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Strategy.Tune.MLGPriority
+{
+TYPE INTEGER
+INHERITANCE NET NETCLASS PCB
+INHERITANCE PINPAIR GROUP
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE DIE.FormatId
+{
+TYPE FREETEXT N
+INHERITANCE DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE DIE.ChipLength
+{
+TYPE FREETEXT N
+INHERITANCE DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE DIE.ChipWidth
+{
+TYPE FREETEXT N
+INHERITANCE DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE DIE.ChipHeight
+{
+TYPE FREETEXT N
+INHERITANCE DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE DIE.WBRules.MinLength
+{
+TYPE FREETEXT N
+INHERITANCE DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE DIE.WBRules.MaxLength
+{
+TYPE FREETEXT N
+INHERITANCE DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE DIE.WBRules.WToWDistance
+{
+TYPE FREETEXT N
+INHERITANCE DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE DIE.WBRules.WBtoPad
+{
+TYPE FREETEXT N
+INHERITANCE DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE DIE.WBRules.MaxAngle
+{
+TYPE FREETEXT N
+INHERITANCE DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE DIE.SBPCount
+{
+TYPE FREETEXT N
+INHERITANCE DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE DIE.SBP1
+{
+TYPE FREETEXT N
+INHERITANCE DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE DIE.CBPCount
+{
+TYPE FREETEXT N
+INHERITANCE DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE DIE.CBP1
+{
+TYPE FREETEXT N
+INHERITANCE DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE DIE.WBCount
+{
+TYPE FREETEXT N
+INHERITANCE DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE DIE.WB1
+{
+TYPE FREETEXT N
+INHERITANCE DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE DIE.SBPGuideCount
+{
+TYPE FREETEXT N
+INHERITANCE DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE DIE.SBPGuide1
+{
+TYPE FREETEXT N
+INHERITANCE DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE DIE.CBPAssignment1
+{
+TYPE FREETEXT N
+INHERITANCE DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE AutoDimensioning.Marker_Shape
+{
+TYPE FREETEXT N
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE AutoDimensioning.Text_NumberPrecision
+{
+TYPE FREETEXT N
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE AutoDimensioning.Text_AngularPrecision
+{
+TYPE FREETEXT N
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE AutoDimensioning.Text_Suffix
+{
+TYPE FREETEXT N
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE AutoDimensioning.Text_Layer
+{
+TYPE INTEGER
+MIN 0
+MAX 250
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE AutoDimensioning.Line_Layer
+{
+TYPE INTEGER
+MIN 0
+MAX 250
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE AutoDimensioning.Preview_Type
+{
+TYPE INTEGER
+MIN 1
+MAX 5
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.PadEntry.Side
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.PadEntry.Corner
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.PadEntry.AnyAngle
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.PadEntry.Soft
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.ViaAtSMD
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.ViaAtSMD.FitInside
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.ViaAtSMD.Center
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.ViaAtSMD.Ends
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Fanout.Alignment
+{
+TYPE LIST N
+{
+Aligned
+Alternate
+}
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Fanout.Alignment.Multi-Row
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Fanout.Direction
+{
+TYPE LIST N
+{
+Inside
+Outside
+Both Sides
+}
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Fanout.ViaSpacing
+{
+TYPE LIST N
+{
+Use Grid
+1 Trace
+2 Trace
+}
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Fanout.Sharing.Pin
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Fanout.Sharing.SMD
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Fanout.Sharing.Via
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Fanout.Sharing.Trace
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Fanout.Nets.Plane
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Fanout.Nets.Signal
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Fanout.Nets.UnusedPins
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Fanout.Length.Unlimited
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Fanout.Length.Maximum
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 76200000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Trace.Trace
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Via.Trace
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Via.Via
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Pad.Trace
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Pad.Via
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Pad.Pad
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.SMD.Trace
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.SMD.Via
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.SMD.Pad
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.SMD.SMD
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Copper.Trace
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Copper.Via
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Copper.Pad
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Copper.SMD
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Text.Trace
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Text.Via
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Text.Pad
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Text.SMD
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Board.Trace
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Board.Via
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Board.Pad
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Board.SMD
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Drill.Trace
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Drill.Via
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Drill.Pad
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Clearance.Drill.SMD
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.SameNet.SMD.Via
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.SameNet.SMD.Crn
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.SameNet.Via.Via
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.SameNet.Pad.Crn
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.SameNet.Trace.Crn
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 38100000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Width.Minimum
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 9525000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Width.Recommended
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 9525000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Rules.Width.Maximum
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 9525000dbunit
+INHERITANCE PCB
+INHERITANCE PART DECAL
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Placement.Grid.Use
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Placement.Grid.X
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 76200000dbunit
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Placement.Grid.Y
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 76200000dbunit
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Accordion.Amplitude.Min
+{
+TYPE INTEGER
+MIN 3
+MAX 30
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Accordion.Gap.Min
+{
+TYPE INTEGER
+MIN 1
+MAX 10
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Routing.MaxChannelWidth
+{
+TYPE QUANTITY
+QUANTITY Size/Dimension
+ABBR 
+UNIT 
+MIN 0dbunit
+MAX 381000000dbunit
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Routing.SoftLengthRrules
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Routing.MeanderBeforeTune
+{
+TYPE BOOLEAN
+INHERITANCE PCB
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE MatchLength.Name
+{
+TYPE FREETEXT N
+INHERITANCE NET NETCLASS
+INHERITANCE PINPAIR GROUP
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+ATTRIBUTE Planning.Scheduled
+{
+TYPE BOOLEAN
+INHERITANCE NET
+ECO_REGISTRATION N
+READONLY Y
+SYSTEM Y
+HIDDEN Y
+}
+}
+ATTRIBUTE VALUES
+{
+PCB DEFAULT
+{
+AutoDimensioning.Marker_Shape YYNNNY
+AutoDimensioning.Text_NumberPrecision 0 1 2
+AutoDimensioning.Text_AngularPrecision 0 0 0
+AutoDimensioning.Text_Suffix mil##mm##"
+AutoDimensioning.Text_Layer 24
+AutoDimensioning.Line_Layer 24
+AutoDimensioning.Preview_Type 1
+Rules.PadEntry.Side Yes
+Rules.PadEntry.Corner Yes
+Rules.PadEntry.AnyAngle Yes
+Rules.PadEntry.Soft Yes
+Rules.ViaAtSMD No
+Rules.ViaAtSMD.FitInside Yes
+Rules.ViaAtSMD.Center Yes
+Rules.ViaAtSMD.Ends Yes
+Rules.Fanout.Alignment Alternate
+Rules.Fanout.Alignment.Multi-Row Yes
+Rules.Fanout.Direction Both Sides
+Rules.Fanout.ViaSpacing Use Grid
+Rules.Fanout.Sharing.Pin Yes
+Rules.Fanout.Sharing.SMD Yes
+Rules.Fanout.Sharing.Via Yes
+Rules.Fanout.Sharing.Trace Yes
+Rules.Fanout.Nets.Plane Yes
+Rules.Fanout.Nets.Signal No
+Rules.Fanout.Nets.UnusedPins No
+Rules.Fanout.Length.Unlimited Yes
+Placement.Grid.Use No
+Placement.Grid.X 3810000dbunit
+Placement.Grid.Y 3810000dbunit
+Accordion.Amplitude.Min 3
+Accordion.Gap.Min 1
+Routing.MaxChannelWidth 3810000dbunit
+Routing.SoftLengthRrules Yes
+Routing.MeanderBeforeTune No
+}
+}
+
+*END*     OF ASCII OUTPUT FILE

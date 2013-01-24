@@ -1,0 +1,16 @@
+Wed Jan 02 00:40:22 2013
+
+Project path: C:\Users\Ian\Documents\GitHub\autolock\database
+
+Loaded cns info: C:\MentorGraphics\9.5PADS\SDD_HOME\standard\ce_ee.cns=7.10.24;C:\wv\user.cns=470a-40ac-d8af-f60d-fc7a-6d04-d7a6-d050-0368-87e5-529c-0aa8
+Before global upgrade from version: 7.10.23 to version: 7.10.24
+
+Constraints definition "DSN_DESIGN_CENTER" added.
+BeforeGlobalUpgrade took 37ms, 0s
+
+Upgrade snapshot DxD
+UpgradeSnapshot took 4ms, 0s
+
+After global upgrade
+AfterGlobalUpgrade took 0ms, 0s
+
