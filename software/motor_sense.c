@@ -2,7 +2,7 @@
 #include "AD.h"
 #include "Arduino.h"
 
-void enable(int en)
+void motor_sense_enable(int en)
 {
 	if(en)
 	{
@@ -14,22 +14,27 @@ void enable(int en)
 	}
 }
 
-int is_stalled()
+int motor_sense_is_stalled()
 {
 	byte en = digitalRead(MOTOR_SENSE_ENABLE);
 	if(!en)
 	{
 		return -1;
 	}
-	
-	analogReference(INTERNAL); //1.1V
-	int reading = analogRead(MOTOR_SENSE_IN);
-	if(reading > THRESHOLD)
-	{
-		return 1;
-	}
 	else
 	{
-		return 0;
+		analogReference(INTERNAL); //1.1V. Setup time?
+		int reading = analogRead(MOTOR_SENSE_IN);
+		if(reading > MOTOR_THRESHOLD)
+		{
+			return 1;
+		}
+		else
+		{
+			return 0;
+		}
 	}
+	
+	
+	
 }

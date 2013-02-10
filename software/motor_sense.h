@@ -4,7 +4,7 @@
 //THRESHOLD := the level at which the A/D should detect a motor stall.
 //For the case of resistor values RS = 0.28, R1 = 38K, R2 = 10K, and a stall
 //current of 180 [mA], on a 1.1V scale,
-#define MOTOR_THRESHOLD 203;
+#define MOTOR_THRESHOLD 65
 
 /*
 @desc Enables the motor current sense. Note that the
@@ -13,7 +13,7 @@ is enabled.
 @input
 	int en -- 0 disable, otherwise enable 
 */
-void enable(int en);
+void motor_sense_enable(int en);
 
 /*
 @desc Checks whether the motor is stalled, based
@@ -24,6 +24,6 @@ is disabled.
 @output
 	int -- 1 stalled, 0 not stalled, -1 error
 */
-int is_stalled();
+int motor_sense_is_stalled();
 
 #endif

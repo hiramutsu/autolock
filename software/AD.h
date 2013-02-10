@@ -1,7 +1,9 @@
-#ifndef DOORLOCK_H
-#define DOORLOCK_H
+#ifndef AD_H
+#define AD_H
 
-#define F_CPU 8000000L
+//Default factory setting: @3V, 8MHz + CKDIV8 --> 1MHz
+//Disable CKDIV8 fuse
+#define F_CPU 8000000UL
 #define ARDUINO 101
 
 //##Pin Definitions##
@@ -21,7 +23,13 @@
 #define MOTOR_STBY 7//D7/PD7
 #define LED 5 //D5/PD5
 #define SPKR 6 //D6/PD6
+#define POT_ADC 3//A3/PC3
+#define POT_ENABLE 18 //A4/PC4
+#define XBEE_EXTRA 4 //D4/PD4
 
+//For non-Arduino pins on the QFP package for the ATMEGA328P,
+//specify the registers directly in the file (i.e. hall.*), for now.
+//See macro concatenation
 
 
 #endif

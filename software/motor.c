@@ -15,7 +15,7 @@ void motor(int in1, int in2, int standby, int pwm)
 	digitalWrite(MOTOR_PWM, pwm);
 }
 
-int drive(int dir)
+int motor_drive(int dir)
 {
 	if(!digitalRead(MOTOR_STBY))
 	{
@@ -36,13 +36,13 @@ int drive(int dir)
 	return 1;
 }
 
-void stop()
+void motor_stop()
 {
 	//Maintain the current state of MOTOR_STBY.
 	motor(0,0,digitalRead(MOTOR_STBY),1);
 }
 
-void standby(int stby)
+void motor_standby(int stby)
 {
 	if(stby)
 	{

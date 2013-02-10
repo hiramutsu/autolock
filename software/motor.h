@@ -13,18 +13,18 @@ this action may not have any effect.
 	Failure will typically occur if the h-bridge is in
 	standby.
 */
-int drive(int dir);
+int motor_drive(int dir);
 
 /*
 @desc Stops the h-bridge.
 */
-void stop();
+void motor_stop();
 
 /*
 @desc Puts the h-bridge in standby mode.
 @input
 	int stby -- 0 no standby, otherwise standby
 */
-void standby(int stby);
+void motor_standby(int stby);
 
 #endif
