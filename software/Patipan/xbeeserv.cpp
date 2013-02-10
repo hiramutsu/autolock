@@ -5,7 +5,7 @@
  *  Author: Boonggee
  */ 
 
-//#include <Arduino.h>
+#include <Arduino.h>
 #define F_CPU 8000000UL //Need to use lower core frequency than the orangutan.
 #include <string.h>
 #include <inttypes.h>
@@ -344,7 +344,7 @@ int main (void)
 							uint16_t gg =0; // use to find a password field
 							for(ff=35;(ff < 1+2+rleng-4) &&(ff<1024)/*length of buffer*/&& (memcmp(&buf[ff],"name=\"tolock\"\r\n\r\n",17));ff++)
 						{;}
-							for(gg=ff;(gg < 1+2+rleng-4) &&(gg<1024)/*length of buffer*/&& (memcmp(&buf[gg],"name=\"tounlock\"\r\n\r\n",19));gg++)
+							for(gg=35;(gg < 1+2+rleng-4) &&(gg<1024)/*length of buffer*/&& (memcmp(&buf[gg],"name=\"tounlock\"\r\n\r\n",19));gg++)
 						{;}
 					
 							if(!memcmp(&buf[ff+17],"Lock\r\n",6)){

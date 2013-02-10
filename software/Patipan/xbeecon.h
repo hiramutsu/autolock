@@ -28,6 +28,6 @@ void xbee_sleep(char slp);
 	1 = There is a message  (On_nSleep is asserted), 0 otherwise.
 */
 
-int xbee_isMsg()
+int xbee_isMsg();
 
 #endif

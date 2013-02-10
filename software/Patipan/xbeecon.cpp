@@ -8,6 +8,7 @@
 #include <Arduino.h>
 #include <avr/io.h>
 #include <xbeecon.h>
+#include <stdio.h>
 
 int xbee_cts()
 {
