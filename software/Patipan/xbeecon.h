@@ -3,8 +3,9 @@
 
 
 //This is for using arduino library to read.
-#define XBEE_SLP 3  //PD3
+#define XBEE_SLP A5  //PC5
 #define XBEE_CTS  2 //PD2
+#define XBEE_MSG 3 // PD3
 
 /*
 @desc Read whether the xbee is properly waken up and ready for data transmission. 
@@ -21,5 +22,12 @@ int xbee_cts();
 */
 void xbee_sleep(char slp);
 
+/*
+@desc Checking whether the xbee receive a message.
+@output
+	1 = There is a message  (On_nSleep is asserted), 0 otherwise.
+*/
+
+int xbee_isMsg()
 
 #endif

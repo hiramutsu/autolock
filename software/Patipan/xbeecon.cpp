@@ -35,3 +35,16 @@ void xbee_sleep(char slp)
 		digitalWrite(XBEE_SLP, LOW);
 	}
 }
+
+int xbee_isMsg()
+{
+	pinMode(XBEE_MSG, INPUT);
+	if(digitalRead(XBEE_MSG))
+	{
+		return 1;
+	}
+	else
+	{
+		return 0;
+	}
+}
