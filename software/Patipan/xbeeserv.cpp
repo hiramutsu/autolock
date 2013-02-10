@@ -142,13 +142,14 @@ void uart_putbuf(unsigned char *buf, uint16_t leng){
 }
 
 void sendpage(char *buf, PGM_P page, char *lenbuf, uint32_t dstip, uint16_t dstport, uint16_t srcport){
-	itoa(strlen(page),lenbuf,10);
+	char lbuf[8];
+	itoa(strlen_P(page),lbuf,10);
 	
 	strcpy(buf,
 	"HTTP/1.1 200 OK\r\n"
 	"Server: Ken's g&a XBee-WIFI server\r\n"
 	"Content-length: ");
-	strcat(buf,lenbuf);
+	strcat(buf,lbuf);
 	strcat(buf,"\r\n"
 	"Content-type: text/html\r\n"   //text/html, image/gif, image/jpg, text/plain
 	"\r\n");
@@ -355,7 +356,7 @@ int main (void)
 					
 						}else if(!memcmp(&buf[18]," /status.html ", 14)){
 							//WILL NEED TO be VERY CAREFUL WITH THE STRLEN, PROCESS IT BEFORE DO THIS.
-							itoa(strlen(statuspagep1)+strlen(statuspagep2)+strlen(statuspagep3)+strlen(statuspagep4),lenbuf,10);
+							itoa(strlen_P(statuspagep1)+strlen_P(statuspagep2)+strlen_P(statuspagep3)+strlen_P(statuspagep4),lenbuf,10);
 							strcpy(buf,
 							"HTTP/1.1 200 OK\r\n"
 							"Server: Ken's g&a XBee-WIFI server\r\n"
