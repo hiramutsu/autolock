@@ -16,6 +16,7 @@ void hall_init(){
 
 int hall_isClose()
 {
+
 	char isEnable = (PINB&(1<<PINB7))>>PINB7;
 	if(!isEnable)
 	{
@@ -37,6 +38,9 @@ void hall_control(char en)
 	if(en)
 	{
 		PORTB |=(1<<PB7);
+		
+		//Minimum delay to have hall effect sensor working reliably.
+		delayMicroseconds(500);
 	}
 	else
 	{

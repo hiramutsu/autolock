@@ -104,13 +104,14 @@ void test_lock_unlock(int lock)
 	}
 	
 	//Error: intermediate deadbolt position
-	if(poteniometer_read()==2)
-	{
-		speaker_play_note(1);
-	}		
+	//if(poteniometer_read()==2)
+	//{
+		//speaker_play_note(1);
+	//}		
 	
-	delay(5000);
+	speaker_play_note(1);
 }
+
 //use polling because interrupt is overflow.
 static char csum;
 static void uart_putc (unsigned char v) { while (!(UCSR0A&(1<<UDRE0))); UDR0 = v; }// this checks if the the UART line is ready. if not, spins wait until it's ready.
@@ -234,13 +235,14 @@ void uart_putbuf(unsigned char *buf, uint16_t leng){
 }
 
 void sendpage(char *buf, PGM_P page, char *lenbuf, uint32_t dstip, uint16_t dstport, uint16_t srcport){
-	itoa(strlen(page),lenbuf,10);
+	char lbuf[8];
+	itoa(strlen_P(page),lbuf,10);
 	
 	strcpy(buf,
 	"HTTP/1.1 200 OK\r\n"
 	"Server: Ken's g&a XBee-WIFI server\r\n"
 	"Content-length: ");
-	strcat(buf,lenbuf);
+	strcat(buf,lbuf);
 	strcat(buf,"\r\n"
 	"Content-type: text/html\r\n"   //text/html, image/gif, image/jpg, text/plain
 	"\r\n");
@@ -256,10 +258,8 @@ void sendpage(char *buf, PGM_P page, char *lenbuf, uint32_t dstip, uint16_t dstp
 
 int main (void)
 {
-	//Call setup to initialize the pin connections, A/D converter, and other devices.
-	//Uncomment this to have a working version of the code.
-	//setup(); 
-	
+	setup();
+	speaker_play_note(2);
   char buf[1024];// This already takes half of the memory so we need to reuse the buffer for both rx and tx
   int i, rbufi = 0, rleng = 0;
   
@@ -439,19 +439,52 @@ int main (void)
 							uint16_t gg =0; // use to find a password field
 							for(ff=35;(ff < 1+2+rleng-4) &&(ff<1024)/*length of buffer*/&& (memcmp(&buf[ff],"name=\"tolock\"\r\n\r\n",17));ff++)
 						{;}
-							for(gg=ff;(gg < 1+2+rleng-4) &&(gg<1024)/*length of buffer*/&& (memcmp(&buf[gg],"name=\"tounlock\"\r\n\r\n",19));gg++)
+							for(gg=35;(gg < 1+2+rleng-4) &&(gg<1024)/*length of buffer*/&& (memcmp(&buf[gg],"name=\"tounlock\"\r\n\r\n",19));gg++)
 						{;}
 					
 							if(!memcmp(&buf[ff+17],"Lock\r\n",6)){
 								test_lock_unlock(0);
+								
 							}else if(!memcmp(&buf[gg+19],"Unlock\r\n",8)){
 								test_lock_unlock(1);
+								
 							}			
-							sendpage(buf, lockpage, lenbuf, dstip, dstport, srcport);		
+							
+							speaker_play_note(1);
+							sendpage(buf, lockpage, lenbuf, dstip, dstport, srcport);	
 					
-						}else if(!memcmp(&buf[18]," /status.html ", 14)){
+						}else if(!memcmp(&buf[18]," /status.html ", 14)){ 
 							//WILL NEED TO be VERY CAREFUL WITH THE STRLEN, PROCESS IT BEFORE DO THIS.
-							itoa(strlen(statuspagep1)+strlen(statuspagep2)+strlen(statuspagep3)+strlen(statuspagep4),lenbuf,10);
+							
+							//Include null-terminator
+							char battery_status[5];
+							char position_status[6];
+							char lock_status[9];
+							
+							battery_enable(1);
+							if(battery_is_low())
+								strcpy(battery_status, "low");
+							else
+								strcpy(battery_status, "high");
+							battery_enable(0);
+							
+							hall_control(1);
+							if(hall_isClose())
+								strcpy(position_status, "close");
+							else
+								strcpy(position_status, "open");
+							hall_control(0);
+							
+							int pot_status = poteniometer_read();
+							if(pot_status == 0)
+								strcpy(lock_status, "locked");
+							else if(pot_status == 1)
+								strcpy(lock_status, "unlocked");
+							else
+								strcpy(lock_status, "?");
+							
+							itoa(strlen_P(statuspagep1)+strlen_P(statuspagep2)+strlen_P(statuspagep3)+strlen_P(statuspagep4)+
+								strlen(battery_status)+strlen(position_status)+strlen(lock_status),lenbuf,10);
 							strcpy(buf,
 							"HTTP/1.1 200 OK\r\n"
 							"Server: Ken's g&a XBee-WIFI server\r\n"
@@ -461,11 +494,11 @@ int main (void)
 							"Content-type: text/html\r\n"   //text/html, image/gif, image/jpg, text/plain
 							"\r\n");
 							strcat_P(buf,statuspagep1);
-							//strcat door position here
+							strcat(buf, position_status);
 							strcat_P(buf,statuspagep2);
-							//strcat lock status here
+							strcat(buf, lock_status);
 							strcat_P(buf,statuspagep3);
-							//strcat battery status here
+							strcat(buf, battery_status);
 							strcat_P(buf,statuspagep4);
 							uart_data(buf,(uint16_t) strlen(buf),dstip,dstport,srcport);						
 							
@@ -483,33 +516,3 @@ int main (void)
 	
    
 }
-void setup_adc()
-{
-	//####
-	//Enable the ADC converter by setting the appropriate
-	//registers. Set the prescaler for the AD to divide
-	//the main clk by 128. The AD clock should be between
-	//50-200 kHz. Lower frequencies provide more accuracy.
-	
-	//Power reduction
-	PRR &= ~(_BV(PRADC));
-	
-	//Prescaler
-	ADCSRA |= _BV(ADPS0);
-	ADCSRA |= _BV(ADPS1);
-	ADCSRA |= _BV(ADPS2);
-	
-	//Enable
-	ADCSRA |= _BV(ADEN);
-}
-
-//int main(void)
-//{
-	//setup();
-	//
-	//while(1)
-	//{
-		//loop();
-	//}
-//}
-//

@@ -4,7 +4,7 @@
 //THRESHOLD := the level at which the A/D should detect a motor stall.
 //For the case of resistor values RS = 0.28, R1 = 38K, R2 = 10K, and a stall
 //current of 180 [mA], on a 1.1V scale,
-#define MOTOR_THRESHOLD 65
+#define MOTOR_THRESHOLD 80
 
 /*
 @desc Enables the motor current sense. Note that the
