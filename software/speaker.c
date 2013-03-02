@@ -39,6 +39,8 @@ void play_note(long notePeriodInMicrosec, long timeToPlayNoteInMicrosec)
 			delayMicroseconds(16383);
 		}
 	}
+	
+	digitalWrite(SPKR, LOW);
 }
 
 void switchSpeakerState()

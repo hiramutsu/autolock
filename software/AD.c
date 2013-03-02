@@ -23,11 +23,15 @@
 #include <stdlib.h>
 #include <math.h>
 #include <avr/pgmspace.h>
+#include "xbeecon.h"
 
 void setup();
 void loop();
 void setup_adc();
 void test_motor();
+void handler(void);
+
+char interrupt_flag = 0;
 
 void setup()
 {
@@ -42,22 +46,23 @@ void setup()
 	pinMode(MOTOR2, OUTPUT);
 	pinMode(SPKR, OUTPUT);
 	pinMode(POT_ENABLE, OUTPUT);
-	//pinMode(XBEE_EXTRA, INPUT);
+	pinMode(XBEE_EXTRA, OUTPUT);
 	
+	//Disable devices.
 	digitalWrite(POT_ENABLE, LOW);
-	motor_standby(0);
+	motor_standby(1);
 	hall_init();
 	hall_control(0);
-	motor_sense_enable(1);
+	motor_sense_enable(0);
 	battery_enable(0);
 	
+	//Disable interrupts at startup to avoid being continuously
+	//interrupted isn't required. Once the pin is pulled low, it will repeatedly call the handler.
+	//However, this scenario is not possible since the Xbee is not in sleep yet.
+	xbee_sleep(0);
+	attachInterrupt(1, handler, LOW);
 }
 
-void loop()
-{
-	test_lock_unlock();
-	
-}
 
 void test_motor_sense()
 {
@@ -77,6 +82,20 @@ void test_motor()
 	delay(1000);
 	motor_drive(1);
 	delay(1000);
+}
+
+void test_motor_stall()
+{
+	motor_sense_enable(1);
+	motor_standby(0);
+	motor_drive(0);
+	delay(100);
+	while(1)
+	{
+		if(motor_sense_is_stalled())
+			break;
+	}
+	speaker_play_note(2);	
 }
 
 void test_lock_unlock(int lock)
@@ -110,6 +129,37 @@ void test_lock_unlock(int lock)
 	//}		
 	
 	speaker_play_note(1);
+}
+
+void interrupt_test()
+{
+	setup();
+	while(1)
+	{
+		digitalWrite(XBEE_EXTRA, interrupt_flag);
+		cli();
+		attachInterrupt(1, handler, LOW);
+		set_sleep_mode(SLEEP_MODE_PWR_DOWN);		
+		sleep_enable();
+		sleep_bod_disable();
+		sei();
+		sleep_cpu();
+		sleep_disable();
+		
+		digitalWrite(XBEE_EXTRA, interrupt_flag);
+		delay(20000);
+		interrupt_flag = 0;
+	}		
+	
+}	
+
+
+void handler(void)
+{
+	interrupt_flag = 1;
+	
+	//Prevent the interrupt handler from being called repeatedly
+	detachInterrupt(1); 
 }
 
 //use polling because interrupt is overflow.
@@ -256,7 +306,7 @@ void sendpage(char *buf, PGM_P page, char *lenbuf, uint32_t dstip, uint16_t dstp
 
 
 
-int main (void)
+int run_xbee (void)
 {
 	setup();
 	speaker_play_note(2);
@@ -344,10 +394,50 @@ int main (void)
 
 	sendcmd1("IP\x01",3); //Listen on TCP
 	sendcmd1("C0\x00\x80",4); 
+
+
+	//###Main Loop###
+	xbee_sleep(0);
 	 while(1){
+		 
+		 /*
+		 ##Sleep##
+		 Disable interrupts, put the xbee to sleep, and then enable interrupts.
+		 In between the sleep call and going to sleep, we don't want the handler called
+		 repeatedly. There is still a race condition since the interrupt can get called between
+		 sei() and sleep_cpu(). 
+		 <TODO>
+		 */
+
+		 xbee_sleep(1);
+		 
+		 
+		 speaker_play_note(2); //test code
+		 
+		 
+		 while(!xbee_isMsg()){;}
+		 xbee_sleep(0);
+		 
+		 //speaker_play_note(2);
+		 while(!uart_kbhit())
+		 {
+			 ;
+		 }
+		 
 		 while (uart_kbhit())
 		 {
+			if(UCSR0A & (1<<DOR0))
+			{
+				speaker_play_note(1);
+			} 
+			 
 			i = uart_getch();
+
+			
+			//if(i == 0x7e)
+			//{
+				////speaker_play_note(1);
+			//}
 
 			if (((rbufi <= 0) || (rbufi >= rleng+4)) && (i == 0x7e)) {
 				rbufi = 0;
@@ -450,7 +540,7 @@ int main (void)
 								
 							}			
 							
-							speaker_play_note(1);
+							//speaker_play_note(1);
 							sendpage(buf, lockpage, lenbuf, dstip, dstport, srcport);	
 					
 						}else if(!memcmp(&buf[18]," /status.html ", 14)){ 
@@ -515,4 +605,23 @@ int main (void)
 	 } 
 	
    
+}
+
+int main(void)
+{
+	interrupt_test();
+	//setup();
+	//
+		//motor_sense_enable(1);
+		//motor_standby(0);
+		//motor_drive(1);
+		//battery_enable(1);
+		//digitalWrite(POT_ENABLE, HIGH);
+	//
+	//while(1)
+		//speaker_play_note(2);
+//
+	//speaker_play_note(2);
+	//
+	//while(1) {delay(5000);}
 }

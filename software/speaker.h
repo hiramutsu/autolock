@@ -1,7 +1,7 @@
 #ifndef SPEAKER_H
 #define SPEAKER_H
 
-#define STANDARD_A 2272  //period [us] 10^6/440
+#define STANDARD_A 1136  //period [us] 10^6/440
 
 
 /*
