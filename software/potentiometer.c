@@ -5,7 +5,8 @@
 char poteniometer_read()
 {
 	digitalWrite(POT_ENABLE, HIGH);
-	
+	delay(10);
+		
 	analogReference(DEFAULT); //3.3V
 	char status;
 	int reading = analogRead(POT_ADC);

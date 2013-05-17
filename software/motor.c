@@ -22,7 +22,7 @@ int motor_drive(int dir)
 		return 0;
 	}
 	
-	//The h-bridge is in standby is the pin is held 0.
+	//The h-bridge is in standby if the pin is held 0.
 	//If pwm is low, the h-bridge short brakes.
 	if(dir)
 	{

@@ -18,8 +18,8 @@
 #define MOTOR_SENSE_IN 7 //A7/ADC7
 #define MOTOR_SENSE_ENABLE 14 //A0/PC0
 #define MOTOR1 10 //D10/PB2
-#define MOTOR2 9 //D9/PB1
-#define MOTOR_PWM 8//D8/PB0
+#define MOTOR2 8//D8/PB0
+#define MOTOR_PWM 9 //D9/PB1
 #define MOTOR_STBY 7//D7/PD7
 #define LED 5 //D5/PD5
 #define SPKR 6 //D6/PD6
@@ -31,5 +31,6 @@
 //specify the registers directly in the file (i.e. hall.*), for now.
 //See macro concatenation
 
+#define NUM_STALLS_CONSEC 20
 
 #endif

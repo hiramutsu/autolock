@@ -47,9 +47,11 @@ void setup()
 	pinMode(SPKR, OUTPUT);
 	pinMode(POT_ENABLE, OUTPUT);
 	pinMode(XBEE_EXTRA, OUTPUT);
+	pinMode(LED, OUTPUT);
 	
 	//Disable devices.
 	digitalWrite(POT_ENABLE, LOW);
+	digitalWrite(LED, LOW);
 	motor_standby(1);
 	hall_init();
 	hall_control(0);
@@ -76,6 +78,17 @@ void test_motor_sense()
 }
 
 
+void test_led() {
+	while(1)
+	{
+		digitalWrite(LED, HIGH);
+		delay(1000);
+		digitalWrite(LED, LOW);
+		delay(1000);	
+	}
+	
+}
+
 void test_motor()
 {
 	motor_drive(0);
@@ -86,6 +99,7 @@ void test_motor()
 
 void test_motor_stall()
 {
+	digitalWrite(LED, LOW);
 	motor_sense_enable(1);
 	motor_standby(0);
 	motor_drive(0);
@@ -95,13 +109,15 @@ void test_motor_stall()
 		if(motor_sense_is_stalled())
 			break;
 	}
-	speaker_play_note(2);	
+	motor_stop();
+	analogWrite(LED,5);	
 }
 
 void test_lock_unlock(int lock)
 {
 	//int lock = digitalRead(XBEE_EXTRA); //0 = lock. 1 = unlock.
 	int status = poteniometer_read();
+	int num_stalls = 0;
 	
 	if(status!=lock)
 	{
@@ -111,7 +127,10 @@ void test_lock_unlock(int lock)
 		
 		while(1)
 		{
-			if(motor_sense_is_stalled() || poteniometer_read()==lock)
+			if(motor_sense_is_stalled())
+				num_stalls++;
+				
+			if(num_stalls > NUM_STALLS_CONSEC || poteniometer_read()==lock)
 				break;
 			else
 				delay(10);
@@ -127,18 +146,48 @@ void test_lock_unlock(int lock)
 	//{
 		//speaker_play_note(1);
 	//}		
-	
-	speaker_play_note(1);
 }
+
+void test_pot(){
+	while(1){
+		int res = poteniometer_read();
+		if(res == 0)
+		{
+			analogWrite(LED,127);
+		}			
+		else if(res == 1) {
+			digitalWrite(LED,LOW);
+		}			
+		
+		delay(1000);
+		
+	}	
+	
+}	
+
+void test_battery()
+{
+	battery_enable(1);
+	while(1){
+		if(battery_is_low())
+			analogWrite(LED,5);
+		else
+			digitalWrite(LED,0);
+		delay(2000);
+	}
+	
+	
+}
+
 
 void interrupt_test()
 {
 	setup();
 	while(1)
 	{
-		digitalWrite(XBEE_EXTRA, interrupt_flag);
+		analogWrite(LED, 5&interrupt_flag);
 		cli();
-		attachInterrupt(1, handler, LOW);
+		attachInterrupt(1, handler, CHANGE);
 		set_sleep_mode(SLEEP_MODE_PWR_DOWN);		
 		sleep_enable();
 		sleep_bod_disable();
@@ -146,7 +195,7 @@ void interrupt_test()
 		sleep_cpu();
 		sleep_disable();
 		
-		digitalWrite(XBEE_EXTRA, interrupt_flag);
+		analogWrite(LED, 5&interrupt_flag);
 		delay(20000);
 		interrupt_flag = 0;
 	}		
@@ -309,7 +358,7 @@ void sendpage(char *buf, PGM_P page, char *lenbuf, uint32_t dstip, uint16_t dstp
 int run_xbee (void)
 {
 	setup();
-	speaker_play_note(2);
+
   char buf[1024];// This already takes half of the memory so we need to reuse the buffer for both rx and tx
   int i, rbufi = 0, rleng = 0;
   
@@ -397,7 +446,13 @@ int run_xbee (void)
 
 
 	//###Main Loop###
-	xbee_sleep(0);
+	//xbee_sleep(0);
+	//delay(1000);
+	//xbee_sleep(1);
+	//while(!xbee_isMsg()){;}
+	//speaker_play_note(1);
+	//xbee_sleep(0);
+	
 	 while(1){
 		 
 		 /*
@@ -409,27 +464,26 @@ int run_xbee (void)
 		 <TODO>
 		 */
 
-		 xbee_sleep(1);
 		 
 		 
-		 speaker_play_note(2); //test code
+		 
+		 //speaker_play_note(2); //test code
 		 
 		 
-		 while(!xbee_isMsg()){;}
-		 xbee_sleep(0);
+		 
 		 
 		 //speaker_play_note(2);
-		 while(!uart_kbhit())
-		 {
-			 ;
-		 }
+		 //while(!uart_kbhit())
+		 //{
+			 //;
+		 //}
 		 
 		 while (uart_kbhit())
 		 {
-			if(UCSR0A & (1<<DOR0))
-			{
-				speaker_play_note(1);
-			} 
+			//if(UCSR0A & (1<<DOR0))
+			//{
+				//speaker_play_note(1);
+			//} 
 			 
 			i = uart_getch();
 
@@ -609,7 +663,17 @@ int run_xbee (void)
 
 int main(void)
 {
-	interrupt_test();
+	run_xbee();
+	//digitalWrite(LED, HIGH);
+	//test_battery();
+	//test_pot();
+	//motor_standby(0);
+	//while(1)
+		//test_motor();
+	//while(1) {
+		//test_motor();
+	//}
+	//run_xbee();
 	//setup();
 	//
 		//motor_sense_enable(1);
@@ -620,7 +684,7 @@ int main(void)
 	//
 	//while(1)
 		//speaker_play_note(2);
-//
+////
 	//speaker_play_note(2);
 	//
 	//while(1) {delay(5000);}

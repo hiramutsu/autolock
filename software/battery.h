@@ -6,8 +6,8 @@
 //The threshold should be [0,1023], since the ATmega328P
 //A/D is 10 bits.
 //1024*(4*10/66)/1.1 = 564
-//For testing, 2.66 [V] <--> 375
-#define THRESHOLD 375
+//For testing, 2.66 [V] <--> 375; 3.6 V <--> 507
+#define THRESHOLD 507
 
 
 /*
