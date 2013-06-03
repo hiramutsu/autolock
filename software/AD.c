@@ -123,15 +123,22 @@ void test_lock_unlock(int lock)
 	{
 		motor_sense_enable(1);
 		motor_standby(0);
-		motor_drive(lock);
+		if(lock)
+			motor_drive(0);
+		else
+			motor_drive(1);
 		
 		while(1)
 		{
 			if(motor_sense_is_stalled())
 				num_stalls++;
 				
-			if(num_stalls > NUM_STALLS_CONSEC || poteniometer_read()==lock)
+			if(num_stalls > NUM_STALLS_CONSEC || poteniometer_read()==lock) {
+				analogWrite(LED,127);
+				delay(500);
+				digitalWrite(LED,LOW);	
 				break;
+			}			
 			else
 				delay(10);
 		}			

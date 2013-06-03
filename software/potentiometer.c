@@ -11,9 +11,9 @@ char poteniometer_read()
 	char status;
 	int reading = analogRead(POT_ADC);
 	
-	if(reading < POT_UNLOCKED)
+	if(reading > POT_UNLOCKED)
 		status = 1;
-	else if(reading > POT_LOCKED)
+	else if(reading < POT_LOCKED)
 		status = 0 ;
 	else
 		status = 2;	

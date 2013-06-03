@@ -1,7 +1,7 @@
 #ifndef POT_H
 #define POT_H
-#define POT_LOCKED 750
-#define POT_UNLOCKED 250
+#define POT_LOCKED 400
+#define POT_UNLOCKED 600
 /*
 @desc Reads the potentiometer which measures deadbolt position
 and returns its status: locked, unlocked, intermediate. Thus
